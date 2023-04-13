@@ -1,0 +1,640 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: rgb(255, 255, 255);
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  margin-bottom: 0%;
+}
+
+body {
+  background-size: 5px;
+  background-attachment: relative;
+  background-color: rgb(14, 41, 51);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 400px) {
+  /* styles for mobile. 400px; */
+
+  .titulo h1 {
+    color: rgba(217, 169, 48, 0.996);
+    position: relative;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 70%;
+}
+}
+
+.header-form {
+  display: none;
+}
+
+.nav-div {
+    display: grid;
+    font-weight: 2rem;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    padding: 0,5rem;
+    gap: 10%;
+    text-align: center;
+    align-self: center;
+}
+
+.contacto{
+  grid-column: 1;
+  grid-row: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  }
+
+.bicicletas {
+  grid-column: 1;
+  grid-row: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.accesorios {
+  grid-column: 1;
+  grid-row: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.taller {
+  grid-column: 1;
+  grid-row: 4;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  right: 3px;
+}
+
+.novedades {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  margin-top: 15%;
+  margin-bottom: 0%;
+  border: 30%;
+  font-size: 40px;
+  border-style: ridge;
+  color: rgba(217, 169, 48, 0.996);
+  backdrop-filter:blur(x);
+  background-color: #706b6b42;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-transform: uppercase;
+}
+
+.video-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  position:relative;
+}
+
+.articulo {
+  background-position: relative;
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-attachment: relative;
+  background-color:gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.texto-secundario {
+  background-color:rgba(78, 65, 65, 0.227);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position:relative;
+  text-align: center;
+  margin-top: 500px;
+  bottom: 1000px;
+}
+
+.form-label {
+  position:relative;
+  flex-direction: row;;
+  bottom: 990px;
+  font-size: 20px;
+  margin-left: 10%;
+  border-radius: 0%;
+}
+
+.form-control{
+  position:relative;
+  flex-direction: row;;
+  bottom: 1020px;
+  font-size: 20px;
+  width: 250px;
+  text-align: center;
+  margin-left: 25%;
+}
+
+.parrafo-foto {
+  display: flex;
+  justify-content: center;
+  position:relative;
+  text-align: center;
+  top: 1px;
+  padding-top: 10px;
+  background-color:  rgb(14, 41, 51);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 100%;
+}
+
+.card-text {
+  display: flex;
+  justify-content: center;
+  position:relative;
+  bottom: 685px;
+  font-size: 1em;
+  background-color: black;
+  padding-top: 30%;
+  padding-bottom: 50%;
+}
+
+.card-icon {
+  display: flex;
+  justify-content:center;
+  position: relative;
+  height: 80px;
+  width: 100px;
+  bottom: 890px;
+  left: 150px;
+  align-items: center;
+  text-align:center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 5rem;
+}
+
+.contenedor-accesorios{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  bottom: 755px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-repeat: no-repeat;
+  background-attachment: relative;
+}
+
+.parrafo-foto-P2{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 1015px;
+  margin-right: 40%;
+  margin-left: 5%;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 35px;
+  font-weight: 800;
+  color: rgba(255, 255, 255, 0.856);
+  background-repeat: no-repeat;
+  background-attachment: relative;
+  border-radius: 30px;
+  background-color: rgba(235, 71, 11, 0.273);
+}
+
+.contenedor-taller{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  bottom: 910px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-repeat: no-repeat;
+  background-attachment: relative;
+}
+
+.parrafo-foto-P3{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 1040px;
+  margin-right: 10%;
+  margin-left: 57%;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+  border-radius: 5px;
+  background-color: rgba(235, 71, 11, 0.371);
+  color: rgba(253, 252, 252, 0.756);
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-attachment: relative;
+}
+
+.modelos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  bottom: 1003px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-repeat: no-repeat;
+  background-attachment: relative;
+}
+
+.parrafo-foto-P4{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 1080px;
+  margin-right: 5%;
+  margin-left: 5%;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  border-radius: 5px;
+  background-color: rgba(235, 71, 11, 0.371);
+  color: rgba(253, 252, 252, 0.756);
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-attachment: relative;
+}
+.bi-telefono {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  bottom: 1050px;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: -40%;
+  background-repeat: no-repeat;
+  background-attachment: relative;
+}
+
+.column-content-2{
+  display: flex;
+  justify-content: center;
+  position:relative;
+  flex-direction: row;
+  bottom: 1100px;
+  font-size: 1em;
+  background-color: black;
+  padding-top: 40%;
+  padding-bottom: 40%;
+}
+
+/* footer */
+
+
+
+
+
+
+/* sin terminar */
+
+/* fin de seccion mobile*/
+
+
+/* ------------------------------------------------------------------Inico de seccion escritorio ----------------------------------------------------------------------*/
+
+@media only screen and (min-width: 1200px) {
+  /* styles for browsers larger than 1200px; */
+  *{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgba(255, 255, 255, 0.996);
+    margin-bottom: 10px;
+  }
+}
+  a {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 0%;
+  }
+  
+  body {
+    background-size:  0px;
+    background-attachment: relative;
+    background-color: rgb(14, 41, 51);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .titulo h1 {
+    color: rgba(219, 171, 51, 0.996);
+    font-size:70px;
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .header-form {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  visibility: visible;
+  margin-top: 5px;
+  font-size: 10px;
+  position: relative;
+  }
+
+  .nav-div {
+    position: relative;
+    margin-top: 0%;
+    margin-left: 0%;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+  }
+  .contacto {
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .bicicletas {
+    grid-column: 2;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .accesorios {
+    grid-column: 3;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .taller {
+    grid-column: 4;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .novedades {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-left: 2px;
+    font-size: 55px;
+    color: rgba(104, 105, 106, 0.242);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(219, 171, 51, 0.996); 
+    margin-top: 2%;
+    text-transform: uppercase;
+  }
+  .video-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    position:relative;
+    margin-top: 5px;
+  }
+  .articulo {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-self:center;
+    font-size: 100px;
+    margin-top: 20%;
+    flex-direction: column;
+  }
+  .texto-secundario {
+    background-color:rgba(78, 65, 65, 0.227);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position:relative;
+    text-align: center;
+    font-size: 230%;
+    bottom: 1800px;
+  }
+  
+  .form-label {
+    position:relative;
+    flex-direction: row;;
+    bottom: 1775px;
+    font-size: 30px;
+    margin-left: 30%;
+  }
+  
+  .form-control{
+    position:relative;
+    flex-direction: row;;
+    bottom: 1780px;
+    font-size: 20px;
+    width: 400px;
+    height: 40px;
+    text-align: center;
+    margin-left: 1%;
+  }
+  
+  .parrafo-foto {
+    display: flex;
+    justify-content: center;
+    position:relative;
+    text-align: center;
+    margin-top: 0px;
+    background-color:  rgb(14, 41, 51);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100%;
+  }
+  
+  .card-text {
+    display: flex;
+    justify-content: center;
+    position:relative;
+    flex-direction: row;;
+    bottom: 675px;
+    font-size: 3em;
+    background-color: black;
+    padding-top: 30%;
+    padding-bottom: 50%;
+  }
+  
+  .card-icon {
+    display: flex;
+    justify-content:center;
+    position: relative;
+    width: 100px;
+    bottom: 1200px;
+    left: 560px;
+    align-items: center;
+    text-align:center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 9rem;
+  }
+  
+  .contenedor-accesorios {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    bottom: 730px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-repeat: no-repeat;
+    background-attachment: relative;
+  }
+  .parrafo-foto-P2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 1440px;
+    font-family: 'Rubik','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-weight: 800%;
+    border-radius: 40px;
+    padding-right: 10%;
+    padding-left: 5%;
+    background-color: rgba(235, 71, 11, 0.371);
+    color: rgba(253, 252, 252, 0.756);
+    font-size: 70px;
+    background-repeat: no-repeat;
+    background-attachment: relative;
+  }
+
+.contenedor-taller {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  bottom: 990px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-repeat: no-repeat;
+  background-attachment: relative;
+}
+
+.parrafo-foto-P3{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 1130px;
+  margin-right: 10%;
+  margin-left: 30%;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 60px;
+  font-weight: 600;
+  border-radius: 6px;
+  background-color: rgba(235, 71, 11, 0.371);
+  color: rgba(253, 252, 252, 0.756);
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-attachment: relative;
+}
+
+.modelos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  bottom: 1060px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-repeat: no-repeat;
+  background-attachment: relative;
+}
+
+.parrafo-foto-P4{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 1200px;
+  margin-right: 5%;
+  margin-left: 5%;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 60px;
+  font-weight: 800;
+  border-radius: 5px;
+  background-color: rgba(235, 71, 11, 0.371);
+  color: rgba(253, 252, 252, 0.756);
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-attachment: relative;
+}
+.bi-telefono {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  bottom: 1130px;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: -40%;
+  background-repeat: no-repeat;
+  background-attachment: relative;
+}
+
+.click{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  bottom: 200px;
+  padding-left: 90%;
+  padding-right: 10%;
+  background-repeat: no-repeat;
+  background-attachment: relative;
+}
+
+/*footer*/
+
+.column-content-2{
+  display: flex;
+  justify-content: center;
+  position:relative;
+  flex-direction: row;
+  bottom: 1200px;
+  font-size: 1em;
+  background-color: black;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+
+.copy-right {
+  position:relative;
+  text-align: center;
+  font-size: 100%;
+  color: black;
+  background-color: rgb(248, 248, 248);
+}
+.secciones{
+  position:relative;
+  font-size: 2em;
+  text-align: center;
+
+}
+.i-contacto{
+  position:relative;
+  font-size: 2em;
+  text-align: center;
+}
+
+
+/* Sin terminar */
