@@ -7,13 +7,13 @@
   margin-bottom: 10px;
 }
 
-a {
+a {         
   text-decoration: none;
   color: white;
-  margin-bottom: 0%;
 }
 
 body {
+  width: 100%;
   background-size: 5px;
   background-attachment: relative;
   background-color: rgb(14, 41, 51);
@@ -33,7 +33,6 @@ body {
     text-align: center;
     font-size: 3rem;
     font-weight: 70%;
-}
 }
 
 .header-form {
@@ -113,28 +112,29 @@ body {
 .articulo {
   background-position: relative;
   background-repeat: no-repeat;
-  background-size: 100px;
+  max-width: 400px;
   background-attachment: relative;
   background-color:gray;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 200px;
+  margin-top: 180px;
 }
 
 .texto-secundario {
   background-color:rgba(78, 65, 65, 0.227);
   font-family: Georgia, 'Times New Roman', Times, serif;
-  position:relative;
+  position: relative;
   text-align: center;
+  font-size: 25px;
   margin-top: 500px;
-  bottom: 1000px;
+  bottom: 960px;
 }
 
 .form-label {
   position:relative;
-  flex-direction: row;;
-  bottom: 990px;
+  flex-direction: row;
+  bottom: 960px;
   font-size: 20px;
   margin-left: 10%;
   border-radius: 0%;
@@ -143,7 +143,7 @@ body {
 .form-control{
   position:relative;
   flex-direction: row;;
-  bottom: 1020px;
+  bottom: 985px;
   font-size: 20px;
   width: 250px;
   text-align: center;
@@ -166,7 +166,7 @@ body {
   display: flex;
   justify-content: center;
   position:relative;
-  bottom: 685px;
+  bottom: 690px;
   font-size: 1em;
   background-color: black;
   padding-top: 30%;
@@ -179,8 +179,8 @@ body {
   position: relative;
   height: 80px;
   width: 100px;
-  bottom: 890px;
-  left: 150px;
+  bottom: 880px;
+  left: 155px;
   align-items: center;
   text-align:center;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -203,7 +203,7 @@ body {
   display: flex;
   justify-content: center;
   position: relative;
-  bottom: 1015px;
+  bottom: 1000px;
   margin-right: 40%;
   margin-left: 5%;
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -232,9 +232,9 @@ body {
   display: flex;
   justify-content: center;
   position: relative;
-  bottom: 1040px;
+  bottom: 1050px;
   margin-right: 10%;
-  margin-left: 57%;
+  margin-left: 55%;
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 35px;
   font-weight: 600;
@@ -251,7 +251,7 @@ body {
   flex-direction: column;
   justify-content: center;
   position: relative;
-  bottom: 1003px;
+  bottom: 1010px;
   padding-left: 5%;
   padding-right: 5%;
   background-repeat: no-repeat;
@@ -262,7 +262,7 @@ body {
   display: flex;
   justify-content: center;
   position: relative;
-  bottom: 1080px;
+  bottom: 1090px;
   margin-right: 5%;
   margin-left: 5%;
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -280,7 +280,7 @@ body {
   flex-direction: column;
   justify-content: center;
   position: relative;
-  bottom: 1050px;
+  bottom: 1055px;
   padding-left: 5%;
   padding-right: 5%;
   width: -40%;
@@ -288,58 +288,100 @@ body {
   background-attachment: relative;
 }
 
-.column-content-2{
+.click {
   display: flex;
   justify-content: center;
-  position:relative;
-  flex-direction: row;
-  bottom: 1100px;
-  font-size: 1em;
-  background-color: black;
-  padding-top: 40%;
-  padding-bottom: 40%;
+  position: relative;
+  font-size: 10px;
+  bottom: 75px;
+  left: 130px;
 }
 
 /* footer */
 
+.footer-parrafo {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background-color: black;
+  font-size: 130%;
+  bottom: 1080px;
+  padding-bottom: 150%;
+  padding-top: 10%;
+  padding-right: 60%;
+  right: 0%;
+}
 
+/* secciones */
 
+.column-content-2 {
+  display: flex;
+  justify-content: center;
+  position:relative;
+  text-align: center;
+  bottom: 1510px;
+  font-size: 120%;
+  right: 28%;
+}
 
+.links {
+  list-style-type: none;
+}
 
+.tarjet-1 {
+  display: flex;
+  justify-content: center;
+  position:relative;
+  text-align: center;
+  gap: 2%;
+  bottom: 1520px;
+}
+
+.column-content-3 {
+  display: flex;
+  justify-content: center;
+  position:relative;
+  bottom: 1770px;
+  font-size: 100%;
+  right: 30%;
+}
+
+.footer-parrafo-2 {
+  display: flex;
+  justify-content: center;
+  position:relative;
+  bottom: 1650px;
+  font-size: 130%;
+  right: 34%;
+}
+.titulo-footer-2 {
+  display: flex;
+  justify-content: center;
+  position:relative;
+  bottom: 1650px;
+  font-size: 110%;
+  right: 38%;
+}
+
+.copy-right {
+  display: flex;
+  justify-content: center;
+  position:relative;
+  bottom: 1640px;
+  font-size: 60%;
+  right: 0%;
+}
+}
 
 /* sin terminar */
 
 /* fin de seccion mobile*/
 
 
-/* ------------------------------------------------------------------Inico de seccion escritorio ----------------------------------------------------------------------*/
+/* ------------------------------------------------------------------Inicio de seccion escritorio ----------------------------------------------------------------------*/
 
 @media only screen and (min-width: 1200px) {
   /* styles for browsers larger than 1200px; */
-  *{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: rgba(255, 255, 255, 0.996);
-    margin-bottom: 10px;
-  }
-}
-  a {
-    text-decoration: none;
-    color: white;
-    margin-bottom: 0%;
-  }
-  
-  body {
-    background-size:  0px;
-    background-attachment: relative;
-    background-color: rgb(14, 41, 51);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  
   .titulo h1 {
     color: rgba(219, 171, 51, 0.996);
     font-size:70px;
@@ -349,6 +391,7 @@ body {
     align-items: center;
     margin-top: 20px;
   }
+
   .header-form {
   display: flex;
   justify-content: center;
@@ -398,18 +441,22 @@ body {
     justify-content: center;
   }
   .novedades {
-    position: relative;
     display: flex;
     justify-content: center;
-    align-self: center;
-    margin-left: 2px;
-    font-size: 55px;
-    color: rgba(104, 105, 106, 0.242);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgba(219, 171, 51, 0.996); 
+    position: relative;
+    text-align: center;
     margin-top: 2%;
+    margin-bottom: 0%;
+    border: 30%;
+    font-size: 50px;
+    border-style: ridge;
+    color: rgba(217, 169, 48, 0.996);
+    backdrop-filter:blur(x);
+    background-color: #706b6b42;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-transform: uppercase;
   }
+  
   .video-1 {
     display: flex;
     flex-direction: column;
@@ -424,7 +471,8 @@ body {
     position: relative;
     align-self:center;
     font-size: 100px;
-    margin-top: 20%;
+    font-weight: 1200px;
+    margin-top: 350px;
     flex-direction: column;
   }
   .texto-secundario {
@@ -432,14 +480,14 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     position:relative;
     text-align: center;
-    font-size: 230%;
-    bottom: 2040px;
+    font-size: 70px;
+    bottom: 1645px;
   }
   
   .form-label {
     position:relative;
     flex-direction: row;;
-    bottom: 2020px;
+    bottom: 1625px;
     font-size: 30px;
     margin-left: 30%;
   }
@@ -447,7 +495,7 @@ body {
   .form-control{
     position:relative;
     flex-direction: row;;
-    bottom: 2020px;
+    bottom: 1630px;
     font-size: 20px;
     width: 500px;
     height: 40px;
@@ -461,6 +509,7 @@ body {
     position:relative;
     text-align: center;
     margin-top: 0px;
+    color: gray;
     background-color:  rgb(14, 41, 51);
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 100%;
@@ -471,11 +520,11 @@ body {
     justify-content: center;
     position:relative;
     flex-direction: row;;
-    bottom: 635px;
+    bottom: 260px;
     font-size: 3em;
     background-color: black;
-    padding-top: 30%;
-    padding-bottom: 60%;
+    padding-top: 15%;
+    padding-bottom: 30%;
   }
   
   .card-icon {
@@ -483,7 +532,7 @@ body {
     justify-content:center;
     position: relative;
     width: 100px;
-    bottom: 1450px;
+    bottom: 730px;
     left: 720px;
     align-items: center;
     text-align:center;
@@ -496,7 +545,7 @@ body {
     flex-direction: column;
     justify-content: center;
     position: relative;
-    bottom: 700px;
+    bottom: 420px;
     padding-left: 5%;
     padding-right: 5%;
     background-repeat: no-repeat;
@@ -506,17 +555,18 @@ body {
     display: flex;
     justify-content: center;
     position: relative;
-    bottom: 1600px;
+    bottom: 1820px;
+    right: 420px;
     font-family: 'Rubik','Helvetica Neue',Helvetica,Arial,sans-serif;
-    font-weight: 800%;
-    border-radius: 40px;
-    padding-right: 10%;
-    padding-left: 5%;
+    font-weight: 30px;
+    text-align: center;
+    border-radius: 60px;
     background-color: rgba(235, 71, 11, 0.371);
     color: rgba(253, 252, 252, 0.756);
     font-size: 70px;
     background-repeat: no-repeat;
     background-attachment: relative;
+    margin: 500px;
   }
 
 .contenedor-taller {
@@ -524,7 +574,7 @@ body {
   flex-direction: column;
   justify-content: center;
   position: relative;
-  bottom: 880px;
+  bottom: 1665px;
   padding-left: 5%;
   padding-right: 5%;
   background-repeat: no-repeat;
@@ -535,9 +585,9 @@ body {
   display: flex;
   justify-content: center;
   position: relative;
-  bottom: 1000px;
+  bottom: 1800px;
   margin-right: 10%;
-  margin-left: 30%;
+  margin-left: 40%;
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 60px;
   font-weight: 600;
@@ -554,7 +604,7 @@ body {
   flex-direction: column;
   justify-content: center;
   position: relative;
-  bottom: 950px;
+  bottom: 1740px;
   padding-left: 5%;
   padding-right: 5%;
   background-repeat: no-repeat;
@@ -565,12 +615,12 @@ body {
   display: flex;
   justify-content: center;
   position: relative;
-  bottom: 1070px;
+  bottom: 1860px;
   margin-right: 5%;
   margin-left: 5%;
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 60px;
-  font-weight: 800;
+  font-weight: 800%;
   border-radius: 5px;
   background-color: rgba(235, 71, 11, 0.371);
   color: rgba(253, 252, 252, 0.756);
@@ -583,7 +633,7 @@ body {
   flex-direction: column;
   justify-content: center;
   position: relative;
-  bottom: 1020px;
+  bottom: 1800px;
   padding-left: 5%;
   padding-right: 5%;
   width: -40%;
@@ -591,50 +641,87 @@ body {
   background-attachment: relative;
 }
 
-.click{
+.click {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   position: relative;
-  bottom: 300px;
-  padding-left: 90%;
-  padding-right: 10%;
-  background-repeat: no-repeat;
-  background-attachment: relative;
+  font-size: 20px;
+  bottom: 100px;
+  left: 150px;
 }
 
-/*footer*/
+/* footer */
 
-.column-content-2{
+.footer-parrafo {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background-color: black;
+  font-size: 30px;
+  bottom: 1800px;
+  padding-bottom: 30%;
+  padding-top: 3%;
+  padding-right: 80%;
+  right: 0%;
+}
+
+/* secciones */
+
+.column-content-2 {
   display: flex;
   justify-content: center;
   position:relative;
-  flex-direction: row;
-  bottom: 1100px;
-  font-size: 1em;
-  background-color: black;
-  padding-top: 20%;
-  padding-bottom: 20%;
+  text-align: center;
+  bottom: 2310px;
+  font-size: 30px;
+  right: 4%;
+}
+
+.links {
+  list-style-type: none;
+}
+
+.tarjet-1 {
+  display: flex;
+  justify-content: center;
+  position:relative;
+  text-align: center;
+  gap: 4%;
+  bottom: 2200px;
+}
+
+.column-content-3 {
+  display: flex;
+  justify-content: center;
+  position:relative;
+  bottom: 2380px;
+  font-size: 20px;
+  right: 40%;
+}
+
+.footer-parrafo-2 {
+  display: flex;
+  justify-content: center;
+  position:relative;
+  bottom: 2300px;
+  font-size: 130%;
+  right: 50px;
+}
+.titulo-footer-2 {
+  display: flex;
+  justify-content: center;
+  position:relative;
+  bottom: 2300px;
+  font-size: 110%;
+  right: 38%;
 }
 
 .copy-right {
+  display: flex;
+  justify-content: center;
   position:relative;
-  text-align: center;
-  font-size: 100%;
-  color: black;
-  background-color: rgb(248, 248, 248);
+  bottom: 2350px;
+  font-size: 20px;
+  right: 0%;
 }
-.secciones{
-  position:relative;
-  font-size: 2em;
-  text-align: center;
-
 }
-.i-contacto{
-  position:relative;
-  font-size: 2em;
-  text-align: center;
-}
-
-
-/* Sin terminar */
