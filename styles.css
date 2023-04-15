@@ -370,12 +370,13 @@ body {
     justify-content: center;
     position: relative;
     bottom: 1640px;
+    padding: auto;
+    color: grey;
     font-size: 60%;
     right: 0%;
   }
 }
 
-/* sin terminar */
 
 /* fin de seccion mobile*/
 
@@ -661,7 +662,7 @@ body {
     position: relative;
     background-color: black;
     font-size: 30px;
-    bottom: 1800px;
+    bottom: 1795px;
     padding-bottom: 30%;
     padding-top: 3%;
     padding-right: 80%;
@@ -677,7 +678,7 @@ body {
     text-align: center;
     bottom: 2310px;
     font-size: 30px;
-    right: 4%;
+    right: 15px;
   }
 
   .links {
@@ -689,15 +690,15 @@ body {
     justify-content: center;
     position: relative;
     text-align: center;
-    gap: 4%;
-    bottom: 2200px;
+    gap: 2%;
+    bottom: 2280px;
   }
 
   .column-content-3 {
     display: flex;
     justify-content: center;
     position: relative;
-    bottom: 2380px;
+    bottom: 2370px;
     font-size: 20px;
     right: 40%;
   }
@@ -706,25 +707,35 @@ body {
     display: flex;
     justify-content: center;
     position: relative;
-    bottom: 2300px;
-    font-size: 130%;
-    right: 50px;
+    bottom: 2600px;
+    font-size: 30px;
+    right: 0%;
+    left: 580px;
   }
   .titulo-footer-2 {
     display: flex;
     justify-content: center;
     position: relative;
-    bottom: 2300px;
-    font-size: 110%;
-    right: 38%;
+    bottom: 2580px;
+    font-size: 20px;
+    right: 0%;
+    left: 560px;
   }
 
   .copy-right {
     display: flex;
     justify-content: center;
     position: relative;
-    bottom: 2350px;
+    bottom: 2340px;
+    padding: auto;
+    color: grey;
     font-size: 20px;
     right: 0%;
   }
 }
+
+/* seccion bicicletas */
+
+
+@media only screen and (max-width: 400px) {
+  /* styles for mobile. 400px; */
