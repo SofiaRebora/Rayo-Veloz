@@ -1,1 +1,54 @@
- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Rayo Veloz</title>
+</head>
+
+    <body>
+        <div class="titulo">
+            <a href="./index.html">    
+        <h1>Rayo Veloz</h1>
+        </a>
+        </div>
+
+        
+        <div class="nav-div">
+            <div class="contacto"><a href="../pages/contacto.html">CONTACTO</a></div>
+            <div class="bicicletas"><a href="../pages/bicicletas.html">BICICLETAS</a></div>
+            <div class="accesorios"><a href="../pages/accesorios.html">ACCESORIOS</a></div>
+            <div class="taller"><a href="../pages/taller.html">TALLER</a></div>
+            </div>
+
+        <div class="contacto">
+            <h2>Comunicate con nosotros</h2>
+        </div>
+
+        <form action="submeter-formulario.php" method="post"></form>
+        <label for="contacto" class="colocar-nombre" for="nombre">
+        </label>
+            <input id="Nombre" class="imput-contacto" type="text" name="introducir-nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                <label id="contacto" class="colocar-mail" for="Email"></label>
+            <input id="Email" class="imput-contacto" type="text" name="introducir-Email" required="obligatorio" placeholder="Escribe tu email">
+                <label id="contacto" class="colocar-telefono" for="Email"></label>
+            <input id="telefono" class="imput-contacto" type="text" name="introducir-telefono" required="obligatorio" placeholder="Escribe tu telefono">
+                <label id="contacto" class="colocar-asunt" for="Asunto"></label>
+            </label>
+        <label-contacto class="colocar-mensaje" for="Mensaje">
+            Mensaje
+            <span class="obligatorio-nosotros"></span>
+        </label-contacto>
+        <textarea-contacto id="mensaje" class="texto" name="Introducir mensaje" required="obligatorio" placeholder="Escribe tu consulta"></textarea-contacto>
+            <button id="enviar" class="boton-contacto" type="submit" name="Enviar-formulario">
+                <p>ENVIAR</p>
+            </button>
+
+            <p class="aviso-contacto">
+            <span class="obligatorio-contacto">*</span>
+                Los campos son obligatorios
+            </p>
+        

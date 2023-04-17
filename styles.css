@@ -737,5 +737,5 @@ body {
 /* seccion bicicletas */
 
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 400px) 
   /* styles for mobile. 400px; */
