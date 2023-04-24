@@ -1107,7 +1107,7 @@ body {
 }
 /* Fin de seccion escritorio */
 
-/* ------------------------------------------------------------------Contacto--------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------Contacto--------------------------------------------------------------------------- */
 
 @media only screen and (max-width: 400px) {
   /* styles for mobile. 400px; */
@@ -1117,8 +1117,9 @@ body {
     margin-top: 10%;
     margin-bottom: 5%;
     text-align: center;
-    font-size: 60px;
+    font-size: 80px;
     font-weight: 10px;
+    color: rgba(217,169,48,0.996);
   }
 
   .nav-div-contacto {
@@ -1128,8 +1129,8 @@ body {
     grid-template-rows: repeat(4, 1fr);
     padding: 0, 5rem;
     gap: 15px;
-    margin-top: 10px;
-    margin-bottom: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     text-align: center;
     align-self: center;
   }
@@ -1178,16 +1179,12 @@ body {
   margin-top: 0px;
   font-size: 15px;
 }
-
-.imput-contacto-1 {
-top: 20px;
-}
 }
 
 
 /* Fin de seccion mobile */
 
-/* --------------------------------------------------------Inicio seccion escritorio----------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------Inicio seccion escritorio----------------------------------------------------------------- */
 
 @media only screen and (min-width: 1200px) {
   /* styles for browsers larger than 1200px; */
@@ -1444,7 +1441,7 @@ top: 20px;
 
 /* Fin de seccion mobile */
 
-/* --------------------------------------------------Inicio seccion escritorio--------------------------------------------------------------------- */
+/* -------------------------------------------------------------------Inicio seccion escritorio--------------------------------------------------------------------- */
 
 @media only screen and (min-width: 1200px) {
   /* styles for browsers larger than 1200px; */
@@ -1622,7 +1619,7 @@ top: 20px;
 
 /* Fin de seccion escritorio */
 
-/* --------------------------------------------------------------Inicio seccion taller--------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------Inicio seccion taller--------------------------------------------------------------- */
 
 @media only screen and (max-width: 400px) {
   /* styles for mobile. 400px; */
@@ -1706,8 +1703,8 @@ top: 20px;
 
 .arreglos {
   font-family:Georgia, 'Times New Roman', Times, serif;
-  background-color: rgba(2, 2, 2, 0.388);
   margin-top: 30px;
+}
 }
 
 .seccion-contacto-2 h5 {
@@ -1782,7 +1779,6 @@ flex-direction: row;
   margin-top: 30px;
   font-size: 20px;
   margin-left: 60px;
-}
 }
 
 
