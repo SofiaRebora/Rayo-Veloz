@@ -32,7 +32,7 @@ body {
     margin-bottom: 5%;
     text-align: center;
     font-size: 3rem;
-    font-weight: 70%;
+    font-weight: 30px;
   }
 
   .header-form {
@@ -156,7 +156,7 @@ body {
     justify-content: center;
     position: relative;
     text-align: center;
-    top: 1px;
+    top: 0px;
     padding-top: 10px;
     background-color: rgb(14, 41, 51);
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
@@ -377,7 +377,6 @@ body {
   }
 }
 
-
 /* fin de seccion mobile*/
 
 /* ------------------------------------------------------------------Inicio de seccion escritorio ----------------------------------------------------------------------*/
@@ -511,12 +510,11 @@ body {
     justify-content: center;
     position: relative;
     text-align: center;
-    margin-top: 0px;
-    color: gray;
-    background-color: rgb(14, 41, 51);
+    border-top: 10px;
+    border-bottom: 100px;
+    background-color: rgba(34, 87, 106, 0.352);
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
       sans-serif;
-    font-size: 100%;
   }
 
   .card-text {
@@ -734,8 +732,1057 @@ body {
   }
 }
 
-/* seccion bicicletas */
+/* Fin de seccion escritorio */
 
+/* ----------------------------------------------------------sección bicicletas------------------------------------------------------------------ */
 
-@media only screen and (max-width: 400px) 
+@media only screen and (max-width: 400px) {
   /* styles for mobile. 400px; */
+
+  .bici-titulo h1 {
+    position: relative;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 10px;
+    color: rgba(217,169,48,0.996);
+  }
+
+  .header-form-bic {
+    display: none;
+  }
+
+  .nav-div-bici {
+    display: grid;
+    font-weight: 2rem;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    padding: 0, 5rem;
+    gap: 26px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    text-align: center;
+    align-self: center;
+  }
+
+  .bici-contacto {
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .bici-bicicletas- {
+    grid-column: 1;
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .bici-accesorios {
+    grid-column: 1;
+    grid-row: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .bici-taller {
+    grid-column: 1;
+    grid-row: 4;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    right: 1px;
+  }
+
+  
+  .subtitulo-bici {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 0px;
+    right: 120px;
+    text-decoration:underline;
+  }
+
+  .foto1-bici {
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    max-width: 340px;
+    top: 430px;
+    left: 30px;
+    background-position: center;
+  }
+
+  .parrafo-img1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 0px;
+    top: 70px;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 60px;
+    color: rgba(253, 252, 252, 0.315);
+  }
+
+  .foto2-bici {
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    max-width: 340px;
+    top: 670px;
+    left: 30px;
+  }
+
+  .parrafo-img2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 0px;
+    top: 230px;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 60px;
+    color: rgba(253, 252, 252, 0.527);
+  }
+
+  .foto3-bici {
+    background-position: relative;
+    background-repeat: no-repeat;
+    position: absolute;
+    max-width: 340px;
+    top: 912px;
+    left: 30px;
+  }
+
+  .parrafo-img3 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 0;
+    top: 390px;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 60px;
+    color: rgba(253, 252, 252, 0.527);
+  }
+
+  .foto4-bici {
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    max-width: 340px;
+    top: 1160px;
+    left: 30px;
+    background-position: center;
+  }
+
+  .parrafo-img4 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 0;
+    top: 560px;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 60px;
+    border-radius: 5px;
+    color: rgba(253, 252, 252, 0.527);
+    background-attachment: relative;
+  }
+
+  .foto5-bici {
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    max-width: 340px;
+    top: 1415px;
+    bottom: 10px;
+    left: 30px;
+    background-position: center;
+  }
+
+  .parrafo-img5 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 0;
+    top: 725px;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 60px;
+    color: rgba(253, 252, 252, 0.527);
+    background-attachment: relative;
+  }
+}
+
+/* fin de seccion mobile*/
+
+/* ------------------------------------------------------------------Inicio de seccion escritorio bici----------------------------------------------------------------------*/
+
+@media only screen and (min-width: 1200px) {
+  /* styles for browsers larger than 1200px; */
+
+  .bici-titulo h1 {
+    color: rgba(219, 171, 51, 0.996);
+    font-size: 80px;
+    font-weight: 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+  .nav-div-bici {
+    position: relative;
+    margin-top: 0px;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+  }
+
+  .bici-contacto {
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .bici-bicicletas {
+    grid-column: 2;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .bici-accesorios {
+    grid-column: 3;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .bici-taller {
+    grid-column: 4;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .subtitulo-bici {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 0px;
+    right: 630px;
+    text-decoration:underline;
+  }
+
+  .foto1-bici {
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    max-width: 465px;
+    margin-top: 10px;
+    margin-left: 40px;
+    background-position: center;
+  }
+
+  .parrafo-img1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 0px;
+    top: 100px;
+    right: 480px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 70px;
+    color: rgba(253, 252, 252, 0.392);
+  }
+
+  .foto2-bici {
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    max-width: 458px;
+    margin-top:-83px;
+    margin-left: 526px;
+  }
+
+  .parrafo-img2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 12px;
+    left: 15px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 70px;
+    color: rgba(253, 252, 252, 0.448);
+  }
+
+  .foto3-bici {
+    background-position: relative;
+    background-repeat: no-repeat;
+    position: absolute;
+    max-width: 450px;
+    margin-top: -178px;
+    left: 1005px;
+  }
+
+  .parrafo-img3 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 85px;
+    left: 480px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 65px;
+    color: rgba(253, 252, 252, 0.448);
+  }
+
+  .foto4-bici {
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    max-width: 450px;
+    margin-left: 280px;
+    margin-top: 55px;
+    background-position: center;
+  }
+
+  .parrafo-img4 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 160px;
+    right: 230px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 70px;
+    color: rgba(253, 252, 252, 0.479);
+    background-attachment: relative;
+  }
+
+  .foto5-bici {
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    max-width: 470px;
+    margin-top: -40px;
+    margin-bottom: 20px;
+    margin-left: 750px;
+    background-position: center;
+  }
+
+  .parrafo-img5 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 0;
+    top: 70px;
+    left: 240px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 70px;
+    color: rgba(253, 252, 252, 0.577);
+    background-attachment: relative;
+  }
+}
+/* Fin de seccion escritorio */
+
+/* ------------------------------------------------------------------Contacto--------------------------------------------------------------------------- */
+
+@media only screen and (max-width: 400px) {
+  /* styles for mobile. 400px; */
+
+  .titulo-contacto h1 {
+    position: relative;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 10px;
+  }
+
+  .nav-div-contacto {
+    display: grid;
+    font-weight: 2rem;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    padding: 0, 5rem;
+    gap: 15px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    align-self: center;
+  }
+
+  .c-contacto {
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .contacto-bicicletas- {
+    grid-column: 1;
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .contacto-accesorios {
+    grid-column: 1;
+    grid-row: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .contacto-taller {
+    grid-column: 1;
+    grid-row: 4;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    right: 3px;
+  }
+
+  .seccion-contacto{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: underline;
+    font-size: 15px;
+  }
+
+.colocar-nombre{
+  margin-top: 0px;
+  font-size: 15px;
+}
+
+.imput-contacto-1 {
+top: 20px;
+}
+}
+
+
+/* Fin de seccion mobile */
+
+/* --------------------------------------------------------Inicio seccion escritorio----------------------------------------------------------------- */
+
+@media only screen and (min-width: 1200px) {
+  /* styles for browsers larger than 1200px; */
+
+  .titulo-contacto h1 {
+    color: rgba(217, 169, 48, 0.996);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-size: 80px;
+    font-weight: 70%;
+    text-align: center;
+  }
+
+  .nav-div-contacto {
+    display: grid;
+    font-weight: 2rem;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    padding: 0, 5rem;
+    gap: 5px;
+    text-align: center;
+    align-self: center;
+  }
+
+  .c-contacto {
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .contacto-bicicletas- {
+    grid-column: 1;
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .contacto-accesorios {
+    grid-column: 1;
+    grid-row: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .contacto-taller {
+    grid-column: 1;
+    grid-row: 4;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    right: 3px;
+  }
+}
+
+/* Fin de secion escritorio */
+
+/* --------------------------------------------------------- Seccion accesorios------------------------------------------------------------------------------- */
+
+@media only screen and (max-width: 400px) {
+  /* styles for mobile. 400px; */
+
+  .titulo-accesorios h1 {
+    position: relative;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 10px;
+    color: rgba(217,169,48,0.996);
+  }
+
+  .nav-div-accesorios {
+    display: grid;
+    font-weight: 2rem;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    padding: 0, 5rem;
+    gap: 16px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    align-self: center;
+  }
+
+  .accesorios-contacto {
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .bicicletas-accesorios {
+    grid-column: 1;
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .accesorios-acc {
+    grid-column: 1;
+    grid-row: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .taller-accesorios {
+    grid-column: 1;
+    grid-row: 4;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    right: 2px;
+  }
+
+  .subtitulo-acc {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 5px;
+    right: 120px;
+    font-size: 15px;
+    text-decoration:underline;
+  }
+
+  .f-accesorios1 {
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    max-width: 340px;
+    margin-top: 10px;
+    left: 30px;
+    background-position: center;
+  }
+
+  .parrafo-img1-ac {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 0px;
+    top: 80px;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 60px;
+    color: rgba(253, 252, 252, 0.47);
+  }
+
+  .f-accesorios2 {
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    max-width: 340px;
+    margin-top: 185px;
+    margin-left: 30px;
+  }
+
+  .parrafo-img2-ac {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 250px;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 60px;
+    color: rgba(253, 252, 252, 0.438);
+  }
+
+  .f-accesorios3 {
+    background-position: relative;
+    background-repeat: no-repeat;
+    position: absolute;
+    max-width: 340px;
+    margin-top: 355px;
+    margin-left: 30px;
+  }
+
+  .parrafo-img3-ac {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 0;
+    top: 420px;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 60px;
+    color: rgba(253, 252, 252, 0.527);
+  }
+
+  .f-accesorios4 {
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    max-width: 340px;
+    margin-top: 523px;
+    margin-left: 30px;
+    background-position: center;
+  }
+
+  .parrafo-img4-ac {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 0;
+    top: 580px;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 60px;
+    border-radius: 5px;
+    color: rgba(253, 252, 252, 0.527);
+    background-attachment: relative;
+  }
+
+  .f-accesorios5 {
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    max-width: 340px;
+    margin-top: 668px;
+    margin-left: 30px;
+    background-position: center;
+  }
+
+  .parrafo-img5-ac {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 0;
+    top: 735px;
+    margin-right: 5%;
+    margin-left:5%;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 60px;
+    border-radius: 5px;
+    color: rgba(253, 252, 252, 0.527);
+    background-attachment: relative;
+  
+}
+}
+
+/* Fin de seccion mobile */
+
+/* --------------------------------------------------Inicio seccion escritorio--------------------------------------------------------------------- */
+
+@media only screen and (min-width: 1200px) {
+  /* styles for browsers larger than 1200px; */
+
+  .titulo-accesorios h1 {
+    color: rgba(219, 171, 51, 0.996);
+    font-size: 80px;
+    font-weight: 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+  .nav-div-accesorios {
+    position: relative;
+    margin-top: 10px;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+  }
+
+  .accesorios-contacto {
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .bicicletas-accesorios {
+    grid-column: 2;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .accesorios-acc {
+    grid-column: 3;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .taller-accesorios {
+    grid-column: 4;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .subtitulo-acc {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 0px;
+    right: 640px;
+    text-decoration: underline;
+  }
+
+  .f-accesorios1 {
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    max-width: 448px;
+    top: 250px;
+    left: 40px;
+    background-position: center;
+  }
+
+  .parrafo-img1-ac {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 0px;
+    top: 110px;
+    right: 490px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 70px;
+    color: rgba(253, 252, 252, 0.495);
+  }
+
+  .f-accesorios2 {
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    max-width: 460px;
+    top: 251px;
+    left: 510px;
+  }
+
+  .parrafo-img2-ac {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 15px;
+    left: 0px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 70px;
+    color: rgba(253, 252, 252, 0.527);
+  }
+
+  .f-accesorios3 {
+    background-position: relative;
+    background-repeat: no-repeat;
+    position: absolute;
+    max-width: 465px;
+    top: 252px;
+    left: 990px;
+  }
+
+  .parrafo-img3-ac {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 60px;
+    left: 480px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 65px;
+    color: rgba(253, 252, 252, 0.527);
+  }
+
+  .f-accesorios4 {
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    max-width: 475px;
+    left: 254px;
+    margin-top: 83px;
+    background-position: center;
+  }
+
+  .parrafo-img4-ac {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 165px;
+    right: 260px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 70px;
+    color: rgba(253, 252, 252, 0.516);
+    background-attachment: relative;
+  }
+
+  .f-accesorios5 {
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    max-width: 475px;
+    top: 592px;
+    margin-bottom: 20px;
+    left: 750px;
+    background-position: center;
+  }
+
+  .parrafo-img5-ac {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 0;
+    top: 75px;
+    left: 245px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 70px;
+    color: rgba(253, 252, 252, 0.577);
+    background-attachment: relative;
+  }
+}
+
+/* Fin de seccion escritorio */
+
+/* --------------------------------------------------------------Inicio seccion taller--------------------------------------------------------------- */
+
+@media only screen and (max-width: 400px) {
+  /* styles for mobile. 400px; */
+
+  .titulo-taller h1 {
+    position: relative;
+    margin-top: 10%;
+    margin-bottom: 2%;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 10px;
+    color: rgba(217,169,48,0.996);
+  }
+
+  .nav-div-taller {
+    display: grid;
+    font-weight: 2rem;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    padding: 0, 5rem;
+    gap: 16px;
+    margin-top: 0px;
+    text-align: center;
+    align-self: center;
+  }
+
+  .contacto-taller {
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .bicicletas-taller {
+    grid-column: 1;
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .accesorios-taller {
+    grid-column: 1;
+    grid-row: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .taller-taller {
+    grid-column: 1;
+    grid-row: 4;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    right: 2px;
+  }
+
+  .subtitulo-taller h2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 20px;
+    right: 120px;
+    font-size: 20px;
+    text-decoration:underline;
+  }
+
+  .subtitulo-taller h3{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 20px;
+    right: 0px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgba(86, 86, 86, 0.996); ;
+  }
+
+.arreglos {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  background-color: rgba(2, 2, 2, 0.388);
+  margin-top: 30px;
+}
+
+.seccion-contacto-2 h5 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  font-size: 18px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: rgba(86, 86, 86, 0.996); ;
+}
+
+.colocar-nombre-t {
+  position: relative;
+  flex-direction: row;
+  margin-top: 10px;
+  font-size: 20px;
+  margin-left: 70px;
+}
+
+.imput-contacto-1 {
+
+  position: relative;
+}
+
+.colocar-email-t {
+  position: relative;
+  flex-direction: row;
+  margin-top: 10px;
+  font-size: 20px;
+  margin-left: 80px;
+}
+
+.imput-contacto-2 {
+  margin:0;
+  position: relative;
+  flex-direction: row;
+}
+
+.colocar-telefono-t {
+  position: relative;
+  flex-direction: row;
+  margin-top: 10px;
+  font-size: 20px;
+  margin-left: 90px;
+}
+
+.imput-contacto-3 {   
+margin:0;
+position: relative;
+flex-direction: row;
+}
+
+.colocar-mensaje-t {
+  position: relative;
+  flex-direction: row;
+  margin-top: 20px;
+  font-size: 20px;
+  margin-left: 60px;
+}
+
+.imput-contacto-4 {    
+  margin: top 30px;
+position: relative;
+flex-direction: row;
+}
+
+.boton-contacto-t {
+  position: relative;
+  flex-direction: row;
+  margin-top: 30px;
+  font-size: 20px;
+  margin-left: 60px;
+}
+}
+
+
