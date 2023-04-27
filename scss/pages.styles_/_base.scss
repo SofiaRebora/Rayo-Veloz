@@ -1,0 +1,28 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+color: rgb(255, 255, 255);
+margin-bottom: 10px;
+}
+
+a {
+text-decoration: none;
+color: white;
+}
+
+//----------------------------------- *portada*--------------------//
+
+    body {
+        max-height: 100%;
+        width: 100%;
+        background-size: 5px;
+        background-attachment: relative;
+        background-color: rgb(14, 41, 51);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+

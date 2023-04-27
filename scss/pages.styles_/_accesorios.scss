@@ -1,0 +1,326 @@
+@media only screen and (max-width: 400px) {
+    /* styles for mobile. 400px; */
+    .titulo-accesorios h1 {
+      position: relative;
+      margin-top: 10%;
+      margin-bottom: 5%;
+      text-align: center;
+      font-size: 60px;
+      font-weight: 10px;
+      color: rgba(217, 169, 48, 0.996);
+    }
+    .nav-div-accesorios {
+      display: grid;
+      font-weight: 2rem;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(4, 1fr);
+      padding: 0, 5rem;
+      gap: 16px;
+      margin-top: 10px;
+      margin-bottom: 30px;
+      text-align: center;
+      align-self: center;
+    }
+    .accesorios-contacto {
+      grid-column: 1;
+      grid-row: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .bicicletas-accesorios {
+      grid-column: 1;
+      grid-row: 2;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .accesorios-acc {
+      grid-column: 1;
+      grid-row: 3;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .taller-accesorios {
+      grid-column: 1;
+      grid-row: 4;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      right: 2px;
+    }
+    .subtitulo-acc {
+      display: flex;
+      justify-content: center;
+      position: relative;
+      top: 5px;
+      right: 120px;
+      font-size: 15px;
+      text-decoration: underline;
+    }
+    .f-accesorios1 {
+      background-position: center;
+      background-repeat: no-repeat;
+      position: absolute;
+      max-width: 340px;
+      margin-top: 10px;
+      left: 30px;
+      background-position: center;
+    }
+    .parrafo-img1-ac {
+      display: flex;
+      justify-content: center;
+      position: relative;
+      bottom: 0px;
+      top: 80px;
+      margin-right: 5%;
+      margin-left: 5%;
+      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+      font-size: 60px;
+      color: rgba(253, 252, 252, 0.47);
+    }
+    .f-accesorios2 {
+      background-position: center;
+      background-repeat: no-repeat;
+      position: absolute;
+      max-width: 340px;
+      margin-top: 185px;
+      margin-left: 30px;
+    }
+    .parrafo-img2-ac {
+      display: flex;
+      justify-content: center;
+      position: relative;
+      top: 250px;
+      margin-right: 5%;
+      margin-left: 5%;
+      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+      font-size: 60px;
+      color: rgba(253, 252, 252, 0.438);
+    }
+    .f-accesorios3 {
+      background-position: relative;
+      background-repeat: no-repeat;
+      position: absolute;
+      max-width: 340px;
+      margin-top: 355px;
+      margin-left: 30px;
+    }
+    .parrafo-img3-ac {
+      display: flex;
+      justify-content: center;
+      position: relative;
+      bottom: 0;
+      top: 420px;
+      margin-right: 5%;
+      margin-left: 5%;
+      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+      font-size: 60px;
+      color: rgba(253, 252, 252, 0.527);
+    }
+    .f-accesorios4 {
+      background-position: center;
+      background-repeat: no-repeat;
+      position: absolute;
+      max-width: 340px;
+      margin-top: 523px;
+      margin-left: 30px;
+      background-position: center;
+    }
+    .parrafo-img4-ac {
+      display: flex;
+      justify-content: center;
+      position: relative;
+      bottom: 0;
+      top: 580px;
+      margin-right: 5%;
+      margin-left: 5%;
+      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+      font-size: 60px;
+      border-radius: 5px;
+      color: rgba(253, 252, 252, 0.527);
+      background-attachment: relative;
+    }
+    .f-accesorios5 {
+      background-position: center;
+      background-repeat: no-repeat;
+      position: absolute;
+      max-width: 340px;
+      margin-top: 668px;
+      margin-left: 30px;
+      background-position: center;
+    }
+    .parrafo-img5-ac {
+      display: flex;
+      justify-content: center;
+      position: relative;
+      bottom: 0;
+      top: 735px;
+      margin-right: 5%;
+      margin-left: 5%;
+      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+      font-size: 60px;
+      border-radius: 5px;
+      color: rgba(253, 252, 252, 0.527);
+      background-attachment: relative;
+    }
+  }
+
+  @media only screen and (min-width: 1200px) {
+    /* styles for browsers larger than 1200px; */
+    .titulo-accesorios h1 {
+      color: rgba(219, 171, 51, 0.996);
+      font-size: 80px;
+      font-weight: 30px;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+    }
+    .nav-div-accesorios {
+      position: relative;
+      margin-top: 10px;
+      display: flex;
+      gap: 60px;
+      justify-content: center;
+      align-items: center;
+      font-size: 20px;
+    }
+    .accesorios-contacto {
+      grid-column: 1;
+      grid-row: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .bicicletas-accesorios {
+      grid-column: 2;
+      grid-row: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .accesorios-acc {
+      grid-column: 3;
+      grid-row: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .taller-accesorios {
+      grid-column: 4;
+      grid-row: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .subtitulo-acc {
+      display: flex;
+      justify-content: center;
+      position: relative;
+      top: 0px;
+      right: 640px;
+      text-decoration: underline;
+    }
+    .f-accesorios1 {
+      background-position: center;
+      background-repeat: no-repeat;
+      position: absolute;
+      max-width: 448px;
+      top: 250px;
+      left: 40px;
+      background-position: center;
+    }
+    .parrafo-img1-ac {
+      display: flex;
+      justify-content: center;
+      position: relative;
+      bottom: 0px;
+      top: 110px;
+      right: 490px;
+      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+      font-size: 70px;
+      color: rgba(253, 252, 252, 0.495);
+    }
+    .f-accesorios2 {
+      background-position: center;
+      background-repeat: no-repeat;
+      position: absolute;
+      max-width: 460px;
+      top: 251px;
+      left: 510px;
+    }
+    .parrafo-img2-ac {
+      display: flex;
+      justify-content: center;
+      position: relative;
+      top: 15px;
+      left: 0px;
+      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+      font-size: 70px;
+      color: rgba(253, 252, 252, 0.527);
+    }
+    .f-accesorios3 {
+      background-position: relative;
+      background-repeat: no-repeat;
+      position: absolute;
+      max-width: 465px;
+      top: 252px;
+      left: 990px;
+    }
+    .parrafo-img3-ac {
+      display: flex;
+      justify-content: center;
+      position: relative;
+      bottom: 60px;
+      left: 480px;
+      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+      font-size: 65px;
+      color: rgba(253, 252, 252, 0.527);
+    }
+    .f-accesorios4 {
+      background-position: center;
+      background-repeat: no-repeat;
+      position: absolute;
+      max-width: 475px;
+      left: 254px;
+      margin-top: 83px;
+      background-position: center;
+    }
+    .parrafo-img4-ac {
+      display: flex;
+      justify-content: center;
+      position: relative;
+      top: 165px;
+      right: 260px;
+      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+      font-size: 70px;
+      color: rgba(253, 252, 252, 0.516);
+      background-attachment: relative;
+    }
+    .f-accesorios5 {
+      background-position: center;
+      background-repeat: no-repeat;
+      position: absolute;
+      max-width: 475px;
+      top: 592px;
+      margin-bottom: 20px;
+      left: 750px;
+      background-position: center;
+    }
+    .parrafo-img5-ac {
+      display: flex;
+      justify-content: center;
+      position: relative;
+      bottom: 0;
+      top: 75px;
+      left: 245px;
+      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+      font-size: 70px;
+      color: rgba(253, 252, 252, 0.577);
+      background-attachment: relative;
+    }
+  }

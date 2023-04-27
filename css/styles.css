@@ -2,23 +2,22 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: rgb(255, 255, 255);
   margin-bottom: 10px;
 }
+
 a {
   text-decoration: none;
   color: white;
-  align-self: center;
-  margin-bottom: 0%;
 }
 
 body {
-  background-image: url(./img/portada-zapatillas/portada.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-color: #464646;
+  max-height: 100%;
+  width: 100%;
+  background-size: 5px;
+  background-attachment: relative;
+  background-color: rgb(14, 41, 51);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -26,116 +25,589 @@ body {
 
 @media only screen and (max-width: 400px) {
   /* styles for mobile. 400px; */
-  .header-titulo {
-    color: aliceblue;
-    margin-top: 50%;
-    margin-left: 3%;
-    font-size: 25px;
-    align-self: center;
+  .footer-parrafo {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: black;
+    font-size: 130%;
+    bottom: 1080px;
+    padding-bottom: 150%;
+    padding-top: 10%;
+    padding-right: 60%;
+    right: 0%;
+  }
+  /* secciones */
+  .column-content-2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    bottom: 1510px;
+    font-size: 120%;
+    right: 28%;
+  }
+  .links {
+    list-style-type: none;
+  }
+  .tarjet-1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    gap: 2%;
+    bottom: 1520px;
+  }
+  .column-content-3 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 1770px;
+    font-size: 100%;
+    right: 30%;
+  }
+  .footer-parrafo-2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 1650px;
+    font-size: 130%;
+    right: 34%;
+  }
+  .titulo-footer-2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 1650px;
+    font-size: 110%;
+    right: 38%;
+  }
+  .copy-right {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 1640px;
+    padding: auto;
+    color: grey;
+    font-size: 60%;
+    right: 0%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  /* styles for mobile. 400px; */
+  .footer-parrafo-contacto {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    font-size: 130%;
+    bottom: 1080px;
+    padding-bottom: 150%;
+    padding-top: 10%;
+    padding-right: 60%;
+    right: 0%;
+  }
+  /* secciones */
+  .column-content-2c {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    bottom: 1510px;
+    font-size: 120%;
+    right: 28%;
+  }
+  .links-contacto {
+    list-style-type: none;
+  }
+  .tarjet-1c {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    gap: 2%;
+    bottom: 1520px;
+  }
+  .column-content-3c {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 1770px;
+    font-size: 100%;
+    right: 30%;
+  }
+  .footer-parrafo-2c {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 1650px;
+    font-size: 130%;
+    right: 34%;
+  }
+  .titulo-footer-2c {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 1650px;
+    font-size: 110%;
+    right: 38%;
+  }
+  .copy-right-c {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 1640px;
+    padding: auto;
+    color: grey;
+    font-size: 60%;
+    right: 0%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  /* styles for mobile. 400px; */
+  .footer-parrafo-taller {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: black;
+    font-size: 130%;
+    bottom: 1080px;
+    padding-bottom: 150%;
+    padding-top: 10%;
+    padding-right: 60%;
+    right: 0%;
+  }
+  /* secciones */
+  .column-content-2t {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    bottom: 1510px;
+    font-size: 120%;
+    right: 28%;
+  }
+  .links-taller {
+    list-style-type: none;
+  }
+  .tarjet-1t {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    gap: 2%;
+    bottom: 1520px;
+  }
+  .column-content-3t {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 1770px;
+    font-size: 100%;
+    right: 30%;
+  }
+  .footer-parrafo-2t {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 1650px;
+    font-size: 130%;
+    right: 34%;
+  }
+  .titulo-footer-2t {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 1650px;
+    font-size: 110%;
+    right: 38%;
+  }
+  .copy-right-t {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 1640px;
+    padding: auto;
+    color: grey;
+    font-size: 60%;
+    right: 0%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  /* styles for browsers larger than 1200px; */
+  .footer-parrafo {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: black;
+    font-size: 30px;
+    bottom: 1795px;
+    padding-bottom: 30%;
+    padding-top: 3%;
+    padding-right: 80%;
+    right: 0%;
+  }
+  /* secciones */
+  .column-content-2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    bottom: 2310px;
+    font-size: 30px;
+    right: 15px;
+  }
+  .links {
+    list-style-type: none;
+  }
+  .tarjet-1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    gap: 2%;
+    bottom: 2280px;
+  }
+  .column-content-3 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 2370px;
+    font-size: 20px;
+    right: 40%;
+  }
+  .footer-parrafo-2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 2600px;
+    font-size: 30px;
+    right: 0%;
+    left: 580px;
+  }
+  .titulo-footer-2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 2580px;
+    font-size: 20px;
+    right: 0%;
+    left: 560px;
+  }
+  .copy-right {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 2340px;
+    padding: auto;
+    color: grey;
+    font-size: 20px;
+    right: 0%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  /* styles for mobile. 400px; */
+  .titulo h1 {
+    color: rgba(217, 169, 48, 0.996);
+    position: relative;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 30px;
   }
   .header-form {
     display: none;
   }
   .nav-div {
-    margin-top: 10%;
     display: grid;
+    font-weight: 2rem;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(4, 1fr);
-    gap: 0px;
+    padding: 0, 5rem;
+    gap: 10%;
+    text-align: center;
     align-self: center;
   }
-  .nosotros {
+  .contacto {
     grid-column: 1;
     grid-row: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
-  .mujer {
+  .bicicletas {
     grid-column: 1;
     grid-row: 2;
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
-  .hombre {
+  .accesorios {
     grid-column: 1;
     grid-row: 3;
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
-  .niños {
+  .taller {
     grid-column: 1;
     grid-row: 4;
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    right: 3px;
   }
   .novedades {
-    position: absolute;
-    align-self: center;
-    font-size: 30px;
-    color: rgba(240, 248, 255, 0.603);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-top: 120%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 0%;
+    border: 30%;
+    font-size: 40px;
+    border-style: ridge;
+    color: rgba(217, 169, 48, 0.996);
+    background-color: rgba(112, 107, 107, 0.2588235294);
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     text-transform: uppercase;
   }
+  .video-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+  }
   .articulo {
+    background-position: relative;
+    background-repeat: no-repeat;
+    max-width: 400px;
+    background-attachment: relative;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 180px;
   }
-  /* fin de seccion index */
-  /* comienzo de seccion hombre */
-  .header-hombre {
+  .texto-secundario {
+    background-color: rgba(78, 65, 65, 0.227);
+    font-family: Georgia, "Times New Roman", Times, serif;
+    position: relative;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 500px;
+    bottom: 960px;
   }
-  /* fin de seccion hombre */
-  /* comienzo de seccion mujer */
+  .form-label {
+    position: relative;
+    flex-direction: row;
+    bottom: 960px;
+    font-size: 20px;
+    margin-left: 10%;
+    border-radius: 0%;
+  }
+  .form-control {
+    position: relative;
+    flex-direction: row;
+    bottom: 985px;
+    font-size: 20px;
+    width: 250px;
+    text-align: center;
+    margin-left: 25%;
+  }
+  .parrafo-foto {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    top: 0px;
+    padding-top: 10px;
+    background-color: rgb(14, 41, 51);
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 100%;
+  }
+  .card-text {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 690px;
+    font-size: 1em;
+    background-color: black;
+    padding-top: 30%;
+    padding-bottom: 50%;
+  }
+  .card-icon {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 80px;
+    width: 100px;
+    bottom: 880px;
+    left: 155px;
+    align-items: center;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 5rem;
+  }
+  .contenedor-accesorios {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    bottom: 755px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-repeat: no-repeat;
+    background-attachment: relative;
+  }
+  .parrafo-foto-P2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 1000px;
+    margin-right: 40%;
+    margin-left: 5%;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 35px;
+    font-weight: 800;
+    color: rgba(255, 255, 255, 0.856);
+    background-repeat: no-repeat;
+    background-attachment: relative;
+    border-radius: 30px;
+    background-color: rgba(235, 71, 11, 0.273);
+  }
+  .contenedor-taller {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    bottom: 910px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-repeat: no-repeat;
+    background-attachment: relative;
+  }
+  .parrafo-foto-P3 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 1050px;
+    margin-right: 10%;
+    margin-left: 55%;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: rgba(235, 71, 11, 0.371);
+    color: rgba(253, 252, 252, 0.756);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-attachment: relative;
+  }
+  .modelos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    bottom: 1010px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-repeat: no-repeat;
+    background-attachment: relative;
+  }
+  .parrafo-foto-P4 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 1090px;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    border-radius: 5px;
+    background-color: rgba(235, 71, 11, 0.371);
+    color: rgba(253, 252, 252, 0.756);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-attachment: relative;
+  }
+  .bi-telefono {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    bottom: 1055px;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: -40%;
+    background-repeat: no-repeat;
+    background-attachment: relative;
+  }
+  .click {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-size: 10px;
+    bottom: 75px;
+    left: 130px;
+  }
 }
-
 @media only screen and (min-width: 1200px) {
   /* styles for browsers larger than 1200px; */
-  .header-titulo {
-    color: aliceblue;
-    margin-top: 15%;
-    margin-left: 35%;
-    font-size: 20px;
-    position: absolute;
+  .titulo h1 {
+    color: rgba(219, 171, 51, 0.996);
+    font-size: 70px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
   }
   .header-form {
-    margin-top: 15%;
-    margin-left: 40%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    visibility: visible;
+    margin-top: 5px;
     font-size: 10px;
-    position: absolute;
+    position: relative;
   }
   .nav-div {
-    position: absolute;
-    margin-top: 40%;
-    margin-left: 34%;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
+    position: relative;
+    margin-top: 0%;
+    margin-left: 0%;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
   }
-  .nosotros {
+  .contacto {
     grid-column: 1;
     grid-row: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
-  .mujer {
+  .bicicletas {
     grid-column: 2;
     grid-row: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
-  .hombre {
+  .accesorios {
     grid-column: 3;
     grid-row: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
-  .niños {
+  .taller {
     grid-column: 4;
     grid-row: 1;
     display: flex;
@@ -143,35 +615,1470 @@ body {
     justify-content: center;
   }
   .novedades {
-    position: absolute;
-    align-self: center;
-    font-size: 60px;
-    color: rgba(240, 248, 255, 0.603);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-top: 80%;
-    text-transform: uppercase;
-  }
-  .articulo {
-    position: absolute;
-    align-self: center;
-    margin-top: 80%;
-    flex-direction: column;
-    padding: 15px;
     display: flex;
     justify-content: center;
-    width: 100%;
-    height: 60%;
-  }
-  .boton {
-    position: absolute;
-    bottom: 4em;
-    right: 4em;
-    background-color: #99a33f3f;
-    border-radius: 1.5em;
-    color: white;
+    position: relative;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 0%;
+    border: 30%;
+    font-size: 50px;
+    border-style: ridge;
+    color: rgba(217, 169, 48, 0.996);
+    background-color: rgba(112, 107, 107, 0.2588235294);
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     text-transform: uppercase;
-    padding: 1em 1.5em;
   }
-  .header-hombre {
+  .video-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    margin-top: 5px;
+  }
+  .articulo {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-self: center;
+    font-size: 100px;
+    font-weight: 1200px;
+    margin-top: 350px;
+    flex-direction: column;
+  }
+  .texto-secundario {
+    background-color: rgba(78, 65, 65, 0.227);
+    font-family: Georgia, "Times New Roman", Times, serif;
+    position: relative;
+    text-align: center;
+    font-size: 70px;
+    bottom: 1645px;
+  }
+  .form-label {
+    position: relative;
+    flex-direction: row;
+    bottom: 1625px;
+    font-size: 30px;
+    margin-left: 30%;
+  }
+  .form-control {
+    position: relative;
+    flex-direction: row;
+    bottom: 1630px;
+    font-size: 20px;
+    width: 500px;
+    height: 40px;
+    text-align: center;
+    margin-left: 1%;
+  }
+  .parrafo-foto {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    border-top: 10px;
+    border-bottom: 100px;
+    background-color: rgba(34, 87, 106, 0.352);
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  .card-text {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex-direction: row;
+    bottom: 260px;
+    font-size: 3em;
+    background-color: black;
+    padding-top: 15%;
+    padding-bottom: 30%;
+  }
+  .card-icon {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100px;
+    bottom: 730px;
+    left: 720px;
+    align-items: center;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 9rem;
+  }
+  .contenedor-accesorios {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    bottom: 420px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-repeat: no-repeat;
+    background-attachment: relative;
+  }
+  .parrafo-foto-P2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 1820px;
+    right: 420px;
+    font-family: "Rubik", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 30px;
+    text-align: center;
+    border-radius: 60px;
+    background-color: rgba(235, 71, 11, 0.371);
+    color: rgba(253, 252, 252, 0.756);
+    font-size: 70px;
+    background-repeat: no-repeat;
+    background-attachment: relative;
+    margin: 500px;
+  }
+  .contenedor-taller {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    bottom: 1665px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-repeat: no-repeat;
+    background-attachment: relative;
+  }
+  .parrafo-foto-P3 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 1800px;
+    margin-right: 10%;
+    margin-left: 40%;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    border-radius: 6px;
+    background-color: rgba(235, 71, 11, 0.371);
+    color: rgba(253, 252, 252, 0.756);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-attachment: relative;
+  }
+  .modelos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    bottom: 1740px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-repeat: no-repeat;
+    background-attachment: relative;
+  }
+  .parrafo-foto-P4 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 1860px;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 60px;
+    font-weight: 800%;
+    border-radius: 5px;
+    background-color: rgba(235, 71, 11, 0.371);
+    color: rgba(253, 252, 252, 0.756);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-attachment: relative;
+  }
+  .bi-telefono {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    bottom: 1800px;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: -40%;
+    background-repeat: no-repeat;
+    background-attachment: relative;
+  }
+  .click {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-size: 20px;
+    bottom: 100px;
+    left: 150px;
   }
 }
+@media only screen and (max-width: 400px) {
+  /* styles for mobile. 400px; */
+  .titulo-contacto h1 {
+    position: relative;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 10px;
+    color: rgba(217, 169, 48, 0.996);
+  }
+  .nav-div-contacto {
+    display: grid;
+    font-weight: 2rem;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    padding: 0, 5rem;
+    gap: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    align-self: center;
+  }
+  .c-contacto {
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .contacto-bicicletas {
+    grid-column: 1;
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .contacto-accesorios {
+    grid-column: 1;
+    grid-row: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .contacto-tallerr {
+    grid-column: 1;
+    grid-row: 4;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    right: 5px;
+  }
+  .seccion-contacto {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    text-decoration: underline;
+    font-size: 15px;
+  }
+  .colocar-nombre {
+    margin-top: 0px;
+    font-size: 15px;
+  }
+}
+/* Fin de seccion mobile */
+/* -----------------------------------------------------------------------------Inicio seccion escritorio----------------------------------------------------------------- */
+@media only screen and (min-width: 1200px) {
+  /* styles for browsers larger than 1200px; */
+  .titulo-contacto h1 {
+    position: relative;
+    top: -130px;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 10px;
+    color: rgba(217, 169, 48, 0.996);
+  }
+  .nav-div-contacto {
+    position: relative;
+    margin-top: 0px;
+    display: flex;
+    gap: 60px;
+    bottom: 165px;
+    align-items: center;
+    font-size: 20px;
+  }
+  .c-contacto {
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .contacto-bicicletas- {
+    grid-column: 1;
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .contacto-accesorios {
+    grid-column: 1;
+    grid-row: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .contacto-tallerr {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    right: 3px;
+  }
+}
+/* Fin de secion escritorio */
+@media only screen and (max-width: 400px) {
+  /* styles for mobile. 400px; */
+  .bici-titulo h1 {
+    position: relative;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 10px;
+    color: rgba(217, 169, 48, 0.996);
+  }
+  .header-form-bic {
+    display: none;
+  }
+  .nav-div-bici {
+    display: grid;
+    font-weight: 2rem;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    padding: 0, 5rem;
+    gap: 26px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    text-align: center;
+    align-self: center;
+  }
+  .bici-contacto {
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .bici-bicicletas- {
+    grid-column: 1;
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .bici-accesorios {
+    grid-column: 1;
+    grid-row: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .bici-taller {
+    grid-column: 1;
+    grid-row: 4;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    right: 1px;
+  }
+  .subtitulo-bici {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 0px;
+    right: 120px;
+    text-decoration: underline;
+  }
+  .foto1-bici {
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    max-width: 340px;
+    top: 430px;
+    left: 30px;
+    background-position: center;
+  }
+  .parrafo-img1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 0px;
+    top: 70px;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 60px;
+    color: rgba(253, 252, 252, 0.315);
+  }
+  .foto2-bici {
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    max-width: 340px;
+    top: 670px;
+    left: 30px;
+  }
+  .parrafo-img2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 0px;
+    top: 230px;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 60px;
+    color: rgba(253, 252, 252, 0.527);
+  }
+  .foto3-bici {
+    background-position: relative;
+    background-repeat: no-repeat;
+    position: absolute;
+    max-width: 340px;
+    top: 912px;
+    left: 30px;
+  }
+  .parrafo-img3 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 0;
+    top: 390px;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 60px;
+    color: rgba(253, 252, 252, 0.527);
+  }
+  .foto4-bici {
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    max-width: 340px;
+    top: 1160px;
+    left: 30px;
+    background-position: center;
+  }
+  .parrafo-img4 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 0;
+    top: 560px;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 60px;
+    border-radius: 5px;
+    color: rgba(253, 252, 252, 0.527);
+    background-attachment: relative;
+  }
+  .foto5-bici {
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    max-width: 340px;
+    top: 1415px;
+    bottom: 10px;
+    left: 30px;
+    background-position: center;
+  }
+  .parrafo-img5 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 0;
+    top: 725px;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 60px;
+    color: rgba(253, 252, 252, 0.527);
+    background-attachment: relative;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  /* styles for browsers larger than 1200px; */
+  .bici-titulo h1 {
+    color: rgba(219, 171, 51, 0.996);
+    font-size: 80px;
+    font-weight: 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .nav-div-bici {
+    position: relative;
+    margin-top: 0px;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+  }
+  .bici-contacto {
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .bici-bicicletas {
+    grid-column: 2;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .bici-accesorios {
+    grid-column: 3;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .bici-taller {
+    grid-column: 4;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .subtitulo-bici {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 0px;
+    right: 630px;
+    text-decoration: underline;
+  }
+  .foto1-bici {
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    max-width: 465px;
+    margin-top: 10px;
+    margin-left: 40px;
+    background-position: center;
+  }
+  .parrafo-img1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 0px;
+    top: 100px;
+    right: 480px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 70px;
+    color: rgba(253, 252, 252, 0.392);
+  }
+  .foto2-bici {
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    max-width: 458px;
+    margin-top: -83px;
+    margin-left: 526px;
+  }
+  .parrafo-img2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 12px;
+    left: 15px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 70px;
+    color: rgba(253, 252, 252, 0.448);
+  }
+  .foto3-bici {
+    background-position: relative;
+    background-repeat: no-repeat;
+    position: absolute;
+    max-width: 450px;
+    margin-top: -178px;
+    left: 1005px;
+  }
+  .parrafo-img3 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 85px;
+    left: 480px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 65px;
+    color: rgba(253, 252, 252, 0.448);
+  }
+  .foto4-bici {
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    max-width: 450px;
+    margin-left: 280px;
+    margin-top: 55px;
+    background-position: center;
+  }
+  .parrafo-img4 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 160px;
+    right: 230px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 70px;
+    color: rgba(253, 252, 252, 0.479);
+    background-attachment: relative;
+  }
+  .foto5-bici {
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    max-width: 470px;
+    margin-top: -40px;
+    margin-bottom: 20px;
+    margin-left: 750px;
+    background-position: center;
+  }
+  .parrafo-img5 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 0;
+    top: 70px;
+    left: 240px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 70px;
+    color: rgba(253, 252, 252, 0.577);
+    background-attachment: relative;
+  }
+}
+/* Fin de seccion escritorio */
+/* -------------------------------------------------------------------------------Contacto--------------------------------------------------------------------------- */
+@media only screen and (max-width: 400px) {
+  /* styles for mobile. 400px; */
+  .titulo-contacto h1 {
+    position: relative;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 10px;
+    color: rgba(217, 169, 48, 0.996);
+  }
+  .nav-div-contacto {
+    display: grid;
+    font-weight: 2rem;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    padding: 0, 5rem;
+    gap: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    align-self: center;
+  }
+  .c-contacto {
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .contacto-bicicletas {
+    grid-column: 1;
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .contacto-accesorios {
+    grid-column: 1;
+    grid-row: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .contacto-tallerr {
+    grid-column: 1;
+    grid-row: 4;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    right: 5px;
+  }
+  .seccion-contacto {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    text-decoration: underline;
+    font-size: 15px;
+  }
+  .colocar-nombre {
+    margin-top: 0px;
+    font-size: 15px;
+  }
+}
+/* Fin de seccion mobile */
+/* -----------------------------------------------------------------------------Inicio seccion escritorio----------------------------------------------------------------- */
+@media only screen and (min-width: 1200px) {
+  /* styles for browsers larger than 1200px; */
+  .titulo-contacto h1 {
+    color: rgba(217, 169, 48, 0.996);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-size: 80px;
+    font-weight: 70%;
+    text-align: center;
+  }
+  .nav-div-contacto {
+    display: grid;
+    font-weight: 2rem;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    padding: 0, 5rem;
+    gap: 5px;
+    text-align: center;
+    align-self: center;
+  }
+  .c-contacto {
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .contacto-bicicletas- {
+    grid-column: 1;
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .contacto-accesorios {
+    grid-column: 1;
+    grid-row: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .contacto-taller {
+    grid-column: 1;
+    grid-row: 4;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    right: 3px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  /* styles for mobile. 400px; */
+  .titulo-accesorios h1 {
+    position: relative;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 10px;
+    color: rgba(217, 169, 48, 0.996);
+  }
+  .nav-div-accesorios {
+    display: grid;
+    font-weight: 2rem;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    padding: 0, 5rem;
+    gap: 16px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    align-self: center;
+  }
+  .accesorios-contacto {
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .bicicletas-accesorios {
+    grid-column: 1;
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .accesorios-acc {
+    grid-column: 1;
+    grid-row: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .taller-accesorios {
+    grid-column: 1;
+    grid-row: 4;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    right: 2px;
+  }
+  .subtitulo-acc {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 5px;
+    right: 120px;
+    font-size: 15px;
+    text-decoration: underline;
+  }
+  .f-accesorios1 {
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    max-width: 340px;
+    margin-top: 10px;
+    left: 30px;
+    background-position: center;
+  }
+  .parrafo-img1-ac {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 0px;
+    top: 80px;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 60px;
+    color: rgba(253, 252, 252, 0.47);
+  }
+  .f-accesorios2 {
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    max-width: 340px;
+    margin-top: 185px;
+    margin-left: 30px;
+  }
+  .parrafo-img2-ac {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 250px;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 60px;
+    color: rgba(253, 252, 252, 0.438);
+  }
+  .f-accesorios3 {
+    background-position: relative;
+    background-repeat: no-repeat;
+    position: absolute;
+    max-width: 340px;
+    margin-top: 355px;
+    margin-left: 30px;
+  }
+  .parrafo-img3-ac {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 0;
+    top: 420px;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 60px;
+    color: rgba(253, 252, 252, 0.527);
+  }
+  .f-accesorios4 {
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    max-width: 340px;
+    margin-top: 523px;
+    margin-left: 30px;
+    background-position: center;
+  }
+  .parrafo-img4-ac {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 0;
+    top: 580px;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 60px;
+    border-radius: 5px;
+    color: rgba(253, 252, 252, 0.527);
+    background-attachment: relative;
+  }
+  .f-accesorios5 {
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    max-width: 340px;
+    margin-top: 668px;
+    margin-left: 30px;
+    background-position: center;
+  }
+  .parrafo-img5-ac {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 0;
+    top: 735px;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 60px;
+    border-radius: 5px;
+    color: rgba(253, 252, 252, 0.527);
+    background-attachment: relative;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  /* styles for browsers larger than 1200px; */
+  .titulo-accesorios h1 {
+    color: rgba(219, 171, 51, 0.996);
+    font-size: 80px;
+    font-weight: 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .nav-div-accesorios {
+    position: relative;
+    margin-top: 10px;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+  }
+  .accesorios-contacto {
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .bicicletas-accesorios {
+    grid-column: 2;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .accesorios-acc {
+    grid-column: 3;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .taller-accesorios {
+    grid-column: 4;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .subtitulo-acc {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 0px;
+    right: 640px;
+    text-decoration: underline;
+  }
+  .f-accesorios1 {
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    max-width: 448px;
+    top: 250px;
+    left: 40px;
+    background-position: center;
+  }
+  .parrafo-img1-ac {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 0px;
+    top: 110px;
+    right: 490px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 70px;
+    color: rgba(253, 252, 252, 0.495);
+  }
+  .f-accesorios2 {
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    max-width: 460px;
+    top: 251px;
+    left: 510px;
+  }
+  .parrafo-img2-ac {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 15px;
+    left: 0px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 70px;
+    color: rgba(253, 252, 252, 0.527);
+  }
+  .f-accesorios3 {
+    background-position: relative;
+    background-repeat: no-repeat;
+    position: absolute;
+    max-width: 465px;
+    top: 252px;
+    left: 990px;
+  }
+  .parrafo-img3-ac {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 60px;
+    left: 480px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 65px;
+    color: rgba(253, 252, 252, 0.527);
+  }
+  .f-accesorios4 {
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    max-width: 475px;
+    left: 254px;
+    margin-top: 83px;
+    background-position: center;
+  }
+  .parrafo-img4-ac {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 165px;
+    right: 260px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 70px;
+    color: rgba(253, 252, 252, 0.516);
+    background-attachment: relative;
+  }
+  .f-accesorios5 {
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    max-width: 475px;
+    top: 592px;
+    margin-bottom: 20px;
+    left: 750px;
+    background-position: center;
+  }
+  .parrafo-img5-ac {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 0;
+    top: 75px;
+    left: 245px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 70px;
+    color: rgba(253, 252, 252, 0.577);
+    background-attachment: relative;
+  }
+}
+@media only screen and (max-width: 400px) {
+  /* styles for mobile. 400px; */
+  .titulo-taller h1 {
+    position: relative;
+    margin-top: 10%;
+    margin-bottom: 2%;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 10px;
+    color: rgba(217, 169, 48, 0.996);
+  }
+  .nav-div-taller {
+    display: grid;
+    font-weight: 2rem;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    padding: 0, 5rem;
+    gap: 16px;
+    margin-top: 0px;
+    text-align: center;
+    align-self: center;
+  }
+  .contacto-taller {
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .bicicletas-taller {
+    grid-column: 1;
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .accesorios-taller {
+    grid-column: 1;
+    grid-row: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .taller-taller {
+    grid-column: 1;
+    grid-row: 4;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    right: 2px;
+  }
+  .subtitulo-taller h2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 20px;
+    right: 120px;
+    font-size: 20px;
+    text-decoration: underline;
+  }
+  .subtitulo-taller h3 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 20px;
+    right: 0px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    background-color: rgba(86, 86, 86, 0.44);
+  }
+  .arreglos {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    margin-top: 30px;
+  }
+  .seccion-contacto-2 h5 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    background-color: rgba(86, 86, 86, 0.996);
+  }
+  .colocar-nombre-t {
+    position: relative;
+    flex-direction: row;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 2px;
+    margin-left: 35px;
+  }
+  .imput-contacto-1 {
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    color: rgba(113, 113, 113, 0.741);
+    font-size: 15px;
+    font-weight: 3px;
+    cursor: text;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-color: rgb(99, 97, 97), rgb(116, 115, 115);
+  }
+  .colocar-email-t {
+    position: relative;
+    display: flex;
+    justify-content: start;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 2px;
+    margin-left: 55px;
+  }
+  .imput-contacto-2 {
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    color: rgba(119, 116, 116, 0.741);
+    font-size: 15px;
+    font-weight: 3px;
+    cursor: text;
+    margin-left: 6px;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-color: rgb(99, 97, 97), rgb(116, 115, 115);
+  }
+  .colocar-telefono-t {
+    position: relative;
+    flex-direction: row;
+    margin-top: 8px;
+    font-size: 19px;
+    margin-left: 31px;
+  }
+  .imput-contacto-3 {
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    color: rgba(119, 116, 116, 0.741);
+    font-size: 15px;
+    font-weight: 1px;
+    cursor: text;
+    margin-left: 2px;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-color: rgb(99, 97, 97), rgb(116, 115, 115);
+  }
+  .colocar-mensaje-t {
+    position: relative;
+    flex-direction: row;
+    bottom: 80px;
+    font-size: 19px;
+    margin-left: 31px;
+  }
+  .textarea {
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    color: rgba(119, 116, 116, 0.741);
+    font-size: 15px;
+    font-weight: 1px;
+    cursor: text;
+    margin-left: 2px;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-color: rgb(99, 97, 97), rgb(116, 115, 115);
+  }
+  .boton-contacto-t {
+    position: relative;
+    flex-direction: row;
+    margin-top: 0px;
+    font-size: 20px;
+    margin-left: 180px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  /* styles for browsers larger than 1200px; */
+  .titulo-taller h1 {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 2%;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 10px;
+    color: rgba(217, 169, 48, 0.996);
+  }
+  .nav-div-taller {
+    position: relative;
+    margin-top: 0px;
+    display: flex;
+    gap: 60px;
+    bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+  }
+  .contacto-taller {
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .bicicletas-taller {
+    grid-column: 1;
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .accesorios-taller {
+    grid-column: 1;
+    grid-row: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .taller-taller {
+    grid-column: 1;
+    grid-row: 4;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    right: 2px;
+  }
+  .subtitulo-taller h2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 15px;
+    right: 650px;
+    font-size: 20px;
+    text-decoration: underline;
+  }
+  .subtitulo-taller h3 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 10px;
+    right: 0px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    background-color: rgba(86, 86, 86, 0.44);
+  }
+  .imagen1-t img {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    width: 400px;
+  }
+  .imagen2-t {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    width: 565px;
+    margin-top: -431px;
+    margin-left: 550px;
+  }
+  .imagen3-t {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    width: 540px;
+    height: 408px;
+    margin-top: -428px;
+    margin-left: 1050px;
+  }
+  .arreglos {
+    display: flex;
+    gap: 50px;
+    font-size: 20px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    background-color: rgba(0, 14, 166, 0.274);
+    padding-top: 10px;
+    padding-left: 20px;
+    margin-left: 0px;
+    margin-top: -10px;
+    margin-bottom: 0px;
+  }
+  .seccion-contacto-2 h5 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 15px;
+    right: 0px;
+    font-size: 20px;
+    text-decoration: underline;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  }
+  .colocar-nombre-t {
+    position: relative;
+    flex-direction: row;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 2px;
+    margin-left: 35px;
+  }
+  .imput-contacto-1 {
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    color: rgba(113, 113, 113, 0.741);
+    font-size: 15px;
+    font-weight: 3px;
+    cursor: text;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-color: rgb(99, 97, 97), rgb(116, 115, 115);
+  }
+  .colocar-email-t {
+    position: relative;
+    display: flex;
+    justify-content: start;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 2px;
+    margin-left: 55px;
+  }
+  .imput-contacto-2 {
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    color: rgba(119, 116, 116, 0.741);
+    font-size: 15px;
+    font-weight: 3px;
+    cursor: text;
+    margin-left: 6px;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-color: rgb(99, 97, 97), rgb(116, 115, 115);
+  }
+  .colocar-telefono-t {
+    position: relative;
+    flex-direction: row;
+    margin-top: 8px;
+    font-size: 19px;
+    margin-left: 31px;
+  }
+  .imput-contacto-3 {
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    color: rgba(119, 116, 116, 0.741);
+    font-size: 15px;
+    font-weight: 1px;
+    cursor: text;
+    margin-left: 2px;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-color: rgb(99, 97, 97), rgb(116, 115, 115);
+  }
+  .colocar-mensaje-t {
+    position: relative;
+    flex-direction: row;
+    bottom: 80px;
+    font-size: 19px;
+    margin-left: 31px;
+  }
+  .textarea {
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    color: rgba(119, 116, 116, 0.741);
+    font-size: 15px;
+    font-weight: 1px;
+    cursor: text;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-color: rgb(99, 97, 97), rgb(116, 115, 115);
+  }
+  .boton-contacto-t {
+    position: relative;
+    flex-direction: row;
+    margin-top: 0px;
+    font-size: 20px;
+    margin-left: 180px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

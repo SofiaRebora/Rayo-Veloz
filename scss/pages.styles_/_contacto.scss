@@ -1,0 +1,115 @@
+@media only screen and (max-width: 400px) {
+    /* styles for mobile. 400px; */
+    .titulo-contacto h1 {
+      position: relative;
+      margin-top: 10%;
+      margin-bottom: 5%;
+      text-align: center;
+      font-size: 60px;
+      font-weight: 10px;
+      color: rgba(217, 169, 48, 0.996);
+    }
+    .nav-div-contacto {
+      display: grid;
+      font-weight: 2rem;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(4, 1fr);
+      padding: 0, 5rem;
+      gap: 15px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      text-align: center;
+      align-self: center;
+    }
+    .c-contacto {
+      grid-column: 1;
+      grid-row: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .contacto-bicicletas {
+      grid-column: 1;
+      grid-row: 2;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .contacto-accesorios {
+      grid-column: 1;
+      grid-row: 3;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .contacto-tallerr {
+      grid-column: 1;
+      grid-row: 4;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      right: 5px;
+    }
+    .seccion-contacto {
+      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+      text-decoration: underline;
+      font-size: 15px;
+    }
+    .colocar-nombre {
+      margin-top: 0px;
+      font-size: 15px;
+    }
+  }
+  /* Fin de seccion mobile */
+  /* -----------------------------------------------------------------------------Inicio seccion escritorio----------------------------------------------------------------- */
+  @media only screen and (min-width: 1200px) {
+    /* styles for browsers larger than 1200px; */
+    .titulo-contacto h1 {
+      position: relative;
+      top: -130px;
+      text-align: center;
+      font-size: 80px;
+      font-weight: 10px;
+      color: rgba(217, 169, 48, 0.996);
+    }
+    .nav-div-contacto {
+      position: relative;
+      margin-top: 0px;
+      display: flex;
+      gap: 60px;
+      bottom: 165px;
+      align-items: center;
+      font-size: 20px;
+    }
+    .c-contacto {
+      grid-column: 1;
+      grid-row: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .contacto-bicicletas- {
+      grid-column: 1;
+      grid-row: 2;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .contacto-accesorios {
+      grid-column: 1;
+      grid-row: 3;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .contacto-tallerr {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      right: 3px;
+    }
+  }
+
+  /* Fin de secion escritorio */
