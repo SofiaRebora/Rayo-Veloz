@@ -51,14 +51,66 @@
       justify-content: center;
       right: 5px;
     }
-    .seccion-contacto {
-      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-      text-decoration: underline;
-      font-size: 15px;
+    .input-contacto {
+      background-color: #fbfbfb;
+      width: 408px;
+      height: 40px;
+      border-radius: 5px;
+      border-style: solid;
+      border-width: 1px;
+      border-color: darkorange;
+      margin-top: 10px;
+      padding-left: 10px;
+      margin-bottom: 20px;
     }
-    .colocar-nombre {
-      margin-top: 0px;
-      font-size: 15px;
+    .texto-mensaje {
+      background-color: #fbfbfb;
+      width: 305px;
+      height: 150px;
+      border-radius: 5px;
+      border-style: solid;
+      border-width: 1px;
+      border-color: darkorange;
+      margin-top: 20px;
+      padding-left: 0px;
+      margin-bottom: 60px;
+      padding-top: 5px;
+      padding-bottom: 40px;
+    }
+  
+    label-contacto {
+      display: block;
+      float: center;
+    }
+  
+    .boton-contacto {
+      height: 25px;
+      padding-left: 5px;
+      padding-right: px;
+      padding-top: 5px;
+      margin-bottom: 20px;
+      margin-top: 50px;
+      text-transform: uppercase;
+      background-color: white;
+      border-color: darkorange;
+      border-style: solid;
+      border-radius: 5px;
+      width: 180px;
+      cursor: pointer;
+    }
+  
+    .obligatorio-contacto {
+      color: darkorange;
+    }
+  
+    .aviso-contacto {
+      font-size: 13px;
+      color: #0e0e0e;
+      margin-left: 340px;
+    }
+    p-contacto {
+      font-size: 14px;
+      color: #0e0e0e;
     }
   }
   /* Fin de seccion mobile */
@@ -68,6 +120,7 @@
     .titulo-contacto h1 {
       position: relative;
       top: -130px;
+      bottom: 30px;
       text-align: center;
       font-size: 80px;
       font-weight: 10px;
@@ -109,6 +162,67 @@
       flex-direction: column;
       justify-content: center;
       right: 3px;
+    }
+    .input-contacto {
+      background-color: #fbfbfb;
+      width: 408px;
+      height: 40px;
+      border-radius: 5px;
+      border-style: solid;
+      border-width: 1px;
+      border-color: darkorange;
+      margin-top: 10px;
+      padding-left: 10px;
+      margin-bottom: 20px;
+      display: grid;
+      grid-template-columns: (1 1fr);
+      grid-template-rows: 2 2fr;
+    }
+    .texto-mensaje {
+      background-color: #fbfbfb;
+      width: 305px;
+      height: 150px;
+      border-radius: 5px;
+      border-style: solid;
+      border-width: 1px;
+      border-color: darkorange;
+      margin-top: 0px;
+      padding-left: 30px;
+      margin-bottom: 60px;
+      padding-top: 45px;
+      padding-bottom: 30px;
+    }
+    label-contacto {
+      display: block;
+      float: center;
+    }
+    .boton-contacto {
+      height: 25px;
+      padding-left: px;
+      padding-right: px;
+      padding-top: 5px;
+      margin-bottom: 20px;
+      margin-top: 50px;
+      text-transform: uppercase;
+      background-color: white;
+      border-color: darkorange;
+      border-style: solid;
+      border-radius: 5px;
+      width: 100px;
+      cursor: pointer;
+    }
+    .obligatorio-contacto {
+      color: darkorange;
+    }
+    .aviso-contacto {
+      font-size: 13px;
+      color: #0e0e0e;
+      margin-left: 340px;
+    }
+    p-contacto {
+      font-size: 16px;
+      color: #0e0e0e;
+      padding: 20px;
     }
   }
 

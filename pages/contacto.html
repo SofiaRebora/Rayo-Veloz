@@ -30,97 +30,62 @@
     </div>
 
     <form action="submeter-formulario.php" method="post">
-    <p-contacto>
-        <label-contacto for="nombre" class="colocar-nombre">
-        Nombre
-        <span class="obigatorio-contacto">*</span>
+        <p-contacto>
+        <label-contacto for="nombre" class="colocar_nombre">
+            Nombre
+            <span class="obligatorio-contacto">*</span>
         </label-contacto>
-        <input
-        id="Nombre"
-        class="imput-contacto-1"
-        type="text"
-        name="introducir-nombre"
-        required="obligatorio"
-        placeholder="Escribe tu nombre"
-        />
-    </p-contacto>
+        <input class="imput-contacto" type="text"name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre"/>
+        </p-contacto>
 
-    <p-contacto>
-        <label-contacto id="contacto" class="colocar-mail" for="Email">
-        Email
-        <span class="obigatorio-contacto">*</span>
+        <p-contacto>
+        <label-contacto for="email" class="colocar-email"
+            >Email
+            <span class="obligatorio-contacto">*</span>
         </label-contacto>
-        <input
-        id="Email"
-        class="imput-contacto-2"
-        type="text"
-        name="introducir-Email"
-        required="obligatorio"
-        placeholder="Escribe tu email"
-        />
-    </p-contacto>
+        <input class="imput-contacto"type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email"/>
+        </p-contacto>
 
-    <p-contacto>
-        <label-contacto id="contacto" class="colocar telefono">
-        Teléfono
-        <input
-            id="telefono"
-            class="imput-contacto-3"
-            type="text"
-            name="introducir-telefono"
-            required="obligatorio"
-            placeholder="Escribe tu telefono"/>
-        <span class="obigatorio-contacto">*</span>
+        <p-contacto>
+        <label-contacto for="telefone" class="colocar-telefono"
+            >Teléfono
         </label-contacto>
-    </p-contacto>
+        <input class="imput-contacto" type="tel"name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono" />
+        </p-contacto>
 
-    <label-contacto class="colocar-mensaje" for="Mensaje">
-        Mensaje
-        <span class="obligatorio-nosotros">*</span>
-        <textarea-contacto
-        id="mensaje"
-        class="texto"
-        name="Introducir mensaje"
-        required="obligatorio"
-        placeholder="Escribe tu consulta"
-        ></textarea-contacto>
-    </label-contacto>
-    <button
-        id="enviar"
-        class="boton-contacto"
-        type="submit"
-        name="Enviar-formulario">
-        <p>ENVIAR</p>
-    </button>
+        <p-contacto>
+        <label-contacto for="asunto" class="colocar-asunto"
+            >Asunto
+            <span class="obligatorio-nosotros">*</span>
+        </label-contacto>
+        <input class="imput-contacto" type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto"/>
+        </p-contacto>
+
+        <p-contacto>    
+        <label-nosotros for="mensaje" class="colocar-mensaje"
+            >Mensaje
+            <span class="obligatorio-contacto">*</span>
+        </label-nosotros>
+        </p-contacto>
+
+        <p-contacto>      
+        <textarea
+            name="introducir_mensaje" class="texto-mensaje" id="mensaje"required="obligatorio" placeholder="Escribe tu mensaje...">
+        </textarea>
+        </p-contacto>
+
+        <button class="boton-contacto" type="submit" name="enviar_formulario" id="enviar">   
+        <p-contacto>
+            Enviar
+        </p-contacto>
+        </button>
+
+        <p-contacto class="aviso-contacto">
+        <span class="obligatorio-contacto">*</span>
+        los campos son obligatorios.
+        </p-contacto>
     </form>
-    <p class="aviso-contacto">
-    <span class="obligatorio-contacto">*</span>
-    Los campos son obligatorios
-    </p>
-
-    <footer> 
-    <div class="footer-parrafo-contacto">
-        <span>Contactenos</span>
     </div>
-    <div class="column-content-2c">
-        <ul class="links-contacto">
-            <li>
-                <a href="./pages/contacto.html">
-                    <span>Medios de pago</span>
-                </a> 
-            </li>
-        </ul>
-    </div>
-
-            <div class="logos-pagos">   
-                <div class="tarjet-1c">     
-                        <img src="img/american-express-logo.png" alt="img">   
-                        <img src="img/naranja-logo.png" alt="img">
-                        <img src="img/mastercard-logo.png" alt="">
-                        <img src="img/mercado-pago-logo-footer.png" alt="img">
-                </div>
-            </div>
-
-    </div>
+</div>
 </body-contacto>
 </html>
