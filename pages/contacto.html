@@ -49,27 +49,20 @@
         <p-contacto>
         <label-contacto for="telefone" class="colocar-telefono"
             >Teléfono
+            <span class="obligatorio-nosotros">*</span>
         </label-contacto>
         <input class="imput-contacto" type="tel"name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono" />
         </p-contacto>
 
         <p-contacto>
         <label-contacto for="asunto" class="colocar-asunto"
-            >Asunto
+            >Mensaje
             <span class="obligatorio-nosotros">*</span>
         </label-contacto>
-        <input class="imput-contacto" type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto"/>
-        </p-contacto>
-
-        <p-contacto>    
-        <label-nosotros for="mensaje" class="colocar-mensaje"
-            >Mensaje
-            <span class="obligatorio-contacto">*</span>
-        </label-nosotros>
         </p-contacto>
 
         <p-contacto>      
-        <textarea
+        <textarea 
             name="introducir_mensaje" class="texto-mensaje" id="mensaje"required="obligatorio" placeholder="Escribe tu mensaje...">
         </textarea>
         </p-contacto>
@@ -81,8 +74,8 @@
         </button>
 
         <p-contacto class="aviso-contacto">
-        <span class="obligatorio-contacto">*</span>
         los campos son obligatorios.
+        <span class="obligatorio-contacto">*</span> 
         </p-contacto>
     </form>
     </div>

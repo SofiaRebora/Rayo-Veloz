@@ -69,6 +69,32 @@
       font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
       background-color: rgba(86, 86, 86, 0.44);
     }
+
+    .imagen1-t img {
+      display: flex;
+      justify-content: center;
+      background-repeat: no-repeat;
+      background-image: 200px;
+    }
+
+    .imagen2-t {
+      display: flex;
+      justify-content: center;
+      background-repeat: no-repeat;
+      width: 300px;
+      margin-top: -431px;
+      margin-left: 550px;
+    }
+
+    .imagen3-t  {
+      display: flex;
+      justify-content: center;
+      background-repeat: no-repeat;
+      max-width: 400px;
+      height: 200px;
+      margin-top: -428px;
+      margin-left: 1050px;
+    }
     .arreglos {
       font-family: Georgia, "Times New Roman", Times, serif;
       margin-top: 30px;
@@ -178,7 +204,7 @@
     /* styles for browsers larger than 1200px; */
     .titulo-taller h1 {
       position: relative;
-      margin-top: 10px;
+      margin-top: 20px;
       margin-bottom: 2%;
       text-align: center;
       font-size: 80px;
@@ -231,7 +257,7 @@
       position: relative;
       top: 15px;
       right: 650px;
-      font-size: 20px;
+      font-size: 22px;
       text-decoration: underline;
     }
     .subtitulo-taller h3 {
@@ -240,38 +266,34 @@
       position: relative;
       top: 10px;
       right: 0px;
-      font-size: 20px;
+      font-size: 30px;
       font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
       background-color: rgba(86, 86, 86, 0.44);
     }
 
-    .imagen1-t img {
+    .imagen1-t {
       display: flex;
       justify-content: center;
-      max-width: 100%;
       background-repeat: no-repeat;
-      width: 400px; 
+      width: 540px;
     }
 
     .imagen2-t {
       display: flex;
       justify-content: center;
-      max-width: 100%;
       background-repeat: no-repeat;
-      width: 565px;
-      margin-top: -431px;
-      margin-left: 550px;
+      width: 500px;
+      margin-top: -370px;
+      margin-left: 540px;
     }
 
     .imagen3-t  {
       display: flex;
       justify-content: center;
-      max-width: 100%;
       background-repeat: no-repeat;
-      width: 540px;
-      height: 408px;
-      margin-top: -428px;
-      margin-left: 1050px;
+      width: 592px;
+      margin-top: -370px;
+      margin-left: 1030px;
     }
 
     .arreglos {
@@ -281,7 +303,7 @@
       font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       background-color: rgba(0, 14, 166, 0.274);
       padding-top: 10px;
-      padding-left: 20px;
+      padding-left: 15px;
       margin-left: 0px;
       margin-top: -10px;
       margin-bottom: 0px;
@@ -295,95 +317,54 @@
       font-size: 20px;
       text-decoration:underline;
       font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-      
     }
-    .colocar-nombre-t {
-      background-color:black ;
-      position: relative;
-      flex-direction: row;
-      margin-top: 30px;
-      font-size: 20px;
-      font-weight: 2px;
-      margin-left: 35px;
+
+    form-taller {
+    display: block;
+    margin-top: 30px;
+    margin-left: 650px;
+    font-size: 18px;
     }
-    .imput-contacto-1 {
-      text-shadow: none;
-      display: inline-block;
-      text-align: start;
-      color: rgba(113, 113, 113, 0.741);
-      font-size: 15px;
-      font-weight: 3px;
-      cursor: text;
-      padding: 1px 2px;
-      border-width: 2px;
-      border-color: rgb(99, 97, 97), rgb(116, 115, 115);
-    }
-    .colocar-email-t {
-      position: relative;
-      display: flex;
-      justify-content: start;
-      margin-top: 10px;
-      font-size: 20px;
-      font-weight: 2px;
-      margin-left: 55px;
-    }
-    .imput-contacto-2 {
-      text-shadow: none;
-      display: inline-block;
-      text-align: start;
-      color: rgba(119, 116, 116, 0.741);
-      font-size: 15px;
-      font-weight: 3px;
-      cursor: text;
-      margin-left: 6px;
-      padding: 1px 2px;
-      border-width: 2px;
-      border-color: rgb(99, 97, 97), rgb(116, 115, 115);
-    }
-    .colocar-telefono-t {
-      position: relative;
-      flex-direction: row;
-      margin-top: 8px;
-      font-size: 19px;
-      margin-left: 31px;
-    }
-    .imput-contacto-3 {
-      text-shadow: none;
-      display: inline-block;
-      text-align: start;
-      color: rgba(119, 116, 116, 0.741);
-      font-size: 15px;
-      font-weight: 1px;
-      cursor: text;
-      margin-left: 2px;
-      padding: 1px 2px;
-      border-width: 2px;
-      border-color: rgb(99, 97, 97), rgb(116, 115, 115);
-    }
-    .colocar-mensaje-t {
-      position: relative;
-      flex-direction: row;
-      bottom: 80px;
-      font-size: 19px;
-      margin-left: 31px;
-    }
-    .textarea {
-      text-shadow: none;
-      display: inline-block;
-      text-align: start;
-      color: rgba(119, 116, 116, 0.741);
-      font-size: 15px;
-      font-weight: 1px;
-      cursor: text;
-      padding: 1px 2px;
-      border-width: 2px;
-      border-color: rgb(99, 97, 97), rgb(116, 115, 115);
-    }
-    .boton-contacto-t {
-      position: relative;
-      flex-direction: row;
-      margin-top: 0px;
-      font-size: 20px;
-      margin-left: 180px;
+
+  .obligatorio-taller {
+    color: rgb(253, 139, 0);
+  }
+
+  p-taller {
+    font-size: 20px;
+    color: #fffcfc;
+  }
+
+  label-taller {
+    font-size: 25px;
+    display: block;
+  }
+
+  .imput-taller {
+    color: #5f5f5f95;
+    font-size: 19px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  .aviso-taller {
+    font-size: 10px;
+    margin-top: 20px;
+    color: #989898;
+  }
+
+  .boton-taller {
+    height: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 0px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    background-color: rgb(118, 118, 118);
+    border-color: darkorange;
+    border-style: solid;
+    border-radius: 5px;
+    width: 120px;
+    cursor: pointer;
     }
   }
+/* Fin de secion escritorio */

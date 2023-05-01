@@ -51,66 +51,74 @@
       justify-content: center;
       right: 5px;
     }
-    .input-contacto {
-      background-color: #fbfbfb;
-      width: 408px;
-      height: 40px;
+    .seccion-contacto {
+      margin-left: 45px;
+      margin-top: 40px;
+      font-family:'Times New Roman', Times, serif;
+      font-size: 15px;
+      text-decoration: underline;
+      }
+
+    .texto-mensaje {
+      font-family: 'Times New Roman', Times, serif;
+      background-color: #ffffff5c;
+      width: 288px;
+      height: 150px;
+      margin-bottom: 20px;
       border-radius: 5px;
       border-style: solid;
       border-width: 1px;
       border-color: darkorange;
       margin-top: 10px;
-      padding-left: 10px;
-      margin-bottom: 20px;
-    }
-    .texto-mensaje {
-      background-color: #fbfbfb;
-      width: 305px;
-      height: 150px;
-      border-radius: 5px;
-      border-style: solid;
-      border-width: 1px;
-      border-color: darkorange;
-      margin-top: 20px;
       padding-left: 0px;
-      margin-bottom: 60px;
-      padding-top: 5px;
-      padding-bottom: 40px;
     }
   
     label-contacto {
       display: block;
       float: center;
+      font-size: 18px;
     }
   
     .boton-contacto {
       height: 25px;
       padding-left: 5px;
-      padding-right: px;
-      padding-top: 5px;
-      margin-bottom: 20px;
-      margin-top: 50px;
+      padding-right: 5px;
+      padding-top: 0px;
+      margin-bottom: 100px;
+      margin-top: 10px;
+      margin-left: 40px;
       text-transform: uppercase;
-      background-color: white;
-      border-color: darkorange;
+      background-color: rgb(81, 80, 80);
       border-style: solid;
       border-radius: 5px;
-      width: 180px;
+      width: 120px;
       cursor: pointer;
     }
   
     .obligatorio-contacto {
-      color: darkorange;
+      color: rgb(253, 139, 0);
     }
-  
-    .aviso-contacto {
-      font-size: 13px;
-      color: #0e0e0e;
-      margin-left: 340px;
-    }
+
     p-contacto {
       font-size: 14px;
-      color: #0e0e0e;
+      color: #fffcfc;
+    }
+
+    .imput-contacto {
+      color: #5f5f5f95;
+      font-size: 19px;
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .aviso-contacto {
+      font-size: 10px;
+      margin-top: 20px;
+      color: #989898;
+    }
+
+    form {
+      margin-left: 60px;
+      font-size: 18px;
     }
   }
   /* Fin de seccion mobile */
@@ -119,8 +127,8 @@
     /* styles for browsers larger than 1200px; */
     .titulo-contacto h1 {
       position: relative;
-      top: -130px;
-      bottom: 30px;
+      top: 20px;
+      bottom: 0px;
       text-align: center;
       font-size: 80px;
       font-weight: 10px;
@@ -128,10 +136,10 @@
     }
     .nav-div-contacto {
       position: relative;
-      margin-top: 0px;
+      margin-top: 30px;
       display: flex;
       gap: 60px;
-      bottom: 165px;
+      justify-content: center;
       align-items: center;
       font-size: 20px;
     }
@@ -142,7 +150,7 @@
       flex-direction: column;
       justify-content: center;
     }
-    .contacto-bicicletas- {
+    .contacto-bicicletas {
       grid-column: 1;
       grid-row: 2;
       display: flex;
@@ -163,34 +171,47 @@
       justify-content: center;
       right: 3px;
     }
+    .seccion-contacto {
+    margin-left: 615px;
+    margin-top: 40px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-decoration: underline;
+    }
     .input-contacto {
-      background-color: #fbfbfb;
-      width: 408px;
+      width: 300px;
       height: 40px;
       border-radius: 5px;
       border-style: solid;
-      border-width: 1px;
-      border-color: darkorange;
+      border-color: rgb(0, 0, 0);
       margin-top: 10px;
-      padding-left: 10px;
-      margin-bottom: 20px;
+      padding-left: 60px;
+      margin-bottom: 30px;
+      color: #000000;
       display: grid;
       grid-template-columns: (1 1fr);
       grid-template-rows: 2 2fr;
     }
     .texto-mensaje {
-      background-color: #fbfbfb;
+      background-color: #ffffff5c;
       width: 305px;
       height: 150px;
+      right: 50px;
       border-radius: 5px;
       border-style: solid;
       border-width: 1px;
       border-color: darkorange;
       margin-top: 0px;
-      padding-left: 30px;
+      padding-left: 0px;
       margin-bottom: 60px;
-      padding-top: 45px;
+      padding-top: 0px;
       padding-bottom: 30px;
+    }
+    .imput-mensaje {
+      margin-right: 100px;
+    }
+    form {
+    margin-left: 680px;
     }
     label-contacto {
       display: block;
@@ -198,32 +219,44 @@
     }
     .boton-contacto {
       height: 25px;
-      padding-left: px;
-      padding-right: px;
-      padding-top: 5px;
-      margin-bottom: 20px;
-      margin-top: 50px;
+      padding-left: 5px;
+      padding-right: 5px;
+      padding-top: 0px;
+      margin-top: 10px;
+      margin-right: 10px;
+      margin-left: -280px;
       text-transform: uppercase;
-      background-color: white;
+      background-color: rgb(118, 118, 118);
       border-color: darkorange;
       border-style: solid;
       border-radius: 5px;
-      width: 100px;
+      width: 120px;
       cursor: pointer;
     }
     .obligatorio-contacto {
-      color: darkorange;
+      color: rgb(253, 139, 0);
     }
-    .aviso-contacto {
-      font-size: 13px;
-      color: #0e0e0e;
-      margin-left: 340px;
-    }
+
     p-contacto {
-      font-size: 16px;
-      color: #0e0e0e;
-      padding: 20px;
+      font-size: 14px;
+      color: #fffcfc;
+    }
+
+    .imput-contacto {
+      color: #5f5f5f95;
+      font-size: 19px;
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .aviso-contacto {
+      font-size: 10px;
+      margin-top: 20px;
+      color: #989898;
+    }
+
+    form {
+      margin-left: 620px;
+      font-size: 18px;
     }
   }
-
   /* Fin de secion escritorio */

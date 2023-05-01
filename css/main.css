@@ -12,59 +12,98 @@ a {
   color: white;
 }
 
-body {
-  max-height: 100%;
-  width: 100%;
-  background-size: 5px;
-  background-attachment: relative;
-  background-color: rgb(14, 41, 51);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+@media only screen and (max-width: 400px) {
+  /* styles for mobile. 400px; */
+  body {
+    max-height: 100%;
+    width: 100%;
+    background-size: 5px;
+    background-attachment: relative;
+    background-color: rgb(14, 41, 51);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  body-contacto {
+    background-image: url(/img/pexels-photo-258046.jpeg);
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 1000px;
+    font-family: "Noto Sans", sans-serif;
+    background-color: rgba(255, 140, 0, 0);
+  }
+  body-bicicletas {
+    background-image: url(/img/pexels-brett-sayles-1431822.jpg);
+    background-repeat: no-repeat;
+    background-size: 530px;
+    width: 100%;
+    font-family: "Noto Sans", sans-serif;
+    background-color: rgba(255, 140, 0, 0);
+  }
+  body-accesorios {
+    background-image: url(/img/pexels-brett-sayles-1431822.jpg);
+    background-repeat: no-repeat;
+    background-size: 530px;
+    font-family: "Noto Sans", sans-serif;
+    width: 100%;
+  }
+  body-taller {
+    background-image: url(/img/pexels-brett-sayles-1431822.jpg);
+    background-repeat: no-repeat;
+    background-size: 1530px;
+    height: 350px;
+    width: 400px;
+    font-family: "Noto Sans", sans-serif;
+    width: 100%;
+    background-color: rgba(255, 140, 0, 0);
+  }
 }
-
-body-contacto {
-  background-image: url(/img/pexels-photo-258046.jpeg);
-  background-repeat: no-repeat;
-  background-size: 1530px;
-  height: 850px;
-  width: 1500px;
-  font-family: "Noto Sans", sans-serif;
-  width: 100%;
-  background-color: rgba(255, 140, 0, 0);
+@media only screen and (min-width: 1200px) {
+  /* styles for browsers larger than 1200px; */
+  body {
+    max-height: 100%;
+    width: 100%;
+    background-size: 5px;
+    background-attachment: relative;
+    background-color: rgb(14, 41, 51);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  body-contacto {
+    background-image: url(/img/pexels-photo-258046.jpeg);
+    background-repeat: no-repeat;
+    background-size: 1535px;
+    font-family: "Noto Sans", sans-serif;
+    background-color: rgba(255, 140, 0, 0);
+  }
+  body-bicicletas {
+    background-image: url(/img/pexels-brett-sayles-1431822.jpg);
+    background-repeat: no-repeat;
+    background-size: 1550px;
+    height: 1100px;
+    font-family: "Noto Sans", sans-serif;
+    width: 100%;
+    background-color: rgba(255, 140, 0, 0);
+  }
+  body-accesorios {
+    background-image: url(/img/pexels-brett-sayles-1431822.jpg);
+    background-repeat: no-repeat;
+    background-size: 1530px;
+    height: 1000px;
+    font-family: "Noto Sans", sans-serif;
+    width: 100%;
+  }
+  body-taller {
+    background-image: url(/img/pexels-brett-sayles-1431822.jpg);
+    background-repeat: no-repeat;
+    background-size: 1530px;
+    height: 1300px;
+    font-family: "Noto Sans", sans-serif;
+    width: 100%;
+    background-color: rgba(255, 140, 0, 0);
+  }
 }
-
-body-bicicletas {
-  background-image: url(/img/pexels-brett-sayles-1431822.jpg);
-  background-repeat: no-repeat;
-  background-size: 1550px;
-  height: 1000px;
-  width: 1500px;
-  font-family: "Noto Sans", sans-serif;
-  width: 100%;
-  background-color: rgba(255, 140, 0, 0);
-}
-
-body-accesorios {
-  background-image: url(/img/pexels-brett-sayles-1431822.jpg);
-  background-repeat: no-repeat;
-  background-size: 1500px;
-  height: 1000px;
-  font-family: "Noto Sans", sans-serif;
-  max-width: 100%;
-}
-
-body-taller {
-  background-image: url(/img/pexels-brett-sayles-1431822.jpg);
-  background-repeat: no-repeat;
-  background-size: 1530px;
-  height: 850px;
-  width: 1500px;
-  font-family: "Noto Sans", sans-serif;
-  width: 100%;
-  background-color: rgba(255, 140, 0, 0);
-}
-
 @media only screen and (max-width: 400px) {
   /* styles for mobile. 400px; */
   .footer-parrafo {
@@ -617,6 +656,7 @@ body-taller {
     margin-top: 5px;
     font-size: 10px;
     position: relative;
+    margin-right: 600px;
   }
   .nav-div {
     position: relative;
@@ -905,62 +945,66 @@ body-taller {
     justify-content: center;
     right: 5px;
   }
-  .input-contacto {
-    background-color: #fbfbfb;
-    width: 408px;
-    height: 40px;
+  .seccion-contacto {
+    margin-left: 45px;
+    margin-top: 40px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 15px;
+    text-decoration: underline;
+  }
+  .texto-mensaje {
+    font-family: "Times New Roman", Times, serif;
+    background-color: rgba(255, 255, 255, 0.3607843137);
+    width: 288px;
+    height: 150px;
+    margin-bottom: 20px;
     border-radius: 5px;
     border-style: solid;
     border-width: 1px;
     border-color: darkorange;
     margin-top: 10px;
-    padding-left: 10px;
-    margin-bottom: 20px;
-  }
-  .texto-mensaje {
-    background-color: #fbfbfb;
-    width: 305px;
-    height: 150px;
-    border-radius: 5px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: darkorange;
-    margin-top: 20px;
     padding-left: 0px;
-    margin-bottom: 60px;
-    padding-top: 5px;
-    padding-bottom: 40px;
   }
   label-contacto {
     display: block;
     float: center;
+    font-size: 18px;
   }
   .boton-contacto {
     height: 25px;
     padding-left: 5px;
-    padding-right: px;
-    padding-top: 5px;
-    margin-bottom: 20px;
-    margin-top: 50px;
+    padding-right: 5px;
+    padding-top: 0px;
+    margin-bottom: 100px;
+    margin-top: 10px;
+    margin-left: 40px;
     text-transform: uppercase;
-    background-color: white;
-    border-color: darkorange;
+    background-color: rgb(81, 80, 80);
     border-style: solid;
     border-radius: 5px;
-    width: 180px;
+    width: 120px;
     cursor: pointer;
   }
   .obligatorio-contacto {
-    color: darkorange;
-  }
-  .aviso-contacto {
-    font-size: 13px;
-    color: #0e0e0e;
-    margin-left: 340px;
+    color: rgb(253, 139, 0);
   }
   p-contacto {
     font-size: 14px;
-    color: #0e0e0e;
+    color: #fffcfc;
+  }
+  .imput-contacto {
+    color: rgba(95, 95, 95, 0.5843137255);
+    font-size: 19px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  .aviso-contacto {
+    font-size: 10px;
+    margin-top: 20px;
+    color: #989898;
+  }
+  form {
+    margin-left: 60px;
+    font-size: 18px;
   }
 }
 /* Fin de seccion mobile */
@@ -969,8 +1013,8 @@ body-taller {
   /* styles for browsers larger than 1200px; */
   .titulo-contacto h1 {
     position: relative;
-    top: -130px;
-    bottom: 30px;
+    top: 20px;
+    bottom: 0px;
     text-align: center;
     font-size: 80px;
     font-weight: 10px;
@@ -978,10 +1022,10 @@ body-taller {
   }
   .nav-div-contacto {
     position: relative;
-    display: flex;
-    margin-top: 0px;
+    margin-top: 30px;
     display: flex;
     gap: 60px;
+    justify-content: center;
     align-items: center;
     font-size: 20px;
   }
@@ -992,7 +1036,7 @@ body-taller {
     flex-direction: column;
     justify-content: center;
   }
-  .contacto-bicicletas- {
+  .contacto-bicicletas {
     grid-column: 1;
     grid-row: 2;
     display: flex;
@@ -1013,34 +1057,47 @@ body-taller {
     justify-content: center;
     right: 3px;
   }
+  .seccion-contacto {
+    margin-left: 615px;
+    margin-top: 40px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    text-decoration: underline;
+  }
   .input-contacto {
-    background-color: #fbfbfb;
-    width: 408px;
+    width: 300px;
     height: 40px;
     border-radius: 5px;
     border-style: solid;
-    border-width: 1px;
-    border-color: darkorange;
+    border-color: rgb(0, 0, 0);
     margin-top: 10px;
-    padding-left: 10px;
-    margin-bottom: 20px;
+    padding-left: 60px;
+    margin-bottom: 30px;
+    color: #000000;
     display: grid;
     grid-template-columns: 1 1fr;
     grid-template-rows: 2 2fr;
   }
   .texto-mensaje {
-    background-color: #fbfbfb;
+    background-color: rgba(255, 255, 255, 0.3607843137);
     width: 305px;
     height: 150px;
+    right: 50px;
     border-radius: 5px;
     border-style: solid;
     border-width: 1px;
     border-color: darkorange;
     margin-top: 0px;
-    padding-left: 30px;
+    padding-left: 0px;
     margin-bottom: 60px;
-    padding-top: 45px;
+    padding-top: 0px;
     padding-bottom: 30px;
+  }
+  .imput-mensaje {
+    margin-right: 100px;
+  }
+  form {
+    margin-left: 680px;
   }
   label-contacto {
     display: block;
@@ -1048,31 +1105,40 @@ body-taller {
   }
   .boton-contacto {
     height: 25px;
-    padding-left: px;
-    padding-right: px;
-    padding-top: 5px;
-    margin-bottom: 20px;
-    margin-top: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 0px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: -280px;
     text-transform: uppercase;
-    background-color: white;
+    background-color: rgb(118, 118, 118);
     border-color: darkorange;
     border-style: solid;
     border-radius: 5px;
-    width: 100px;
+    width: 120px;
     cursor: pointer;
   }
   .obligatorio-contacto {
-    color: darkorange;
-  }
-  .aviso-contacto {
-    font-size: 13px;
-    color: #0e0e0e;
-    margin-left: 340px;
+    color: rgb(253, 139, 0);
   }
   p-contacto {
-    font-size: 16px;
-    color: #0e0e0e;
-    padding: 20px;
+    font-size: 14px;
+    color: #fffcfc;
+  }
+  .imput-contacto {
+    color: rgba(95, 95, 95, 0.5843137255);
+    font-size: 19px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  .aviso-contacto {
+    font-size: 10px;
+    margin-top: 20px;
+    color: #989898;
+  }
+  form {
+    margin-left: 620px;
+    font-size: 18px;
   }
 }
 /* Fin de secion escritorio */
@@ -1406,125 +1472,6 @@ body-taller {
 }
 /* Fin de seccion escritorio */
 /* -------------------------------------------------------------------------------Contacto--------------------------------------------------------------------------- */
-@media only screen and (max-width: 400px) {
-  /* styles for mobile. 400px; */
-  .titulo-contacto h1 {
-    position: relative;
-    margin-top: 10%;
-    margin-bottom: 5%;
-    text-align: center;
-    font-size: 60px;
-    font-weight: 10px;
-    color: rgba(217, 169, 48, 0.996);
-  }
-  .nav-div-contacto {
-    display: grid;
-    font-weight: 2rem;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    padding: 0, 5rem;
-    gap: 15px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    text-align: center;
-    align-self: center;
-  }
-  .c-contacto {
-    grid-column: 1;
-    grid-row: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .contacto-bicicletas {
-    grid-column: 1;
-    grid-row: 2;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .contacto-accesorios {
-    grid-column: 1;
-    grid-row: 3;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .contacto-tallerr {
-    grid-column: 1;
-    grid-row: 4;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    right: 5px;
-  }
-  .seccion-contacto {
-    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-    text-decoration: underline;
-    font-size: 15px;
-  }
-  .colocar-nombre {
-    margin-top: 0px;
-    font-size: 15px;
-  }
-}
-/* Fin de seccion mobile */
-/* -----------------------------------------------------------------------------Inicio seccion escritorio----------------------------------------------------------------- */
-@media only screen and (min-width: 1200px) {
-  /* styles for browsers larger than 1200px; */
-  .titulo-contacto h1 {
-    color: rgba(217, 169, 48, 0.996);
-    position: relative;
-    display: flex;
-    justify-content: center;
-    margin-top: 10%;
-    margin-bottom: 5%;
-    font-size: 80px;
-    font-weight: 70%;
-    text-align: center;
-  }
-  .nav-div-contacto {
-    display: grid;
-    font-weight: 2rem;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    padding: 0, 5rem;
-    gap: 5px;
-    text-align: center;
-    align-self: center;
-  }
-  .c-contacto {
-    grid-column: 1;
-    grid-row: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .contacto-bicicletas- {
-    grid-column: 1;
-    grid-row: 2;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .contacto-accesorios {
-    grid-column: 1;
-    grid-row: 3;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .contacto-taller {
-    grid-column: 1;
-    grid-row: 4;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    right: 3px;
-  }
-}
 @media only screen and (max-width: 400px) {
   /* styles for mobile. 400px; */
   .titulo-accesorios h1 {
@@ -1921,6 +1868,29 @@ body-taller {
     font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
     background-color: rgba(86, 86, 86, 0.44);
   }
+  .imagen1-t img {
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-image: 200px;
+  }
+  .imagen2-t {
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    width: 300px;
+    margin-top: -431px;
+    margin-left: 550px;
+  }
+  .imagen3-t {
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    max-width: 400px;
+    height: 200px;
+    margin-top: -428px;
+    margin-left: 1050px;
+  }
   .arreglos {
     font-family: Georgia, "Times New Roman", Times, serif;
     margin-top: 30px;
@@ -2029,7 +1999,7 @@ body-taller {
   /* styles for browsers larger than 1200px; */
   .titulo-taller h1 {
     position: relative;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 2%;
     text-align: center;
     font-size: 80px;
@@ -2082,7 +2052,7 @@ body-taller {
     position: relative;
     top: 15px;
     right: 650px;
-    font-size: 20px;
+    font-size: 22px;
     text-decoration: underline;
   }
   .subtitulo-taller h3 {
@@ -2091,35 +2061,31 @@ body-taller {
     position: relative;
     top: 10px;
     right: 0px;
-    font-size: 20px;
+    font-size: 30px;
     font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
     background-color: rgba(86, 86, 86, 0.44);
   }
-  .imagen1-t img {
+  .imagen1-t {
     display: flex;
     justify-content: center;
-    max-width: 100%;
     background-repeat: no-repeat;
-    width: 400px;
+    width: 540px;
   }
   .imagen2-t {
     display: flex;
     justify-content: center;
-    max-width: 100%;
     background-repeat: no-repeat;
-    width: 565px;
-    margin-top: -431px;
-    margin-left: 550px;
+    width: 500px;
+    margin-top: -370px;
+    margin-left: 540px;
   }
   .imagen3-t {
     display: flex;
     justify-content: center;
-    max-width: 100%;
     background-repeat: no-repeat;
-    width: 540px;
-    height: 408px;
-    margin-top: -428px;
-    margin-left: 1050px;
+    width: 592px;
+    margin-top: -370px;
+    margin-left: 1030px;
   }
   .arreglos {
     display: flex;
@@ -2128,7 +2094,7 @@ body-taller {
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     background-color: rgba(0, 14, 166, 0.274);
     padding-top: 10px;
-    padding-left: 20px;
+    padding-left: 15px;
     margin-left: 0px;
     margin-top: -10px;
     margin-bottom: 0px;
@@ -2143,93 +2109,46 @@ body-taller {
     text-decoration: underline;
     font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   }
-  .colocar-nombre-t {
-    background-color: black;
-    position: relative;
-    flex-direction: row;
+  form-taller {
+    display: block;
     margin-top: 30px;
+    margin-left: 650px;
+    font-size: 18px;
+  }
+  .obligatorio-taller {
+    color: rgb(253, 139, 0);
+  }
+  p-taller {
     font-size: 20px;
-    font-weight: 2px;
-    margin-left: 35px;
+    color: #fffcfc;
   }
-  .imput-contacto-1 {
-    text-shadow: none;
-    display: inline-block;
-    text-align: start;
-    color: rgba(113, 113, 113, 0.741);
-    font-size: 15px;
-    font-weight: 3px;
-    cursor: text;
-    padding: 1px 2px;
-    border-width: 2px;
-    border-color: rgb(99, 97, 97), rgb(116, 115, 115);
+  label-taller {
+    font-size: 25px;
+    display: block;
   }
-  .colocar-email-t {
-    position: relative;
-    display: flex;
-    justify-content: start;
+  .imput-taller {
+    color: rgba(95, 95, 95, 0.5843137255);
+    font-size: 19px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  .aviso-taller {
+    font-size: 10px;
+    margin-top: 20px;
+    color: #989898;
+  }
+  .boton-taller {
+    height: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 0px;
     margin-top: 10px;
-    font-size: 20px;
-    font-weight: 2px;
-    margin-left: 55px;
+    text-transform: uppercase;
+    background-color: rgb(118, 118, 118);
+    border-color: darkorange;
+    border-style: solid;
+    border-radius: 5px;
+    width: 120px;
+    cursor: pointer;
   }
-  .imput-contacto-2 {
-    text-shadow: none;
-    display: inline-block;
-    text-align: start;
-    color: rgba(119, 116, 116, 0.741);
-    font-size: 15px;
-    font-weight: 3px;
-    cursor: text;
-    margin-left: 6px;
-    padding: 1px 2px;
-    border-width: 2px;
-    border-color: rgb(99, 97, 97), rgb(116, 115, 115);
-  }
-  .colocar-telefono-t {
-    position: relative;
-    flex-direction: row;
-    margin-top: 8px;
-    font-size: 19px;
-    margin-left: 31px;
-  }
-  .imput-contacto-3 {
-    text-shadow: none;
-    display: inline-block;
-    text-align: start;
-    color: rgba(119, 116, 116, 0.741);
-    font-size: 15px;
-    font-weight: 1px;
-    cursor: text;
-    margin-left: 2px;
-    padding: 1px 2px;
-    border-width: 2px;
-    border-color: rgb(99, 97, 97), rgb(116, 115, 115);
-  }
-  .colocar-mensaje-t {
-    position: relative;
-    flex-direction: row;
-    bottom: 80px;
-    font-size: 19px;
-    margin-left: 31px;
-  }
-  .textarea {
-    text-shadow: none;
-    display: inline-block;
-    text-align: start;
-    color: rgba(119, 116, 116, 0.741);
-    font-size: 15px;
-    font-weight: 1px;
-    cursor: text;
-    padding: 1px 2px;
-    border-width: 2px;
-    border-color: rgb(99, 97, 97), rgb(116, 115, 115);
-  }
-  .boton-contacto-t {
-    position: relative;
-    flex-direction: row;
-    margin-top: 0px;
-    font-size: 20px;
-    margin-left: 180px;
-  }
-}/*# sourceMappingURL=main.css.map */
+}
+/* Fin de secion escritorio *//*# sourceMappingURL=main.css.map */
