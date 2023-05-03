@@ -70,6 +70,8 @@
       top: 430px;
       left: 30px;
       background-position: center;
+      transform: rotateY(180deg);
+      transform-style: preserve-3d;
     }
     .parrafo-img1 {
       display: flex;
@@ -235,9 +237,8 @@
       max-width: 465px;
       margin-top: 10px;
       margin-left: 40px;
-      background-position: center;
     }
-    .parrafo-img1 {
+    .parrafo-img1{
       display: flex;
       justify-content: center;
       position: relative;

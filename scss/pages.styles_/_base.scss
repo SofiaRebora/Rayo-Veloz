@@ -52,11 +52,56 @@ body {
     body-taller {
         background-image: url(/img/pexels-brett-sayles-1431822.jpg);
         background-repeat: no-repeat;
-        background-size: 1530px;
-        height: 350px;
-        width: 400px;
+        background-size: 3100px;
+        height: 2300px;
+        width: 100%;
+        font-family: "Noto Sans", sans-serif;
+        background-color: rgba(255, 140, 0, 0);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    /* styles for tablet. 768px; */
+body {
+    max-height: 100%;
+    width: 100%;
+    background-size: 5px;
+    background-attachment: relative;
+    background-color: rgb(14, 41, 51);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+    body-contacto {  
+    background-image: url(/img/pexels-photo-258046.jpeg);
+    background-repeat: no-repeat;
+    width: 768px;
+    height: 1500px;
+    font-family: "Noto Sans", sans-serif;
+    background-color: rgba(255, 140, 0, 0);
+    }
+    body-bicicletas {
+        background-image: url(/img/pexels-brett-sayles-1431822.jpg);
+        background-repeat: no-repeat;
+        background-size: 530px;
+        width: 100%;
+        font-family: "Noto Sans", sans-serif;
+        background-color: rgba(255, 140, 0, 0);
+    }
+    body-accesorios {
+        background-image: url(/img/pexels-brett-sayles-1431822.jpg);
+        background-repeat: no-repeat;
+        background-size: 530px;
         font-family: "Noto Sans", sans-serif;
         width: 100%;
+    }
+    body-taller {
+        background-image: url(/img/pexels-brett-sayles-1431822.jpg);
+        background-repeat: no-repeat;
+        background-size: 3100px;
+        height: 2300px;
+        width: 100%;
+        font-family: "Noto Sans", sans-serif;
         background-color: rgba(255, 140, 0, 0);
     }
 }
@@ -99,7 +144,7 @@ body {
         body-taller {
             background-image: url(/img/pexels-brett-sayles-1431822.jpg);
             background-repeat: no-repeat;
-            background-size: 1530px;
+            background-size: 1900px;
             height: 1300px;
             font-family: "Noto Sans", sans-serif;
             width: 100%;
