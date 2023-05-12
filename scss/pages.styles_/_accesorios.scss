@@ -1,13 +1,16 @@
-@media only screen and (max-width: 400px) {
-    /* styles for mobile. 400px; */
+@media only screen and (min-width: 320px) and (max-width:650px) {
+  /* styles for mobile.*/
     .titulo-accesorios h1 {
       position: relative;
       margin-top: 10%;
       margin-bottom: 5%;
       text-align: center;
-      font-size: 60px;
-      font-weight: 10px;
+      font-size: 3rem;
+      font-weight: 30px;
       color: rgba(217, 169, 48, 0.996);
+    }
+    .header-form-bic {
+      display: none;
     }
     .nav-div-accesorios {
       display: grid;
@@ -52,53 +55,66 @@
       right: 2px;
     }
     .subtitulo-acc {
-      display: flex;
+      display: block;
       justify-content: center;
       position: relative;
-      top: 5px;
-      right: 120px;
-      font-size: 15px;
+      margin-top: 10px;
+      margin-bottom: 0%;
+      left: 20px;
       text-decoration: underline;
+      font-size: 18px;
     }
     .f-accesorios1 {
-      background-position: center;
-      background-repeat: no-repeat;
-      position: absolute;
-      max-width: 340px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      position: relative;
       margin-top: 10px;
-      left: 30px;
-      background-position: center;
+      margin-bottom: 0%;
+      padding-left: 5%;
+      padding-right: 5%;
+      background-repeat: no-repeat;
+      background-attachment: relative;
+      max-width: 100%;
     }
     .parrafo-img1-ac {
       display: flex;
       justify-content: center;
       position: relative;
-      bottom: 0px;
-      top: 80px;
+      margin-top: -130px;
+      margin-bottom: 0%;
       margin-right: 5%;
       margin-left: 5%;
       font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
       font-size: 60px;
-      color: rgba(253, 252, 252, 0.47);
+      color: rgba(253, 252, 252, 0.56);
+      max-width: 100%;
     }
     .f-accesorios2 {
-      background-position: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      position: relative;
+      margin-top: 90px;
+      margin-bottom: 0%;
+      padding-left: 5%;
+      padding-right: 5%;
       background-repeat: no-repeat;
-      position: absolute;
-      max-width: 340px;
-      margin-top: 185px;
-      margin-left: 30px;
+      background-attachment: relative;
+      max-width: 100%;
     }
     .parrafo-img2-ac {
       display: flex;
+      flex-direction: column;
       justify-content: center;
       position: relative;
-      top: 250px;
-      margin-right: 5%;
-      margin-left: 5%;
-      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-      font-size: 60px;
-      color: rgba(253, 252, 252, 0.438);
+      margin-top: 20px;
+      margin-bottom: 0%;
+      padding-left: 5%;
+      padding-right: 5%;
+      background-repeat: no-repeat;
+      background-attachment: relative;
+      max-width: 100%;
     }
     .f-accesorios3 {
       background-position: relative;
@@ -112,8 +128,8 @@
       display: flex;
       justify-content: center;
       position: relative;
-      bottom: 0;
-      top: 420px;
+      margin-top: -130px;
+      margin-bottom: 0%;
       margin-right: 5%;
       margin-left: 5%;
       font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
@@ -121,53 +137,266 @@
       color: rgba(253, 252, 252, 0.527);
     }
     .f-accesorios4 {
-      background-position: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      position: relative;
+      margin-top: 90px;
+      margin-bottom: 0%;
+      padding-left: 5%;
+      padding-right: 5%;
       background-repeat: no-repeat;
-      position: absolute;
-      max-width: 340px;
-      margin-top: 523px;
-      margin-left: 30px;
-      background-position: center;
+      background-attachment: relative;
+      max-width: 100%;
     }
     .parrafo-img4-ac {
       display: flex;
       justify-content: center;
       position: relative;
-      bottom: 0;
-      top: 580px;
+      margin-top: -130px;
+      margin-bottom: 0;
       margin-right: 5%;
       margin-left: 5%;
       font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
       font-size: 60px;
       border-radius: 5px;
-      color: rgba(253, 252, 252, 0.527);
+      color: rgba(253, 252, 252, 0.549);
       background-attachment: relative;
     }
     .f-accesorios5 {
-      background-position: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      position: relative;
+      margin-top: 90px;
+      margin-bottom: 0%;
+      padding-left: 5%;
+      padding-right: 5%;
       background-repeat: no-repeat;
-      position: absolute;
-      max-width: 340px;
-      margin-top: 668px;
-      margin-left: 30px;
-      background-position: center;
+      background-attachment: relative;
+      max-width: 100%;
     }
     .parrafo-img5-ac {
       display: flex;
       justify-content: center;
       position: relative;
-      bottom: 0;
-      top: 735px;
-      margin-right: 5%;
-      margin-left: 5%;
+      top: -140px;
+      margin-bottom: 0%;
+      margin-left: 10px;
+      margin-right: 0%;
       font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
       font-size: 60px;
-      border-radius: 5px;
       color: rgba(253, 252, 252, 0.527);
       background-attachment: relative;
+      max-width: 100%;
     }
+    figure {
+      margin: 0;
+      display: inline-block;
+      position: relative;
   }
+}
+  /*Fin seccion mobile*/
 
+  @media only screen and (min-width: 650px) and (max-width:1992px) {
+    /* styles for browsers tablet.*/
+  /* styles for mobile.*/
+  .titulo-accesorios h1 {
+    position: relative;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 30px;
+    color: rgba(217, 169, 48, 0.996);
+  }
+  .header-form-bic {
+    display: none;
+  }
+  .nav-div-accesorios {
+    display: grid;
+    font-weight: 2rem;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    padding: 0, 5rem;
+    gap: 16px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    align-self: center;
+  }
+  .accesorios-contacto {
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .bicicletas-accesorios {
+    grid-column: 1;
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .accesorios-acc {
+    grid-column: 1;
+    grid-row: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .taller-accesorios {
+    grid-column: 1;
+    grid-row: 4;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    right: 2px;
+  }
+  .subtitulo-acc {
+    display: block;
+    justify-content: center;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 0%;
+    left: 20px;
+    text-decoration: underline;
+    font-size: 18px;
+  }
+  .f-accesorios1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 0%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-repeat: no-repeat;
+    background-attachment: relative;
+    max-width: 100%;
+  }
+  .parrafo-img1-ac {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: -130px;
+    margin-bottom: 0%;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 60px;
+    color: rgba(253, 252, 252, 0.56);
+    max-width: 100%;
+  }
+  .f-accesorios2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    margin-top: 90px;
+    margin-bottom: 0%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-repeat: no-repeat;
+    background-attachment: relative;
+    max-width: 100%;
+  }
+  .parrafo-img2-ac {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 0%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-repeat: no-repeat;
+    background-attachment: relative;
+    max-width: 100%;
+  }
+  .f-accesorios3 {
+    background-position: relative;
+    background-repeat: no-repeat;
+    position: absolute;
+    max-width: 340px;
+    margin-top: 355px;
+    margin-left: 30px;
+  }
+  .parrafo-img3-ac {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: -130px;
+    margin-bottom: 0%;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 60px;
+    color: rgba(253, 252, 252, 0.527);
+  }
+  .f-accesorios4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    margin-top: 90px;
+    margin-bottom: 0%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-repeat: no-repeat;
+    background-attachment: relative;
+    max-width: 100%;
+  }
+  .parrafo-img4-ac {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: -130px;
+    margin-bottom: 0;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 60px;
+    border-radius: 5px;
+    color: rgba(253, 252, 252, 0.549);
+    background-attachment: relative;
+  }
+  .f-accesorios5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    margin-top: 90px;
+    margin-bottom: 0%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-repeat: no-repeat;
+    background-attachment: relative;
+    max-width: 100%;
+  }
+  .parrafo-img5-ac {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -140px;
+    margin-bottom: 0%;
+    margin-left: 10px;
+    margin-right: 0%;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 60px;
+    color: rgba(253, 252, 252, 0.527);
+    background-attachment: relative;
+    max-width: 100%;
+  }
+  figure {
+    margin: 0;
+    display: inline-block;
+    position: relative;
+}
+}
   @media only screen and (min-width: 1200px) {
     /* styles for browsers larger than 1200px; */
     .titulo-accesorios h1 {
@@ -286,7 +515,7 @@
       background-repeat: no-repeat;
       position: absolute;
       max-width: 475px;
-      left: 254px;
+      left: 253px;
       margin-top: 83px;
       background-position: center;
     }
@@ -323,4 +552,4 @@
       color: rgba(253, 252, 252, 0.577);
       background-attachment: relative;
     }
-  }
+}

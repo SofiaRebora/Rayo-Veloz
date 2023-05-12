@@ -1,5 +1,5 @@
-@media only screen and (max-width: 400px) {
-    /* styles for mobile. 400px; */
+@media only screen and (min-width: 320px) and (max-width: 650px) {
+  /* styles for mobile.*/
     .titulo-contacto h1 {
       position: relative;
       margin-top: 10%;
@@ -52,7 +52,7 @@
       right: 5px;
     }
     .seccion-contacto {
-      margin-left: 45px;
+      margin-left: 28px;
       margin-top: 40px;
       font-family:'Times New Roman', Times, serif;
       font-size: 15px;
@@ -70,15 +70,20 @@
       border-width: 1px;
       border-color: darkorange;
       margin-top: 10px;
-      padding-left: 0px;
     }
   
+
     label-contacto {
-      display: block;
+      display: flex;
+      margin-right: 40px;
       float: center;
       font-size: 18px;
     }
   
+    .imput-mensaje {
+      margin-right: 100px;
+    }
+
     .boton-contacto {
       height: 25px;
       padding-left: 5px;
@@ -125,12 +130,12 @@
   /* Fin de seccion mobile */
 
   /*------------------------------------------------------------------------------Inicio seccion tablet---------------------------------------------------------------------*/
-  @media only screen and (min-width: 768px) {
-    /* styles for browsers larger than 768px; */
+  @media only screen and (min-width: 651px) and (max-width:1992px) {
+    /* styles for browsers tablet.*/
 
     .titulo-contacto h1 {
       position: relative;
-      top: 20px;
+      top: 0px;
       bottom: 0px;
       text-align: center;
       font-size: 80px;
@@ -256,8 +261,8 @@
 
 /*fin seccion tablet*/
 
-  @media only screen and (min-width: 1200px) {
-    /* styles for browsers larger than 1200px; */
+  @media only screen and (min-width: 1199px) {
+    /* styles for browsers larger*/
     .titulo-contacto h1 {
       position: relative;
       top: 20px;
@@ -308,7 +313,11 @@
     font-family:Georgia, "Times New Roman", Times, serif;
     box-sizing: border-box;
     text-decoration: underline;
-    margin-left: 590px;
+    display: inline-block;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    margin-left: 180px;
     margin-top: 40px;
     font-size: 20px;
     }
@@ -319,12 +328,13 @@
       border-style: solid;
       border-color: rgb(0, 0, 0);
       margin-top: 10px;
-      padding-left: 60px;
+      padding-left: 300px;
       margin-bottom: 30px;
       color: #000000;
-      display: grid;
-      grid-template-columns: (1 1fr);
-      grid-template-rows: 2 2fr;
+      display: flex;
+      justify-content: center;
+      position: relative;
+      text-align: center;
     }
     .texto-mensaje {
       background-color: #ffffff8d;

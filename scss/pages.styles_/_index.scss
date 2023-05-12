@@ -1,5 +1,5 @@
-@media only screen and (max-width: 400px) {
-    /* styles for mobile. 400px; */
+@media only screen and (min-width: 320px) and (max-width:650px){
+    /* styles for mobile.*/
     .titulo h1 {
       color: rgba(217, 169, 48, 0.996);
       position: relative;
@@ -77,184 +77,189 @@
       overflow: hidden;
       position: relative;
     }
-    .articulo {
-      background-position: relative;
-      background-repeat: no-repeat;
-      max-width: 400px;
-      background-attachment: relative;
-      background-color: gray;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      margin-top: 180px;
-    }
     .texto-secundario {
       background-color: rgba(78, 65, 65, 0.227);
       font-family: Georgia, "Times New Roman", Times, serif;
-      position: relative;
+      display: inline-block;
+      justify-content: center;
       text-align: center;
       font-size: 25px;
-      margin-top: 500px;
-      bottom: 960px;
+      margin-top: 20px;
+      margin-bottom: 0%;
+      width: 100%;
     }
     .form-label {
+      display:inline-block;
+      justify-content: center;
       position: relative;
-      flex-direction: row;
-      bottom: 960px;
+      margin-top: 23px;
+      margin-bottom: 0%;
       font-size: 20px;
-      margin-left: 10%;
-      border-radius: 0%;
+      border-radius: 4%;
+      margin-left: 0px;
+      width: 100%;
     }
     .form-control {
-      position: relative;
-      flex-direction: row;
-      bottom: 985px;
+      display: inline-block;
+      justify-content: center;
+      align-self: center;
+      position:relative;
       font-size: 20px;
-      width: 250px;
-      text-align: center;
-      margin-left: 25%;
+      margin-left: 2%;
+      margin-top: 0px;
+      width: 80%;
+    }
+    .articulo img {
+      max-width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background-position: relative;
+      background-repeat: no-repeat;
+      background-attachment: relative;
+      margin-top: 10px;
+      margin-bottom: 0%;
     }
     .parrafo-foto {
       display: flex;
       justify-content: center;
       position: relative;
       text-align: center;
-      top: 0px;
       padding-top: 10px;
-      background-color: rgb(14, 41, 51);
+      padding-bottom: 5px;
+      bottom: 2px;
+      background-color: rgba(38, 20, 78, 0.647);
       font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-      font-size: 100%;
+      font-size: 18px;
     }
     .card-text {
       display: flex;
-      justify-content: center;
+      justify-content:center;
       position: relative;
-      bottom: 690px;
-      font-size: 1em;
+      text-align: center;
+      margin-top: -30px;
+      margin-bottom: 0%;
+      font-size: 18px;
       background-color: black;
-      padding-top: 30%;
-      padding-bottom: 50%;
+      padding-top: 100px;
+      padding-bottom: 140px;
+      max-width: 100%;
     }
     .card-icon {
-      display: flex;
+      display: block;
       justify-content: center;
       position: relative;
-      height: 80px;
-      width: 100px;
-      bottom: 880px;
-      left: 155px;
+      align-self: center ;
+      height: 90px;
+      max-width: 100px;
+      margin-top: -140px;
+      margin-bottom: 0%;
+      margin-left: 25px;
       align-items: center;
-      text-align: center;
       font-family: Georgia, "Times New Roman", Times, serif;
-      font-size: 5rem;
+      font-size: 70px;
     }
     .contenedor-accesorios {
       display: flex;
       flex-direction: column;
       justify-content: center;
       position: relative;
-      bottom: 755px;
+      margin-top: 80px;
+      margin-bottom: 0%;
       padding-left: 5%;
       padding-right: 5%;
       background-repeat: no-repeat;
       background-attachment: relative;
     }
     .parrafo-foto-P2 {
-      display: flex;
-      justify-content: center;
+      display: block;
+      justify-content:center;
       position: relative;
-      bottom: 1000px;
+      align-self: center;
+      margin-top: -200px;
+      margin-bottom: 0%;
       margin-right: 40%;
       margin-left: 5%;
       font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-      font-size: 35px;
-      font-weight: 800;
+      font-size: 30px;
+      max-width: 800;
       color: rgba(255, 255, 255, 0.856);
-      background-repeat: no-repeat;
-      background-attachment: relative;
       border-radius: 30px;
-      background-color: rgba(235, 71, 11, 0.273);
+      background-color: rgba(205, 68, 18, 0.196);
+      max-width: 100%;
     }
     .contenedor-taller {
       display: flex;
-      flex-direction: column;
+      flex-direction:column-reverse;
       justify-content: center;
       position: relative;
-      bottom: 910px;
+      margin-top: 120px;
+      margin-bottom: 0%;
       padding-left: 5%;
       padding-right: 5%;
-      background-repeat: no-repeat;
-      background-attachment: relative;
+      width: 100%;
     }
+
     .parrafo-foto-P3 {
       display: flex;
       justify-content: center;
       position: relative;
-      bottom: 1050px;
-      margin-right: 10%;
-      margin-left: 55%;
-      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-      font-size: 35px;
-      font-weight: 600;
-      border-radius: 5px;
-      background-color: rgba(235, 71, 11, 0.371);
+      align-self: center;
+      margin-top: -120px;
+      margin-bottom: 0%;
+      margin-right: 40%;
+      margin-left: 15%;
+      font-family:Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+      font-size: 30px;
+      font-weight: 500;
+      border-radius: 10px;
+      padding-right: 30px;
+      padding-left: 30px;
+      background-color: rgba(210, 66, 14, 0.273);
       color: rgba(253, 252, 252, 0.756);
-      background-repeat: no-repeat;
-      background-size: 100px;
-      background-attachment: relative;
     }
     .modelos {
       display: flex;
-      flex-direction: column;
+      flex-direction: column-reverse;
       justify-content: center;
       position: relative;
-      bottom: 1010px;
+      margin-top: 45px;
+      margin-bottom: 0%;
       padding-left: 5%;
       padding-right: 5%;
-      background-repeat: no-repeat;
-      background-attachment: relative;
     }
     .parrafo-foto-P4 {
-      display: flex;
+      display:flex;
       justify-content: center;
-      position: relative;
-      bottom: 1090px;
-      margin-right: 5%;
-      margin-left: 5%;
+      position:relative;
+      align-self: center;
+      margin-top: -70px;
       font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
       font-size: 30px;
-      font-weight: 800;
+      font-weight: 500;
       border-radius: 5px;
+      padding-right: 30px;
+      padding-left: 30px;
       background-color: rgba(235, 71, 11, 0.371);
       color: rgba(253, 252, 252, 0.756);
-      background-repeat: no-repeat;
-      background-size: 100px;
-      background-attachment: relative;
     }
     .bi-telefono {
       display: flex;
-      flex-direction: column;
+      flex-direction: column-reverse;
       justify-content: center;
       position: relative;
-      bottom: 1055px;
+      margin-top: 30px;
+      margin-bottom: 0%;
       padding-left: 5%;
       padding-right: 5%;
-      width: -40%;
-      background-repeat: no-repeat;
-      background-attachment: relative;
-    }
-    .click {
-      display: flex;
-      justify-content: center;
-      position: relative;
-      font-size: 10px;
-      bottom: 75px;
-      left: 130px;
+      max-width: 100%;
     }
 }
+/*Fin sección mobile*/
 
-@media only screen and (min-width: 1200px) {
-  /* styles for browsers larger than 1200px; */
+@media only screen and (min-width: 650px) and (max-width:1992px) {
+  /* styles for browsers tablet.*/
   .titulo h1 {
     color: rgba(219, 171, 51, 0.996);
     font-size: 70px;
@@ -262,7 +267,262 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 40px;
+  }
+  .header-form {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    visibility: visible;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    position: relative;
+    margin-left: 100px;
+    margin-right: 80px;
+  }
+  .nav-div {
+    position: relative;
+    margin-top: 0%;
+    margin-left: 0%;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+  }
+  .contacto {
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .bicicletas {
+    grid-column: 2;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .accesorios {
+    grid-column: 3;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .taller {
+    grid-column: 4;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .novedades {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 0%;
+    border: 30%;
+    font-size: 50px;
+    border-style: ridge;
+    color: rgba(217, 169, 48, 0.996);
+    background-color: rgba(112, 107, 107, 0.2588235294);
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    text-transform: uppercase;
+    transition-property:all;
+    transition-duration: 10s;
+    transition-timing-function: ease-out;
+  }
+  .video-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+  }
+  .texto-secundario {
+    background-color: rgba(78, 65, 65, 0.227);
+    font-family: Georgia, "Times New Roman", Times, serif;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    font-size: 35px;
     margin-top: 20px;
+    margin-bottom: 0%;
+    width: 100%;
+  }
+  .form-control {
+    display: inline-block;
+    justify-content: center;
+    align-self: center;
+    position:relative;
+    font-size: 20px;
+    margin-left: 1%;
+    margin-top: 0px;
+    width: 85%;
+  }
+  .articulo img {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-position: relative;
+    background-repeat: no-repeat;
+    background-attachment: relative;
+    margin-top: 10px;
+    margin-bottom: 0%;
+  }
+  .parrafo-foto {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    bottom: 2px;
+    background-color: rgba(38, 20, 78, 0.647);
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 30px;
+  }
+  .card-text {
+    display: flex;
+    justify-content:center;
+    position: relative;
+    text-align: center;
+    margin-top: -30px;
+    margin-bottom: 0%;
+    font-size: 20px;
+    background-color: black;
+    padding-top: 100px;
+    padding-bottom: 160px;
+    max-width: 100%;
+  }
+  .card-icon {
+    display: block;
+    justify-content: center;
+    position: relative;
+    align-self: center ;
+    height: 90px;
+    max-width: 100px;
+    margin-top: -160px;
+    margin-bottom: 0%;
+    margin-left: 25px;
+    align-items: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 90px;
+  }
+  .contenedor-accesorios {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    margin-top: 110px;
+    margin-bottom: 0%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-repeat: no-repeat;
+    background-attachment: relative;
+  }
+  .parrafo-foto-P2 {
+    display: flex;
+    justify-content:center;
+    position: relative;
+    align-self: center;
+    top: -400px;
+    margin-bottom: 0%;
+    margin-right: 50%;
+    margin-left: 5%;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 60px;
+    max-width: 800;
+    color: rgba(255, 255, 255, 0.856);
+    border-radius: 30px;
+    background-color: rgba(205, 68, 18, 0.196);
+    max-width: 100%;
+  }
+  .contenedor-taller {
+    display: flex;
+    flex-direction:column-reverse;
+    justify-content: center;
+    position: relative;
+    margin-top: -140px;
+    margin-bottom: 0%;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 100%;
+  }
+  .parrafo-foto-P3 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-self: center;
+    margin-top: -120px;
+    margin-bottom: 0%;
+    margin-right: 40px;
+    margin-left: 30px;
+    font-family:Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    border-radius: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: rgba(210, 66, 14, 0.273);
+    color: rgba(253, 252, 252, 0.756);
+  }
+  .modelos {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 0%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .parrafo-foto-P4 {
+    display:flex;
+    justify-content: center;
+    position:relative;
+    align-self: center;
+    margin-top: -110px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    border-radius: 5px;
+    padding-right: 40px;
+    padding-left: 40px;
+    background-color: rgba(235, 71, 11, 0.371);
+    color: rgba(253, 252, 252, 0.756);
+  }
+  .bi-telefono {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    position: relative;
+    margin-top: 70px;
+    margin-bottom: 0%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+/*Fin sección tablet*/
+
+@media only screen and (min-width: 1119px) {
+  /* styles for browsers larger*/
+  .titulo h1 {
+    color: rgba(219, 171, 51, 0.996);
+    font-size: 70px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
   }
   .header-form {
     display: flex;
@@ -272,7 +532,8 @@
     margin-top: 5px;
     font-size: 10px;
     position: relative;
-    margin-right: 600px;
+    margin-right: 100px;
+    max-width: 100%;
   }
   .nav-div {
     position: relative;
@@ -338,40 +599,47 @@
     position: relative;
     margin-top: 5px;
   }
-  .articulo {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    align-self: center;
-    font-size: 100px;
-    font-weight: 1200px;
-    margin-top: 350px;
-    flex-direction: column;
-  }
   .texto-secundario {
     background-color: rgba(78, 65, 65, 0.227);
     font-family: Georgia, "Times New Roman", Times, serif;
-    position: relative;
+    display: inline-block;
+    justify-content: center;
     text-align: center;
-    font-size: 70px;
-    bottom: 1645px;
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 0%;
+    width: 100%;
   }
+
   .form-label {
-    position: relative;
-    flex-direction: row;
-    bottom: 1625px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: 35px;
+    margin-left: 40px;
     font-size: 30px;
-    margin-left: 30%;
   }
   .form-control {
-    position: relative;
-    flex-direction: row;
-    bottom: 1630px;
-    font-size: 20px;
-    width: 500px;
-    height: 40px;
-    text-align: center;
-    margin-left: 1%;
+    display: inline-block;
+    justify-content: center;
+    align-self: center;
+    position:relative;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 0px;
+    width: 50%;
+  }
+  .articulo img {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-position: relative;
+    background-repeat: no-repeat;
+    background-attachment: relative;
+    margin-top: 15px;
+    margin-bottom: 0%;
   }
   .parrafo-foto {
     display: flex;
@@ -385,131 +653,141 @@
     box-sizing: border-box;
     width: 100%;
   }
+  .parrafo-foto {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    bottom: 2px;
+    background-color: rgba(38, 20, 78, 0.647);
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 40px;
+  }
   .card-text {
     display: flex;
-    justify-content: center;
+    justify-content:center;
     position: relative;
-    flex-direction: row;
-    bottom: 260px;
-    font-size: 3em;
+    text-align: center;
+    margin-top: -30px;
+    margin-bottom: 0%;
+    font-size: 30px;
     background-color: black;
-    padding-top: 15%;
-    padding-bottom: 30%;
+    padding-top: 100px;
+    padding-bottom: 160px;
+    max-width: 100%;
   }
   .card-icon {
-    display: flex;
+    display: block;
     justify-content: center;
     position: relative;
-    width: 100px;
-    bottom: 730px;
-    left: 720px;
+    align-self: center ;
+    height: 100px;
+    max-width: 100px;
+    margin-top: -180px;
+    margin-bottom: 0%;
+    margin-left: 20px;
     align-items: center;
-    text-align: center;
     font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 9rem;
+    font-size: 90px;
   }
   .contenedor-accesorios {
     display: flex;
     flex-direction: column;
     justify-content: center;
     position: relative;
-    bottom: 420px;
+    margin-top: 130px;
+    margin-bottom: 0%;
     padding-left: 5%;
     padding-right: 5%;
     background-repeat: no-repeat;
     background-attachment: relative;
+    max-width: 100%;
   }
   .parrafo-foto-P2 {
     display: flex;
-    justify-content: center;
+    justify-content:center;
     position: relative;
-    bottom: 1820px;
-    right: 420px;
-    font-family: "Rubik", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 30px;
-    text-align: center;
-    border-radius: 60px;
-    background-color: rgba(235, 71, 11, 0.371);
-    color: rgba(253, 252, 252, 0.756);
-    font-size: 70px;
-    background-repeat: no-repeat;
-    background-attachment: relative;
-    margin: 500px;
+    align-self: center;
+    top: -400px;
+    margin-bottom: 0%;
+    margin-right: 50%;
+    margin-left: 5%;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 60px;
+    max-width: 800;
+    color: rgba(255, 255, 255, 0.856);
+    border-radius: 30px;
+    background-color: rgba(205, 68, 18, 0.196);
+    max-width: 100%;
   }
   .contenedor-taller {
     display: flex;
-    flex-direction: column;
+    flex-direction:column-reverse;
     justify-content: center;
     position: relative;
-    bottom: 1665px;
+    margin-top: -100px;
+    margin-bottom: 0%;
     padding-left: 5%;
     padding-right: 5%;
-    background-repeat: no-repeat;
-    background-attachment: relative;
+    width: 100%;
   }
   .parrafo-foto-P3 {
     display: flex;
     justify-content: center;
     position: relative;
-    bottom: 1800px;
-    margin-right: 10%;
-    margin-left: 40%;
-    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    align-self: center;
+    margin-top: -120px;
+    margin-bottom: 0%;
+    margin-right: 40px;
+    margin-left: 30px;
+    font-family:Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
     font-size: 60px;
-    font-weight: 600;
-    border-radius: 6px;
-    background-color: rgba(235, 71, 11, 0.371);
+    font-weight: 400;
+    border-radius: 2px;
+    padding-right: 2px;
+    padding-left: 2px;
+    background-color: rgba(210, 66, 14, 0.273);
     color: rgba(253, 252, 252, 0.756);
-    background-repeat: no-repeat;
-    background-size: 100px;
-    background-attachment: relative;
   }
   .modelos {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: center;
     position: relative;
-    bottom: 1740px;
+    margin-top: 100px;
+    margin-bottom: 0%;
     padding-left: 5%;
     padding-right: 5%;
-    background-repeat: no-repeat;
-    background-attachment: relative;
   }
   .parrafo-foto-P4 {
-    display: flex;
+    display:flex;
     justify-content: center;
-    position: relative;
-    bottom: 1860px;
-    margin-right: 5%;
-    margin-left: 5%;
+    position:relative;
+    align-self: center;
+    margin-top: -110px;
     font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
     font-size: 60px;
-    font-weight: 800%;
+    font-weight: 400;
     border-radius: 5px;
+    padding-right: 20x;
+    padding-left: 20px;
     background-color: rgba(235, 71, 11, 0.371);
     color: rgba(253, 252, 252, 0.756);
-    background-repeat: no-repeat;
-    background-size: 100px;
-    background-attachment: relative;
   }
   .bi-telefono {
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-self: auto;
     position: relative;
-    bottom: 1800px;
+    margin-top: 70px;
+    margin-bottom: 0%;
     padding-left: 5%;
     padding-right: 5%;
-    width: -40%;
-    background-repeat: no-repeat;
-    background-attachment: relative;
-  }
-  .click {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    font-size: 20px;
-    bottom: 300px;
-    left: 500px;
   }
 }
+
+/* Fin de sección escritorio*/
