@@ -136,41 +136,23 @@ body {
 .body-bicicletas {
     max-height: 100%;
     max-width: 100%;
-    background-size: 5px;
-    background-attachment: relative;
     background-color: rgb(14, 41, 51);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+
 }
 .body-accesorios {
     width: 100%;
     max-height: 100%;
     max-width: 100%;
-    background-size: 5px;
-    background-attachment: relative;
     background-color: rgb(14, 41, 51);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 .body-taller {
     max-height: 100%;
     max-width: 100%;
-    background-size: 5px;
-    background-attachment: relative;
     background-color: rgb(14, 41, 51);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 .body-compras {
     width: 100%;
-    background-size: 5px;
     background-attachment: relative;
     background-color: rgb(14, 41, 51);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 }
