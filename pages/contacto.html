@@ -12,7 +12,7 @@
 </head>
 
 <body class="body-contacto">
-    <div class="titulo-contacto">
+        <div class="titulo-contacto">
     <a href="../index.html">
         <h1>Rayo Veloz</h1>
     </a>
@@ -29,134 +29,56 @@
     <h2>COMUNICATE CON NOSOTROS</h2>
     </div>
 
-    <form action="submeter-formulario.php" method="post">
-        <p-contacto>
-        <label-contacto for="nombre" class="colocar_nombre">
+    <form class="formulario-contacto" action="submeter-formulario.php" method="post">
+        <p class="contacto">
+        <label class="label-contacto" for="nombre" class="colocar_nombre">
             Nombre
             <span class="obligatorio-contacto">*</span>
-        </label-contacto>
-        <input class="imput-contacto" type="text"name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre"/>
-        </p-contacto>
+        </label>
+        <input class="input-contacto" type="text"name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre"/>
+        </p>
 
-        <p-contacto>
-        <label-contacto for="email" class="colocar-email"
+        <p class="contacto">   
+        <label class="label-contacto" for="email" class="colocar-email"
             >Email
             <span class="obligatorio-contacto">*</span>
-        </label-contacto>
-        <input class="imput-contacto"type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email"/>
-        </p-contacto>
+        </label>
+        <input class="input-contacto"type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email"/>
+        </p>
 
-        <p-contacto>
-        <label-contacto for="telefone" class="colocar-telefono"
+        <p class="contacto">
+        <label class="label-contacto" for="telefone" class="colocar-telefono"
             >Teléfono
             <span class="obligatorio-contacto">*</span>
-        </label-contacto>
-        <input class="imput-contacto" type="tel"name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono" />
-        </p-contacto>
+        </label>
+        <input class="input-contacto" type="tel"name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono" />
+        </p>
 
-        <p-contacto>
-        <label-contacto for="asunto" class="colocar-asunto"
+        <p class="contacto">
+        <label class="label-contacto" for="asunto" class="colocar-asunto"
             >Mensaje
             <span class="obligatorio-contacto">*</span>
-        </label-contacto>
-        </p-contacto>
+        </label>
+        </p>
 
-        <p-contacto>      
-        <textarea 
+        <p class="contacto">       
+        <textarea class="textarea-contacto" 
             name="introducir_mensaje" class="texto-mensaje" id="mensaje"required="obligatorio" placeholder="Escribe tu mensaje...">
         </textarea>
-        </p-contacto>
+        </p>
 
         <button class="boton-contacto" type="submit" name="enviar_formulario" id="enviar">   
-        <p-contacto>
+        <p class="contacto">
             Enviar
-        </p-contacto>
+        </p>
         </button>
 
-        <p-contacto class="aviso-contacto">
+        <p class="contacto-obligatorio"> 
         los campos son obligatorios.
         <span class="obligatorio-contacto">*</span> 
-        </p-contacto>
+        </p>
     </form>
     </div>
 </div>
-
-<footer> 
-    <div class="footer-parrafo-contacto">
-        <span>Contactenos</span>
-    </div>
-    <div class="column-content-2">
-        <ul class="links-contacto">
-            <li>
-                <a href="./pages/contacto.html">
-                    <span>Medios de pago</span>
-                </a> 
-            </li>
-        </ul>
-    </div>
-
-                <div class="tarjet-contacto">     
-                        <img src="img/american-express-logo.png" alt="img">   
-                        <img src="img/naranja-logo.png" alt="img">
-                        <img src="img/mastercard-logo.png" alt="">
-                        <img src="img/mercado-pago-logo.png" alt="img">
-                </div>
-            </div>
-
-    <div class="column-content-contacto">
-        <ul class="Secciones">
-            <li>
-                <i class="i-contacto">
-                </i>
-                <a href="./pages/contacto.html">Contacto</a>
-            </li>
-            <li>
-                <i class="i-bicicletas">
-                </i>
-                <a href="./pages/bicicletas.html">Bicicletas</a>
-            <li>
-                <i class="i-accesorios">
-                </i>
-                <a href="./pages/accesorios.html">Accesorios</a>
-            </li>
-            <li>
-                <i class="i-taller">
-                </i>
-                <a href="./pages/taller.html">Taller</a>
-            </li>
-        </ul>
-    </div>
-
-        <div class="footer-social">
-            <div class="footer-parrafo-contacto">
-                <span>Siguenos</span>
-            </div>
-
-            <div class="titulo-footer-contacto">
-                <ul class="secciones-contacto">
-                    <li>
-                        <i class="bi bi-whatsapp"></i>
-                    </li>
-                    <li>
-                        <i class="bi bi-instagram"></i>
-                    </li>
-                    <li>
-                        <i class="bi bi-twitter"></i>
-                    </li>
-                    <li>
-                        <i class="bi bi-youtube"></i>
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-    <div class="container">
-    <div class="footer-bottom">
-    <small class="copy-right-contacto">
-        Copyright Rayo Veloz Bicicletería - Mar del Plata. Todos los derechos reservados.
-    </small>
-    </div>
-    </div>
-</footer>
 </body>
 </html>

@@ -55,55 +55,53 @@
 
         <div class="formulario-taller">     
         <form-taller action="submeter-formulario.php" method="post"> 
-            <p-taller>  
-            <label-taller for="nombre" class="colocar-nombre-t">
+            <p class="p-taller">  
+            <label class="label-taller" for="nombre" class="colocar-nombre-t">
                 Nombre
             <span class="obligatorio-taller">*</span>
-            <input id="Nombre" class="imput-contacto-t" type="text" name="introducir-nombre" required="obligatorio" placeholder="Escribe tu nombre">
-            </label-taller>
-            </p-taller>
-
-            <p-taller>     
-            <label-taller id="contacto" class="colocar-email-t" for="Email">               
+            <input class="input-taller" id="Nombre" class="imput-contacto-t" type="text" name="introducir-nombre" required="obligatorio" placeholder="Escribe tu nombre">
+            </label>
+            </p>
+            <p class="p-taller">     
+            <label class="label-taller"id="contacto" class="colocar-email-t" for="Email">               
                 Email
             <span class="obligatorio-contacto">*</span>
-            <input id="Email" class="imput-contacto-t" type="text" name="introducir-Email" required="obligatorio" placeholder="Escribe tu email">
-            </label-taller>
-            </p-taller>
-
-            <p-taller>    
-            <label-taller id="contacto" class="colocar-telefono-t"> 
+            <input class="input-taller" id="Email" class="imput-contacto-t" type="text" name="introducir-Email" required="obligatorio" placeholder="Escribe tu email">
+            </label>
+            </p>
+            <p class="p-taller">    
+            <label class="label-taller" id="contacto" class="colocar-telefono-t"> 
                 Teléfono
             <span class="obligatorio-taller">*</span>
-            <input id="telefono" class="imput-contacto-t" type="text" name="introducir-telefono" required="obligatorio" placeholder="Escribe tu telefono">
-            </label-taller>
-            </p-taller>
-
-            <p-taller>     
-            <label-taller id="contacto" class="colocar-mensaje-t"> 
+            <input class="input-taller" id="telefono" class="imput-contacto-t" type="text" name="introducir-telefono" required="obligatorio" placeholder="Escribe tu telefono">
+            </label>
+            </p>
+        </div>
+            <p class="p-taller">     
+            <label class="label-taller" id="contacto"class="colocar-mensaje-t">  
                 Mensaje
             <span class="obligatorio-taller">*</span>
-            </label-taller>
+            </label>
             <textarea class="textarea-t" name="mensaje" id=""cols="25" rows="5" placeholder="Escribe su mensaje aqui"></textarea>
-            </p-taller>
+            </p>
             </div>
             <div>      
             <button class="boton-taller" id="enviar" class="boton-taller" type="submit" name="Enviar-formulario">
                 <p>ENVIAR</p>
             </button>
             </div>
-            <p-contacto class="aviso-contacto-t">
+            <p class="aviso-contacto-t">
             los campos son obligatorios.
             <span class="obligatorio-taller">*</span> 
-            </p-contacto>
-    </form-taller>
+            </p>
+    </form>
 
-    <footer> 
-        <div class="footer-parrafo-taller">
+<footer> 
+        <div class="footer-titulo-taller">
             <span>Contactenos</span>
         </div>
         <div class="column-content-t">
-            <ul class="links-taller">
+            <ul class="metodos-taller">
                 <li>
                     <a href="./pages/contacto.html">
                         <span>Medios de pago</span>

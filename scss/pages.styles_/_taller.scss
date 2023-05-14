@@ -1,392 +1,512 @@
-@media only screen and (max-width: 400px) {
-    /* styles for mobile. 400px; */
-    .titulo-taller h1 {
-      position: relative;
-      margin-top: 10%;
-      margin-bottom: 2%;
-      text-align: center;
-      font-size: 60px;
-      font-weight: 10px;
-      color: rgba(217, 169, 48, 0.996);
-    }
-    .nav-div-taller {
-      display: grid;
-      font-weight: 2rem;
-      grid-template-columns: repeat(1, 1fr);
-      grid-template-rows: repeat(4, 1fr);
-      padding: 0, 5rem;
-      gap: 16px;
-      margin-top: 0px;
-      text-align: center;
-      align-self: center;
-    }
-    .contacto-taller {
-      grid-column: 1;
-      grid-row: 1;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
-    .bicicletas-taller {
-      grid-column: 1;
-      grid-row: 2;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
-    .accesorios-taller {
-      grid-column: 1;
-      grid-row: 3;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
-    .taller-taller {
-      grid-column: 1;
-      grid-row: 4;
-      position: relative;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      right: 2px;
-    }
-    .subtitulo-taller h2 {
-      display: flex;
-      justify-content: center;
-      position: relative;
-      top: 20px;
-      right: 120px;
-      font-size: 18px;
-      text-decoration: underline;
-    }
-    .subtitulo-taller h3 {
-      display: flex;
-      justify-content: center;
-      position: relative;
-      top: 30px;
-      right: 0px;
-      font-family:Georgia, "Times New Roman", Times, serif;
-      box-sizing: border-box;
-      font-size: 20px;
-      background-color: rgba(86, 86, 86, 0.44);
-    }
-
-    .imagen1-t{
-      display: flex;
-      background-repeat: no-repeat;
-      width: 400px;
-      margin-top: 30px;
-    }
-
-    .imagen2-t {
-      display: flex;
-      justify-content: center;
-      background-repeat: no-repeat;
-      width: 400px;
-      margin-top: -10px;
-      margin-left: 0px;
-    }
-
-    .imagen3-t  {
-      display: flex;
-      justify-content: center;
-      background-repeat: no-repeat;
-      width: 400px;
-      height: 300px;
-      margin-top: -10px;
-      margin-left: 0px;
-    }
-    .arreglos {
-      display: block;
-      gap: 20px;
-      font-size: 20px;
-      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      background-color: rgba(0, 14, 166, 0.86);
-      padding-top: 10px;
-      padding-left: 15px;
-      margin-left: 0px;
-      margin-top: -10px;
-      margin-bottom: 0px;
-    }
-    .seccion-contacto-2 h5 {
-      display: flex;
-      justify-content: center;
-      position: relative;
-      top: 15px;
-      right: 0px;
-      font-size: 18px;
-      text-decoration:underline;
-      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-    }
-    .texto-mensaje {
-    background-color: #ffffff8d;
-    border-radius: 5px;
-    border-style: solid;
-    border-width: 1px;
-    margin-top: 0px;
-    padding-left: 30px;
-    }
-  
-    label-taller {
-      display: block;
-      margin-left: 50px;
-      margin-top: 10px;
-      font-size: 18px;
-    }
-  
-    .boton-taller {
-      height: 25px;
-      padding-left: 5px;
-      padding-right: 5px;
-      padding-top: 3px;
-      margin-bottom: 100px;
-      margin-top: 0px;
-      margin-left: 80px;
-      text-transform: uppercase;
-      background-color: rgb(81, 80, 80);
-      border-style: solid;
-      border-radius: 5px;
-      border-color: rgb(253, 139, 0);
-      width: 120px;
-      cursor: pointer;
-    }
-  
-    .obligatorio-taller {
-      color: rgb(253, 139, 0);
-    }
-
-    p-taller {
-      font-size: 14px;
-      color: #fffcfc;
-    }
-
-    .imput-contacto-t {
-    width: 300px;
-    height: 40px;
-    border-radius: 5px;
-    border-style: solid;
-    border-color: rgb(0, 0, 0);
-    margin-top: 10px;
-    padding-left: 60px;
-    margin-bottom: 10px;
-    color: #000000;
+@media only screen and (min-width: 320px) and (max-width: 650px) {
+  /* styles for mobile.*/
+  .titulo-taller h1 {
+    position: relative;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 30px;
+    color: rgba(217, 169, 48, 0.996);
+  }
+  .nav-div-taller {
     display: grid;
-    grid-template-columns: (1 1fr);
-    grid-template-rows: 2 2fr;
-    color: #5f5f5f95;
-    font-size: 19px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    }
-    .aviso-contacto-t {
-      font-size: 10px;
-      margin-left: 200px;
-      bottom: 200px;
-      color: #989898;
-    }
-    form-taller {
-      margin-left: 60px;
-      font-size: 18px;
-    }
-    .textarea-t {
-      margin-left: 50px;
-      width: 300px;
-      height: 130px;
-      border-color: black;
-      border-style: solid;
-      border-radius: 5px;
-    }
+    font-weight: 2rem;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    padding: 0, 5rem;
+    gap: 16px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    text-align: center;
+    align-self: center;
+  }
+  .contacto-taller {
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .bicicletas-taller {
+    grid-column: 1;
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .accesorios-taller {
+    grid-column: 1;
+    grid-row: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .taller-taller {
+    grid-column: 1;
+    grid-row: 4;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    right: 2px;
+  }
+  .subtitulo-taller h2 {
+    display: block;
+    justify-content: center;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 0%;
+    left: 10px;
+    text-decoration: underline;
+    font-size: 20px;
+  }
+  .subtitulo-taller h3 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+    right: 0px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    box-sizing: border-box;
+    font-size: 20px;
+    background-color: rgba(86, 86, 86, 0.44);
   }
 
-  @media only screen and (min-width: 1200px) {
-    /* styles for browsers larger than 1200px; */
-    .titulo-taller h1 {
-      position: relative;
-      margin-top: 20px;
-      margin-bottom: 2%;
-      text-align: center;
-      font-size: 80px;
-      font-weight: 10px;
-      color: rgba(217, 169, 48, 0.996);
-    }
-    .nav-div-taller {
-      position: relative;
-      margin-top: 0px;
-      display: flex;
-      gap: 60px;
-      bottom: 20px;
-      justify-content: center;
-      align-items: center;
-      font-size: 20px;
-    }
-    .contacto-taller {
-      grid-column: 1;
-      grid-row: 1;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
-    .bicicletas-taller {
-      grid-column: 1;
-      grid-row: 2;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
-    .accesorios-taller {
-      grid-column: 1;
-      grid-row: 3;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
-    .taller-taller {
-      grid-column: 1;
-      grid-row: 4;
-      position: relative;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      right: 2px;
-    }
-    .subtitulo-taller h2 {
-      display: flex;
-      justify-content: center;
-      position: relative;
-      top: 15px;
-      right: 650px;
-      font-size: 22px;
-      text-decoration: underline;
-    }
-    .subtitulo-taller h3 {
-      display: flex;
-      justify-content: center;
-      position: relative;
-      top: 10px;
-      right: 0px;
-      font-size: 30px;
-      font-family:Georgia, "Times New Roman", Times, serif;
-      box-sizing: border-box;
-      background-color: rgba(86, 86, 86, 0.44);
-    }
+  .imagen1-t {
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    margin-top: 20px;
+    margin-bottom: 0%;
+  }
 
-    .imagen1-t {
-      display: flex;
-      justify-content: center;
-      background-repeat: no-repeat;
-      width: 540px;
-    }
+  .imagen2-t {
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    margin-top: 2px;
+    margin-bottom: 0%;
+  }
 
-    .imagen2-t {
-      display: flex;
-      justify-content: center;
-      background-repeat: no-repeat;
-      width: 500px;
-      margin-top: -370px;
-      margin-left: 540px;
-    }
+  .imagen3-t {
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 300px;
+    margin-top: 15px;
+  }
+  .arreglos {
+    display: block;
+    gap: 20px;
+    font-size: 20px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    background-color: rgba(0, 14, 166, 0.86);
+    padding-top: 10px;
+    padding-left: 15px;
+    margin-left: 0px;
+    margin-top: 4px;
+    margin-bottom: 0px;
+  }
+  .seccion-contacto-2 h5 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 15px;
+    right: 0px;
+    font-size: 18px;
+    text-decoration: underline;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  }
+  .label-taller {
+    display: block;
+    position: relative;
+    margin-left: 8px;
+    float: center;
+    font-size: 25px;
+  }
+  .boton-taller {
+    height: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 0px;
+    margin-bottom: 100px;
+    margin-top: 10px;
+    margin-left: 80px;
+    text-transform: uppercase;
+    background-color: rgb(81, 80, 80);
+    border-style: solid;
+    border-radius: 5px;
+    width: 120px;
+    cursor: pointer;
+  }
+  .obligatorio-taller {
+    color: rgb(253, 139, 0);
+  }
+  .formulario-taller {
+    display: block;
+    justify-content: center;
+    position: relative;
+    font-size: 14px;
+    color: #fffcfc;
+    margin-left: 15px;
+  }
+  .textarea-t {
+    display: block;
+    margin-left: 10px;
+    width: 300px;
+    height: 130px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    margin-left: 20px;
+    color: grey;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+}
+/*Fin de sección mobile*/
 
-    .imagen3-t  {
-      display: flex;
-      justify-content: center;
-      background-repeat: no-repeat;
-      width: 592px;
-      margin-top: -370px;
-      margin-left: 1030px;
-    }
+@media only screen and (min-width: 650px) and (max-width: 1999px) {
+  /* styles for tablet.*/
+  .titulo-taller h1 {
+    color: rgba(219, 171, 51, 0.996);
+    font-size: 70px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .nav-div-taller {
+    position: relative;
+    margin-top: 0%;
+    margin-left: 0%;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+  }
+  .contacto-taller {
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .bicicletas-taller {
+    grid-column: 1;
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .accesorios-taller {
+    grid-column: 1;
+    grid-row: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .taller-taller {
+    grid-column: 1;
+    grid-row: 4;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    right: 2px;
+  }
+  .subtitulo-taller h2 {
+    display: flex;
+    position: relative;
+    top: 30px;
+    left: 20px;
+    font-size: 25px;
+    text-decoration: underline;
+  }
+  .subtitulo-taller h3 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+    font-size: 30px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    box-sizing: border-box;
+    background-color: rgba(86, 86, 86, 0.44);
+  }
+  .imagen1-t {
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 0%;
+  }
 
-    .arreglos {
-      display: flex;
-      gap: 50px;
-      font-size: 20px;
-      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      background-color: rgba(0, 14, 166, 0.274);
-      padding-top: 10px;
-      padding-left: 15px;
-      margin-left: 0px;
-      margin-top: -10px;
-      margin-bottom: 0px;
-    }
-    .seccion-contacto-2 h5 {
-      display: flex;
-      justify-content: center;
-      position: relative;
-      top: 15px;
-      right: 0px;
-      font-size: 25px;
-      text-decoration:underline;
-      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-    }
+  .imagen2-t {
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    margin-top: 2px;
+    margin-bottom: 0%;
+  }
 
-    .imput-contacto-t {
-      width: 300px;
-      height: 40px;
-      border-radius: 5px;
-      border-style: solid;
-      border-color: rgb(0, 0, 0);
-      margin-top: 10px;
-      padding-left: 60px;
-      margin-bottom: 10px;
-      color: #000000;
-      display: grid;
-      grid-template-columns: (1 1fr);
-      grid-template-rows: 2 2fr;
-      color: #5f5f5f95;
-      font-size: 19px;
-      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    }
-    .texto-mensaje {
-    background-color: #ffffff8d;
+  .imagen3-t {
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 300px;
+    margin-top: 15px;
+  }
+  .arreglos {
+    display: block;
+    gap: 20px;
+    font-size: 20px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    background-color: rgba(0, 14, 166, 0.86);
+    padding-top: 10px;
+    padding-left: 15px;
+    margin-left: 0px;
+    margin-top: 4px;
+    margin-bottom: 0px;
+  }
+  .seccion-contacto-2 h5 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 15px;
+    right: 0px;
+    font-size: 25px;
+    text-decoration: underline;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  }
+  .label-taller {
+    display: block;
+    position: relative;
+    margin-left: 8px;
+    float: center;
+    font-size: 25px;
+  }
+  .boton-taller {
+    height: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 0px;
+    margin-bottom: 100px;
+    margin-top: 10px;
+    margin-left: 80px;
+    text-transform: uppercase;
+    background-color: rgb(81, 80, 80);
+    border-style: solid;
+    border-radius: 5px;
+    width: 120px;
+    cursor: pointer;
+  }
+  .obligatorio-taller {
+    color: rgb(253, 139, 0);
+  }
+  .formulario-taller {
+    display: block;
+    justify-content: center;
+    position: relative;
+    font-size: 14px;
+    color: #fffcfc;
+    margin-left: 15px;
+  }
+  .textarea-t {
+    display: block;
+    margin-left: 10px;
+    width: 300px;
+    height: 130px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    margin-left: 20px;
+    color: grey;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+}
+/*Fin de sección tablet*/
+
+@media only screen and (min-width: 1200px) {
+  /* styles for browsers larger */
+  .titulo-taller h1 {
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 2%;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 10px;
+    color: rgba(217, 169, 48, 0.996);
+  }
+  .nav-div-taller {
+    position: relative;
+    margin-top: 0px;
+    display: flex;
+    gap: 60px;
+    bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+  }
+  .contacto-taller {
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .bicicletas-taller {
+    grid-column: 1;
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .accesorios-taller {
+    grid-column: 1;
+    grid-row: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .taller-taller {
+    grid-column: 1;
+    grid-row: 4;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    right: 2px;
+  }
+  .subtitulo-taller h2 {
+    display: flex;
+    position: relative;
+    top: 15px;
+    left: 20px;
+    font-size: 30px;
+    text-decoration: underline;
+  }
+  .subtitulo-taller h3 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 10px;
+    right: 0px;
+    font-size: 30px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    box-sizing: border-box;
+    background-color: rgba(86, 86, 86, 0.44);
+  }
+  .imagen1-t {
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    width: 540px;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  .imagen2-t {
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    width: 500px;
+    margin-top: -370px;
+    margin-left: 540px;
+  }
+  .imagen3-t {
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    height: 360px;
+    margin-top: -360px;
+    margin-left: 1030px;
+  }
+  .arreglos {
+    display: flex;
+    gap: 50px;
+    font-size: 20px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    background-color: rgba(0, 14, 166, 0.274);
+    padding-top: 10px;
+    padding-left: 15px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .seccion-contacto-2 h5 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 15px;
+    right: 0px;
+    font-size: 25px;
+    text-decoration: underline;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  }
+  .label-taller {
+    display: block;
+    position: relative;
+    font-size: 25px;
+  }
+  .boton-taller {
+    height: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 0px;
+    margin-bottom: 100px;
+    margin-top: 10px;
+    margin-left: 80px;
+    text-transform: uppercase;
+    background-color: rgb(81, 80, 80);
+    border-style: solid;
+    border-radius: 5px;
+    width: 120px;
+    cursor: pointer;
+  }
+  .textarea-t {
+    font-family: "Times New Roman", Times, serif;
+    background-color: #ffffff5c;
+    width: 300px;
+    height: 200px;
     border-radius: 5px;
     border-style: solid;
     border-width: 1px;
-    margin-top: 0px;
-    padding-left: 30px;
-    }
-    label-taller {
-      display: block;
-      margin-left: 620px;
-      font-size: 20px;
-    }
-    .boton-taller {
-      height: 25px;
-      padding-left: 5px;
-      padding-right: 5px;
-      padding-top: 3px;
-      margin-top: 10px;
-      margin-right: 10px;
-      margin-left: 650px;
-      text-transform: uppercase;
-      background-color: rgb(118, 118, 118);
-      border-color: darkorange;
-      border-style: solid;
-      border-radius: 5px;
-      width: 120px;
-      cursor: pointer;
-    }
-    .obligatorio-taller {
-      color: rgb(253, 139, 0);
-    }
-    p-taller {
-      font-size: 14px;
-      color: #fffcfc;
-    }
-    .aviso-contacto-t {
-      font-size: 10px;
-      color: #525252c6;
-      margin-left: 800px;
-    }
-    form-taller {
-      margin-left: 620px;
-      font-size: 18px;
-    }
-    .textarea-t {
-      margin-left: 620px;
-      width: 300px;
-      height: 130px;
-      border-color: black;
-      border-style: solid;
-      border-radius: 5px;
-    }
+    border-color: darkorange;
+    margin-top: 10px;
   }
-  /* Fin de secion escritorio */
+  .obligatorio-taller {
+    color: rgb(253, 139, 0);
+  }
+  .formulario-taller {
+    display: block;
+    justify-content: center;
+    position: relative;
+    font-size: 14px;
+    color: #fffcfc;
+    margin-left: 15px;
+  }
+  .textarea-t {
+    display: block;
+    margin-left: 10px;
+    width: 300px;
+    height: 130px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    margin-left: 20px;
+    color: grey;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  .copy-right {
+    display: flex;
+    margin-top: -200px;
+  }
+}
 /* Fin de secion escritorio */

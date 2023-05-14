@@ -1,212 +1,11 @@
-@media only screen and (min-width: 320px) and (max-width:650px) {
-  /* styles for mobile.*/
-    .titulo-accesorios h1 {
-      position: relative;
-      margin-top: 10%;
-      margin-bottom: 5%;
-      text-align: center;
-      font-size: 3rem;
-      font-weight: 30px;
-      color: rgba(217, 169, 48, 0.996);
-    }
-    .header-form-bic {
-      display: none;
-    }
-    .nav-div-accesorios {
-      display: grid;
-      font-weight: 2rem;
-      grid-template-columns: repeat(1, 1fr);
-      grid-template-rows: repeat(4, 1fr);
-      padding: 0, 5rem;
-      gap: 16px;
-      margin-top: 10px;
-      margin-bottom: 30px;
-      text-align: center;
-      align-self: center;
-    }
-    .accesorios-contacto {
-      grid-column: 1;
-      grid-row: 1;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
-    .bicicletas-accesorios {
-      grid-column: 1;
-      grid-row: 2;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
-    .accesorios-acc {
-      grid-column: 1;
-      grid-row: 3;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
-    .taller-accesorios {
-      grid-column: 1;
-      grid-row: 4;
-      position: relative;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      right: 2px;
-    }
-    .subtitulo-acc {
-      display: block;
-      justify-content: center;
-      position: relative;
-      margin-top: 10px;
-      margin-bottom: 0%;
-      left: 20px;
-      text-decoration: underline;
-      font-size: 18px;
-    }
-    .f-accesorios1 {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      position: relative;
-      margin-top: 10px;
-      margin-bottom: 0%;
-      padding-left: 5%;
-      padding-right: 5%;
-      background-repeat: no-repeat;
-      background-attachment: relative;
-      max-width: 100%;
-    }
-    .parrafo-img1-ac {
-      display: flex;
-      justify-content: center;
-      position: relative;
-      margin-top: -130px;
-      margin-bottom: 0%;
-      margin-right: 5%;
-      margin-left: 5%;
-      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-      font-size: 60px;
-      color: rgba(253, 252, 252, 0.56);
-      max-width: 100%;
-    }
-    .f-accesorios2 {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      position: relative;
-      margin-top: 90px;
-      margin-bottom: 0%;
-      padding-left: 5%;
-      padding-right: 5%;
-      background-repeat: no-repeat;
-      background-attachment: relative;
-      max-width: 100%;
-    }
-    .parrafo-img2-ac {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      position: relative;
-      margin-top: 20px;
-      margin-bottom: 0%;
-      padding-left: 5%;
-      padding-right: 5%;
-      background-repeat: no-repeat;
-      background-attachment: relative;
-      max-width: 100%;
-    }
-    .f-accesorios3 {
-      background-position: relative;
-      background-repeat: no-repeat;
-      position: absolute;
-      max-width: 340px;
-      margin-top: 355px;
-      margin-left: 30px;
-    }
-    .parrafo-img3-ac {
-      display: flex;
-      justify-content: center;
-      position: relative;
-      margin-top: -130px;
-      margin-bottom: 0%;
-      margin-right: 5%;
-      margin-left: 5%;
-      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-      font-size: 60px;
-      color: rgba(253, 252, 252, 0.527);
-    }
-    .f-accesorios4 {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      position: relative;
-      margin-top: 90px;
-      margin-bottom: 0%;
-      padding-left: 5%;
-      padding-right: 5%;
-      background-repeat: no-repeat;
-      background-attachment: relative;
-      max-width: 100%;
-    }
-    .parrafo-img4-ac {
-      display: flex;
-      justify-content: center;
-      position: relative;
-      margin-top: -130px;
-      margin-bottom: 0;
-      margin-right: 5%;
-      margin-left: 5%;
-      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-      font-size: 60px;
-      border-radius: 5px;
-      color: rgba(253, 252, 252, 0.549);
-      background-attachment: relative;
-    }
-    .f-accesorios5 {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      position: relative;
-      margin-top: 90px;
-      margin-bottom: 0%;
-      padding-left: 5%;
-      padding-right: 5%;
-      background-repeat: no-repeat;
-      background-attachment: relative;
-      max-width: 100%;
-    }
-    .parrafo-img5-ac {
-      display: flex;
-      justify-content: center;
-      position: relative;
-      top: -140px;
-      margin-bottom: 0%;
-      margin-left: 10px;
-      margin-right: 0%;
-      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-      font-size: 60px;
-      color: rgba(253, 252, 252, 0.527);
-      background-attachment: relative;
-      max-width: 100%;
-    }
-    figure {
-      margin: 0;
-      display: inline-block;
-      position: relative;
-  }
-}
-  /*Fin seccion mobile*/
-
-  @media only screen and (min-width: 650px) and (max-width:1992px) {
-    /* styles for browsers tablet.*/
+@media only screen and (min-width: 320px) and (max-width: 650px) {
   /* styles for mobile.*/
   .titulo-accesorios h1 {
     position: relative;
     margin-top: 10%;
     margin-bottom: 5%;
     text-align: center;
-    font-size: 3rem;
+    font-size: 50px;
     font-weight: 30px;
     color: rgba(217, 169, 48, 0.996);
   }
@@ -220,7 +19,7 @@
     grid-template-rows: repeat(4, 1fr);
     padding: 0, 5rem;
     gap: 16px;
-    margin-top: 10px;
+    margin-top: 0px;
     margin-bottom: 30px;
     text-align: center;
     align-self: center;
@@ -276,13 +75,13 @@
     padding-right: 5%;
     background-repeat: no-repeat;
     background-attachment: relative;
-    max-width: 100%;
+    width: 100%;
   }
   .parrafo-img1-ac {
     display: flex;
     justify-content: center;
     position: relative;
-    margin-top: -130px;
+    margin-top: -150px;
     margin-bottom: 0%;
     margin-right: 5%;
     margin-left: 5%;
@@ -296,7 +95,7 @@
     flex-direction: column;
     justify-content: center;
     position: relative;
-    margin-top: 90px;
+    margin-top: 110px;
     margin-bottom: 0%;
     padding-left: 5%;
     padding-right: 5%;
@@ -306,10 +105,23 @@
   }
   .parrafo-img2-ac {
     display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: -150px;
+    margin-bottom: 0%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 60px;
+    color: rgba(253, 252, 252, 0.56);
+    max-width: 100%;
+  }
+  .f-accesorios3 {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     position: relative;
-    margin-top: 20px;
+    margin-top: 110px;
     margin-bottom: 0%;
     padding-left: 5%;
     padding-right: 5%;
@@ -317,24 +129,16 @@
     background-attachment: relative;
     max-width: 100%;
   }
-  .f-accesorios3 {
-    background-position: relative;
-    background-repeat: no-repeat;
-    position: absolute;
-    max-width: 340px;
-    margin-top: 355px;
-    margin-left: 30px;
-  }
   .parrafo-img3-ac {
     display: flex;
     justify-content: center;
     position: relative;
-    margin-top: -130px;
+    margin-top: -140px;
     margin-bottom: 0%;
     margin-right: 5%;
     margin-left: 5%;
     font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-    font-size: 60px;
+    font-size: 50px;
     color: rgba(253, 252, 252, 0.527);
   }
   .f-accesorios4 {
@@ -342,7 +146,7 @@
     flex-direction: column;
     justify-content: center;
     position: relative;
-    margin-top: 90px;
+    margin-top: 112px;
     margin-bottom: 0%;
     padding-left: 5%;
     padding-right: 5%;
@@ -355,13 +159,12 @@
     justify-content: center;
     position: relative;
     margin-top: -130px;
-    margin-bottom: 0;
+    margin-bottom: 0%;
     margin-right: 5%;
     margin-left: 5%;
     font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
     font-size: 60px;
-    border-radius: 5px;
-    color: rgba(253, 252, 252, 0.549);
+    color: rgba(253, 252, 252, 0.458);
     background-attachment: relative;
   }
   .f-accesorios5 {
@@ -381,175 +184,459 @@
     display: flex;
     justify-content: center;
     position: relative;
-    top: -140px;
+    margin-top: -130px;
     margin-bottom: 0%;
-    margin-left: 10px;
-    margin-right: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
     font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
     font-size: 60px;
     color: rgba(253, 252, 252, 0.527);
     background-attachment: relative;
     max-width: 100%;
   }
-  figure {
-    margin: 0;
-    display: inline-block;
+  .f-accesorios6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     position: relative;
+    margin-top: 90px;
+    margin-bottom: 0%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-repeat: no-repeat;
+    background-attachment: relative;
+    max-width: 100%;
+  }
+  .parrafo-img6-ac {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: -150px;
+    margin-bottom: 0%;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 70px;
+    color: rgba(253, 252, 252, 0.363);
+    background-attachment: relative;
+    max-width: 100%;
+  }
 }
+/*Fin seccion mobile*/
+
+@media only screen and (min-width: 650px) and (max-width: 1199px) {
+  /* styles for browsers tablet.*/
+  .titulo-accesorios h1 {
+    color: rgba(219, 171, 51, 0.996);
+    font-size: 70px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .header-form-bic {
+    display: none;
+  }
+  .nav-div-accesorios {
+    position: relative;
+    margin-top: 0%;
+    margin-left: 0%;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+  }
+  .accesorios-contacto {
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .bicicletas-accesorios {
+    grid-column: 1;
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .accesorios-acc {
+    grid-column: 1;
+    grid-row: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .taller-accesorios {
+    grid-column: 1;
+    grid-row: 4;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    right: 2px;
+  }
+  .subtitulo-acc {
+    display: block;
+    justify-content: center;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 0%;
+    left: 20px;
+    text-decoration: underline;
+    font-size: 18px;
+  }
+  .contenedor-img-accesorios {
+    display: grid;
+    grid-auto-rows: auto;
+    grid-template-columns: repeat(2, 300px);
+    gap: 20px;
+  }
+  .grid-accesorios {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    font-size: 20px;
+  }
+  .f-accesorios1 {
+    background-repeat: no-repeat;
+    background-attachment: relative;
+    margin-top: 20px;
+    margin-bottom: 0%;
+    width: 100%;
+  }
+  .parrafo-img1-ac {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: -150px;
+    margin-bottom: 0%;
+    margin-right: 5px;
+    margin-left: 5%;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 70px;
+    color: rgba(253, 252, 252, 0.56);
+    max-width: 100%;
+  }
+  .f-accesorios2 {
+    background-repeat: no-repeat;
+    background-attachment: relative;
+    margin-top: 20px;
+    margin-bottom: 0%;
+    height: 208px;
+    width: 100%;
+  }
+  .parrafo-img2-ac {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 0%;
+    margin-top: -150px;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 70px;
+    color: rgba(253, 252, 252, 0.527);
+    width: 100%;
+  }
+  .f-accesorios3 {
+    background-repeat: no-repeat;
+    background-attachment: relative;
+    margin-top: 50px;
+    margin-bottom: 0%;
+    height: 200px;
+    max-width: 100%;
+  }
+  .parrafo-img3-ac {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: -150px;
+    margin-bottom: 0%;
+    margin-right: 5%;
+    margin-left: 0%;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 70px;
+    color: rgba(253, 252, 252, 0.527);
+  }
+  .f-accesorios4 {
+    background-repeat: no-repeat;
+    background-attachment: relative;
+    margin-top: 50px;
+    margin-bottom: 0%;
+    height: 200px;
+    width: 100%;
+  }
+  .parrafo-img4-ac {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: -150px;
+    margin-bottom: 0;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 65px;
+    border-radius: 5px;
+    color: rgba(253, 252, 252, 0.549);
+    background-attachment: relative;
+  }
+  .f-accesorios5 {
+    background-repeat: no-repeat;
+    background-attachment: relative;
+    margin-top: 50px;
+    margin-bottom: 0%;
+    height: 192px;
+    width: 100%;
+  }
+  .parrafo-img5-ac {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: -150px;
+    margin-bottom: 0%;
+    margin-left: 10px;
+    margin-right: 0%;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 70px;
+    color: rgba(253, 252, 252, 0.527);
+    background-attachment: relative;
+    max-width: 100%;
+  }
+  .f-accesorios6 {
+    background-repeat: no-repeat;
+    background-attachment: relative;
+    margin-top: 50px;
+    margin-bottom: 0%;
+    height: 192px;
+    width: 100%;
+  }
+  .parrafo-img6-ac {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: -150px;
+    margin-bottom: 0%;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 70px;
+    color: rgba(253, 252, 252, 0.363);
+    background-attachment: relative;
+    max-width: 100%;
+  }
 }
-  @media only screen and (min-width: 1200px) {
-    /* styles for browsers larger than 1200px; */
-    .titulo-accesorios h1 {
-      color: rgba(219, 171, 51, 0.996);
-      font-size: 80px;
-      font-weight: 30px;
-      position: relative;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-top: 20px;
-    }
-    .nav-div-accesorios {
-      position: relative;
-      margin-top: 10px;
-      display: flex;
-      gap: 60px;
-      justify-content: center;
-      align-items: center;
-      font-size: 20px;
-    }
-    .accesorios-contacto {
-      grid-column: 1;
-      grid-row: 1;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
-    .bicicletas-accesorios {
-      grid-column: 2;
-      grid-row: 1;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
-    .accesorios-acc {
-      grid-column: 3;
-      grid-row: 1;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
-    .taller-accesorios {
-      grid-column: 4;
-      grid-row: 1;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
-    .subtitulo-acc {
-      display: flex;
-      justify-content: center;
-      position: relative;
-      top: 0px;
-      right: 640px;
-      text-decoration: underline;
-    }
-    .f-accesorios1 {
-      background-position: center;
-      background-repeat: no-repeat;
-      position: absolute;
-      max-width: 448px;
-      top: 250px;
-      left: 40px;
-      background-position: center;
-    }
-    .parrafo-img1-ac {
-      display: flex;
-      justify-content: center;
-      position: relative;
-      bottom: 0px;
-      top: 110px;
-      right: 490px;
-      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-      font-size: 70px;
-      color: rgba(253, 252, 252, 0.495);
-    }
-    .f-accesorios2 {
-      background-position: center;
-      background-repeat: no-repeat;
-      position: absolute;
-      max-width: 460px;
-      top: 251px;
-      left: 510px;
-    }
-    .parrafo-img2-ac {
-      display: flex;
-      justify-content: center;
-      position: relative;
-      top: 15px;
-      left: 0px;
-      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-      font-size: 70px;
-      color: rgba(253, 252, 252, 0.527);
-    }
-    .f-accesorios3 {
-      background-position: relative;
-      background-repeat: no-repeat;
-      position: absolute;
-      max-width: 465px;
-      top: 252px;
-      left: 990px;
-    }
-    .parrafo-img3-ac {
-      display: flex;
-      justify-content: center;
-      position: relative;
-      bottom: 60px;
-      left: 480px;
-      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-      font-size: 65px;
-      color: rgba(253, 252, 252, 0.527);
-    }
-    .f-accesorios4 {
-      background-position: center;
-      background-repeat: no-repeat;
-      position: absolute;
-      max-width: 475px;
-      left: 253px;
-      margin-top: 83px;
-      background-position: center;
-    }
-    .parrafo-img4-ac {
-      display: flex;
-      justify-content: center;
-      position: relative;
-      top: 165px;
-      right: 260px;
-      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-      font-size: 70px;
-      color: rgba(253, 252, 252, 0.516);
-      background-attachment: relative;
-    }
-    .f-accesorios5 {
-      background-position: center;
-      background-repeat: no-repeat;
-      position: absolute;
-      max-width: 475px;
-      top: 592px;
-      margin-bottom: 20px;
-      left: 750px;
-      background-position: center;
-    }
-    .parrafo-img5-ac {
-      display: flex;
-      justify-content: center;
-      position: relative;
-      bottom: 0;
-      top: 75px;
-      left: 245px;
-      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-      font-size: 70px;
-      color: rgba(253, 252, 252, 0.577);
-      background-attachment: relative;
-    }
+/*Fin sección tablet*/
+
+@media only screen and (min-width: 1200px) {
+  /* styles for browsers larger */
+  .titulo-accesorios h1 {
+    color: rgba(219, 171, 51, 0.996);
+    font-size: 80px;
+    font-weight: 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 0%;
+  }
+  .nav-div-accesorios {
+    position: relative;
+    margin-top: 0px;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+  }
+  .accesorios-contacto {
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .bicicletas-accesorios {
+    grid-column: 2;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .accesorios-acc {
+    grid-column: 3;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .taller-accesorios {
+    grid-column: 4;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .subtitulo-acc {
+    display: block;
+    justify-content: center;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 0%;
+    left: 20px;
+    text-decoration: underline;
+    font-size: 18px;
+  }
+  .contenedor-img-accesorios {
+    display: grid;
+    grid-auto-rows: auto;
+    grid-template-columns: repeat(3, 340px);
+    gap: 60px;
+  }
+  .grid-accesorios {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    gap: 60px;
+    font-size: 30px;
+  }
+  .f-accesorios1 {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 70px;
+    margin-top: 20px;
+    margin-bottom: 0%;
+    color: rgba(253, 252, 252, 0.56);
+    height: 254px;
+    max-width: 100%;
+  }
+  .parrafo-img1-ac {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 70px;
+    margin-top: -180px;
+    margin-right: 5px;
+    margin-left: 0%;
+    margin-bottom: 0%;
+    color: rgba(253, 252, 252, 0.56);
+    max-width: 100%;
+  }
+  .f-accesorios2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 70px;
+    margin-top: 20px;
+    margin-bottom: 0%;
+    color: rgba(253, 252, 252, 0.527);
+    height: 260px;
+    width: 100%;
+  }
+  .parrafo-img2-ac {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 70px;
+    margin-top: -170px;
+    margin-bottom: 0%;
+    color: rgba(253, 252, 252, 0.527);
+    width: 100%;
+  }
+  .f-accesorios3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: relative;
+    margin-top: 20px;
+    width: 100%;
+    height: 255px;
+  }
+  .parrafo-img3-ac {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 70px;
+    margin-top: -165px;
+    margin-bottom: 0%;
+    margin-left: 10px;
+    margin-right: 0%;
+    color: rgba(253, 252, 252, 0.527);
+  }
+  .f-accesorios4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: relative;
+    margin-top: 30px;
+    margin-bottom: 0%;
+    height: 265px;
+    width: 100%;
+  }
+  .parrafo-img4-ac {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 70px;
+    margin-top: -190px;
+    margin-bottom: 0%;
+    border-radius: 5px;
+    color: rgba(253, 252, 252, 0.549);
+    background-attachment: relative;
+  }
+  .f-accesorios5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: relative;
+    margin-top: 30px;
+    margin-bottom: 0%;
+    height: 266px;
+    width: 100%;
+  }
+  .parrafo-img5-ac {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: -185px;
+    margin-bottom: 0%;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 70px;
+    color: rgba(253, 252, 252, 0.527);
+    background-attachment: relative;
+    max-width: 100%;
+  }
+  .f-accesorios6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: relative;
+    margin-top: 30px;
+    margin-bottom: 0%;
+    width: 100%;
+    height: 266px;
+  }
+  .parrafo-img6-ac {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: -190px;
+    margin-bottom: 0%;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 70px;
+    color: rgba(253, 252, 252, 0.533);
+    background-attachment: relative;
+    max-width: 100%;
+  }
+  /* Fin de seccion escritorio */
 }
+

@@ -1,0 +1,103 @@
+@media only screen and (min-width: 320px) and (max-width: 650px) {
+/*mobile*/
+.input-contacto {
+    width: 280px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    margin-top: 0px;
+    margin-bottom: 0%;
+    right: 50px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+    color: #000000;
+}
+.input-taller {
+    width: 280px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    margin-top: 0px;
+    padding-left: 0px;
+    margin-bottom: 10px;
+    color: #000000;
+    display: grid;
+    grid-template-columns: (1 1fr);
+    grid-template-rows: 2 2fr;
+    color: #5f5f5f95;
+    font-size: 19px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+}
+@media only screen and (min-width: 651px) and (max-width: 1999px) {
+/* styles for browsers tablet.*/
+
+.input-contacto {
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    margin-top: 10px;
+    padding-left: 0px;
+    margin-bottom: 30px;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+}
+.imput-contacto-t {
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    color: #000000;
+    display: grid;
+    grid-template-columns: (1 1fr);
+    grid-template-rows: 2 2fr;
+    color: #5f5f5f95;
+    font-size: 19px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+}
+@media only screen and (min-width: 1200px) {
+/* styles for browsers larger*/
+.input-contacto {
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    margin-top: 10px;
+    padding-left: 0px;
+    margin-bottom: 30px;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+}
+.imput-contacto-t {
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    margin-top: 10px;
+    padding-left: 0px;
+    margin-bottom: 30px;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+}
