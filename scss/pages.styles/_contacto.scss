@@ -116,7 +116,7 @@
 /* Fin de seccion mobile */
 
 /*------------------------------------------------------------------------------Inicio seccion tablet---------------------------------------------------------------------*/
-@media only screen and (min-width: 650px) and (max-width: 1999px) {
+@media only screen and (min-width: 650px) and (max-width: 1199px) {
   /* styles for browsers tablet.*/
 
   .titulo-contacto h1 {
@@ -247,7 +247,7 @@
   }
   .nav-div-contacto {
     position: relative;
-    margin-top: 0px;
+    margin-top: 10px;
     display: flex;
     gap: 60px;
     justify-content: center;

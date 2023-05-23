@@ -1,264 +1,266 @@
-@media only screen and (min-width: 320px) and (max-width:650px){
-    /* styles for mobile.*/
-    .titulo h1 {
-      color: rgba(217, 169, 48, 0.996);
-      position: relative;
-      margin-top: 10%;
-      margin-bottom: 5%;
-      text-align: center;
-      font-size: 50px;
-      font-weight: 30px;
-    }
-    .header-form {
-      display: none;
-    }
-    .nav-div {
-      display: grid;
-      font-weight: 2rem;
-      grid-template-columns: repeat(1, 1fr);
-      grid-template-rows: repeat(4, 1fr);
-      padding: 0, 5rem;
-      gap: 10%;
-      text-align: center;
-      align-self: center;
-    }
-    .contacto {
-      grid-column: 1;
-      grid-row: 1;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
-    .bicicletas {
-      grid-column: 1;
-      grid-row: 2;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
-    .accesorios {
-      grid-column: 1;
-      grid-row: 3;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
-    .taller {
-      grid-column: 1;
-      grid-row: 4;
-      position: relative;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      right: 3px;
-    }
-    .novedades {
-      display: flex;
-      justify-content: center;
-      position: relative;
-      text-align: center;
-      margin-top: 15%;
-      margin-bottom: 0%;
-      border: 30%;
-      font-size: 40px;
-      border-style: ridge;
-      color: rgba(217, 169, 48, 0.996);
-      background-color: rgba(112, 107, 107, 0.2588235294);
-      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-      text-transform: uppercase;
-      transition-property:all;
-      transition-duration: 10s;
-      transition-timing-function: ease-out;
-    }
-    .video-1 {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      overflow: hidden;
-      position: relative;
-    }
-    .texto-secundario {
-      background-color: rgba(78, 65, 65, 0.227);
-      font-family: Georgia, "Times New Roman", Times, serif;
-      display: inline-block;
-      justify-content: center;
-      text-align: center;
-      font-size: 25px;
-      margin-top: 20px;
-      margin-bottom: 0%;
-      width: 100%;
-    }
-    .form-label {
-      display:inline-block;
-      justify-content: center;
-      position: relative;
-      margin-top: 23px;
-      margin-bottom: 0%;
-      font-size: 20px;
-      border-radius: 4%;
-      margin-left: 0px;
-      width: 100%;
-    }
-    .form-control {
-      display: inline-block;
-      justify-content: center;
-      align-self: center;
-      position:relative;
-      font-size: 20px;
-      margin-left: 2%;
-      margin-top: 0px;
-      width: 80%;
-    }
-    .articulo img {
-      max-width: 100%;
-      height: auto;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      background-position: relative;
-      background-repeat: no-repeat;
-      background-attachment: relative;
-      margin-top: 10px;
-      margin-bottom: 0%;
-    }
-    .parrafo-foto {
-      display: flex;
-      justify-content: center;
-      position: relative;
-      text-align: center;
-      padding-top: 10px;
-      padding-bottom: 5px;
-      bottom: 2px;
-      background-color: rgba(38, 20, 78, 0.647);
-      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-      font-size: 18px;
-    }
-    .card-text {
-      display: flex;
-      justify-content:center;
-      position: relative;
-      text-align: center;
-      margin-top: -30px;
-      margin-bottom: 0%;
-      font-size: 18px;
-      background-color: black;
-      padding-top: 100px;
-      padding-bottom: 140px;
-      max-width: 100%;
-    }
-    .card-icon {
-      display: block;
-      justify-content: center;
-      position: relative;
-      align-self: center ;
-      height: 90px;
-      max-width: 100px;
-      margin-top: -140px;
-      margin-bottom: 0%;
-      margin-left: 25px;
-      align-items: center;
-      font-family: Georgia, "Times New Roman", Times, serif;
-      font-size: 70px;
-    }
-    .contenedor-accesorios {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      position: relative;
-      margin-top: 80px;
-      margin-bottom: 0%;
-      padding-left: 5%;
-      padding-right: 5%;
-      background-repeat: no-repeat;
-      background-attachment: relative;
-    }
-    .parrafo-foto-P2 {
-      display: block;
-      justify-content:center;
-      position: relative;
-      align-self: center;
-      margin-top: -200px;
-      margin-bottom: 0%;
-      margin-right: 40%;
-      margin-left: 5%;
-      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-      font-size: 30px;
-      max-width: 800;
-      color: rgba(255, 255, 255, 0.856);
-      border-radius: 30px;
-      background-color: rgba(205, 68, 18, 0.196);
-      max-width: 100%;
-    }
-    .contenedor-taller {
-      display: flex;
-      flex-direction:column-reverse;
-      justify-content: center;
-      position: relative;
-      margin-top: 120px;
-      margin-bottom: 0%;
-      padding-left: 5%;
-      padding-right: 5%;
-      width: 100%;
-    }
+@media only screen and (min-width: 320px) and (max-width: 650px) {
+  /* styles for mobile.*/
+  .titulo h1 {
+    color: rgba(217, 169, 48, 0.996);
+    position: relative;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 30px;
+  }
+  .header-form {
+    display: none;
+  }
+  .nav-div {
+    display: grid;
+    font-weight: 2rem;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    padding: 0, 5rem;
+    gap: 10%;
+    text-align: center;
+    align-self: center;
+  }
+  .contacto {
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .bicicletas {
+    grid-column: 1;
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .accesorios {
+    grid-column: 1;
+    grid-row: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .taller {
+    grid-column: 1;
+    grid-row: 4;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    right: 3px;
+  }
+  .novedades {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 0%;
+    border: 30%;
+    font-size: 40px;
+    border-style: ridge;
+    color: rgba(217, 169, 48, 0.996);
+    background-color: rgba(112, 107, 107, 0.2588235294);
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    text-transform: uppercase;
+    transition-property: all;
+    transition-duration: 10s;
+    transition-timing-function: ease-out;
+  }
+  .video-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+  }
+  .texto-secundario {
+    background-color: rgba(78, 65, 65, 0.227);
+    font-family: Georgia, "Times New Roman", Times, serif;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 0%;
+    width: 100%;
+  }
+  .form-label {
+    display: inline-block;
+    justify-content: center;
+    position: relative;
+    margin-top: 23px;
+    margin-bottom: 0%;
+    font-size: 20px;
+    border-radius: 4%;
+    margin-left: 0px;
+    width: 100%;
+  }
+  .form-control {
+    display: inline-block;
+    justify-content: center;
+    align-self: center;
+    position: relative;
+    font-size: 20px;
+    margin-left: 2%;
+    margin-top: 0px;
+    width: 80%;
+  }
+  .articulo img {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-position: relative;
+    background-repeat: no-repeat;
+    background-attachment: relative;
+    margin-top: 10px;
+    margin-bottom: 0%;
+  }
+  .parrafo-foto {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    bottom: 2px;
+    background-color: rgba(38, 20, 78, 0.647);
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 18px;
+  }
+  .card-text {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    margin-top: -30px;
+    margin-bottom: 0%;
+    font-size: 18px;
+    background-color: black;
+    padding-top: 100px;
+    padding-bottom: 140px;
+    max-width: 100%;
+  }
+  .card-icon {
+    display: block;
+    justify-content: center;
+    position: relative;
+    align-self: center;
+    height: 90px;
+    max-width: 100px;
+    margin-top: -140px;
+    margin-bottom: 0%;
+    margin-left: 25px;
+    align-items: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 70px;
+  }
+  .contenedor-accesorios {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    margin-top: 80px;
+    margin-bottom: 0%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-repeat: no-repeat;
+    background-attachment: relative;
+  }
+  .parrafo-foto-P2 {
+    display: block;
+    justify-content: center;
+    position: relative;
+    align-self: center;
+    margin-top: -200px;
+    margin-bottom: 0%;
+    margin-right: 40%;
+    margin-left: 5%;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 30px;
+    max-width: 800;
+    color: rgba(255, 255, 255, 0.856);
+    border-radius: 30px;
+    background-color: rgba(205, 68, 18, 0.196);
+    max-width: 100%;
+  }
+  .contenedor-taller {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    position: relative;
+    margin-top: 120px;
+    margin-bottom: 0%;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 100%;
+  }
 
-    .parrafo-foto-P3 {
-      display: flex;
-      justify-content: center;
-      position: relative;
-      align-self: center;
-      margin-top: -120px;
-      margin-bottom: 0%;
-      margin-right: 40%;
-      margin-left: 15%;
-      font-family:Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-      font-size: 30px;
-      font-weight: 500;
-      border-radius: 10px;
-      padding-right: 30px;
-      padding-left: 30px;
-      background-color: rgba(210, 66, 14, 0.273);
-      color: rgba(253, 252, 252, 0.756);
-    }
-    .modelos {
-      display: flex;
-      flex-direction: column-reverse;
-      justify-content: center;
-      position: relative;
-      margin-top: 45px;
-      margin-bottom: 0%;
-      padding-left: 5%;
-      padding-right: 5%;
-    }
-    .parrafo-foto-P4 {
-      display:flex;
-      justify-content: center;
-      position:relative;
-      align-self: center;
-      margin-top: -70px;
-      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-      font-size: 30px;
-      font-weight: 500;
-      border-radius: 5px;
-      padding-right: 20px;
-      padding-left: 20px;
-      background-color: rgba(235, 71, 11, 0.371);
-      color: rgba(253, 252, 252, 0.756);
-    }
-    .bi-telefono {
-      display: flex;
-      flex-direction: column-reverse;
-      justify-content: center;
-      position: relative;
-      margin-top: 30px;
-      margin-bottom: 0%;
-      padding-left: 5%;
-      padding-right: 5%;
-      max-width: 100%;
-    }
+  .parrafo-foto-P3 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-self: center;
+    margin-top: -120px;
+    margin-bottom: 0%;
+    margin-right: 40%;
+    margin-left: 15%;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    border-radius: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color: rgba(210, 66, 14, 0.273);
+    color: rgba(253, 252, 252, 0.756);
+  }
+  .modelos {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    position: relative;
+    margin-top: 45px;
+    margin-bottom: 0%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .parrafo-foto-P4 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-self: center;
+    margin-top: -70px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    border-radius: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: rgba(235, 71, 11, 0.371);
+    color: rgba(253, 252, 252, 0.756);
+  }
+  .bi-telefono {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 0%;
+    padding-left: 5%;
+    padding-right: 5%;
+    max-width: 100%;
+  }
 }
 /*Fin sección mobile*/
 
-@media only screen and (min-width: 650px) and (max-width:1992px) {
+@media only screen and (min-width: 650px) and (max-width: 1199px) {
   /* styles for browsers tablet.*/
   .titulo h1 {
     color: rgba(219, 171, 51, 0.996);
@@ -331,9 +333,10 @@
     border-style: ridge;
     color: rgba(217, 169, 48, 0.996);
     background-color: rgba(112, 107, 107, 0.2588235294);
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
     text-transform: uppercase;
-    transition-property:all;
+    transition-property: all;
     transition-duration: 10s;
     transition-timing-function: ease-out;
   }
@@ -359,7 +362,7 @@
     display: inline-block;
     justify-content: center;
     align-self: center;
-    position:relative;
+    position: relative;
     font-size: 20px;
     margin-left: 1%;
     margin-top: 0px;
@@ -386,12 +389,13 @@
     padding-bottom: 5px;
     bottom: 2px;
     background-color: rgba(38, 20, 78, 0.647);
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
     font-size: 30px;
   }
   .card-text {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     position: relative;
     text-align: center;
     margin-top: -30px;
@@ -406,7 +410,7 @@
     display: block;
     justify-content: center;
     position: relative;
-    align-self: center ;
+    align-self: center;
     height: 90px;
     max-width: 100px;
     margin-top: -160px;
@@ -430,7 +434,7 @@
   }
   .parrafo-foto-P2 {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     position: relative;
     align-self: center;
     top: -400px;
@@ -447,7 +451,7 @@
   }
   .contenedor-taller {
     display: flex;
-    flex-direction:column-reverse;
+    flex-direction: column-reverse;
     justify-content: center;
     position: relative;
     margin-top: -140px;
@@ -465,7 +469,7 @@
     margin-bottom: 0%;
     margin-right: 40px;
     margin-left: 30px;
-    font-family:Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
     font-size: 60px;
     font-weight: 400;
     border-radius: 5px;
@@ -485,9 +489,9 @@
     padding-right: 5%;
   }
   .parrafo-foto-P4 {
-    display:flex;
+    display: flex;
     justify-content: center;
-    position:relative;
+    position: relative;
     align-self: center;
     margin-top: -110px;
     font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
@@ -515,16 +519,16 @@
 }
 /*Fin sección tablet*/
 
-@media only screen and (min-width: 1119px) {
+@media only screen and (min-width: 1200px) {
   /* styles for browsers larger*/
   .titulo h1 {
     color: rgba(219, 171, 51, 0.996);
-    font-size: 70px;
+    font-size: 80px;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 30px;
   }
   .header-form {
     display: flex;
@@ -534,7 +538,7 @@
     margin-top: 5px;
     font-size: 10px;
     position: relative;
-    margin-right: 100px;
+    margin-right: 0px;
     max-width: 100%;
   }
   .nav-div {
@@ -587,9 +591,10 @@
     border-style: ridge;
     color: rgba(217, 169, 48, 0.996);
     background-color: rgba(112, 107, 107, 0.2588235294);
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
     text-transform: uppercase;
-    transition-property:all;
+    transition-property: all;
     transition-duration: 10s;
     transition-timing-function: ease-out;
   }
@@ -620,12 +625,12 @@
     margin-top: 35px;
     margin-left: 40px;
     font-size: 30px;
-  } 
+  }
   .form-control {
     display: inline-block;
     justify-content: center;
     align-self: center;
-    position:relative;
+    position: relative;
     font-size: 30px;
     margin-left: 10px;
     margin-top: 0px;
@@ -639,7 +644,7 @@
     justify-content: center;
     background-position: relative;
     background-repeat: no-repeat;
-    background-attachment: relative; 
+    background-attachment: relative;
     margin-top: 15px;
     margin-bottom: 0%;
   }
@@ -664,12 +669,13 @@
     padding-bottom: 5px;
     bottom: 2px;
     background-color: rgba(38, 20, 78, 0.647);
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
     font-size: 40px;
   }
   .card-text {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     position: relative;
     text-align: center;
     margin-top: -30px;
@@ -684,7 +690,7 @@
     display: block;
     justify-content: center;
     position: relative;
-    align-self: center ;
+    align-self: center;
     height: 100px;
     max-width: 100px;
     margin-top: -180px;
@@ -709,7 +715,7 @@
   }
   .parrafo-foto-P2 {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     position: relative;
     align-self: center;
     top: -400px;
@@ -726,7 +732,7 @@
   }
   .contenedor-taller {
     display: flex;
-    flex-direction:column-reverse;
+    flex-direction: column-reverse;
     justify-content: center;
     position: relative;
     margin-top: -100px;
@@ -744,7 +750,7 @@
     margin-bottom: 0%;
     margin-right: 40px;
     margin-left: 30px;
-    font-family:Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
     font-size: 60px;
     font-weight: 400;
     border-radius: 2px;
@@ -764,9 +770,9 @@
     padding-right: 5%;
   }
   .parrafo-foto-P4 {
-    display:flex;
+    display: flex;
     justify-content: center;
-    position:relative;
+    position: relative;
     align-self: center;
     margin-top: -110px;
     font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;

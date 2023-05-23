@@ -31,7 +31,7 @@
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   }
 }
-@media only screen and (min-width: 651px) and (max-width: 1999px) {
+@media only screen and (min-width: 651px) and (max-width: 1199px) {
   /* styles for browsers tablet.*/
   .input-contacto {
     width: 300px;

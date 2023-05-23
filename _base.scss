@@ -1,21 +1,21 @@
 * {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-color: rgb(255, 255, 255);
-margin-bottom: 10px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: rgb(255, 255, 255);
+  margin-bottom: 10px;
 }
 
 a {
-text-decoration: none;
-color: white;
+  text-decoration: none;
+  color: white;
 }
 
 //----------------------------------- *portada*---------------------------//
 @media only screen and (min-width: 320px) and (max-width: 650px) {
-/* styles for mobile*/
-body {
+  /* styles for mobile*/
+  body {
     max-height: 100%;
     max-width: 100%;
     background-size: 5px;
@@ -24,12 +24,12 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-.body-contacto {
+  }
+  .body-contacto {
     width: 100%;
     background-color: rgba(37, 27, 126, 0.695);
-}
-.body-bicicletas {
+  }
+  .body-bicicletas {
     max-height: 100%;
     max-width: 100%;
     background-attachment: relative;
@@ -37,14 +37,14 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-.body-accesorios {
+  }
+  .body-accesorios {
     background-repeat: no-repeat;
     background-size: 530px;
     font-family: "Noto Sans", sans-serif;
     width: 100%;
-}
-.body-taller {
+  }
+  .body-taller {
     max-height: 100%;
     max-width: 100%;
     background-attachment: relative;
@@ -52,8 +52,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-.body-compras {
+  }
+  .body-compras {
     background-color: aqua;
     max-height: 100%;
     max-width: 100%;
@@ -62,11 +62,11 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
 }
-}
-@media only screen and (min-width: 650px) and (max-width: 1999px) {
-/* styles for tablet*/
-body {
+@media only screen and (min-width: 650px) and (max-width: 1199px) {
+  /* styles for tablet*/
+  body {
     max-height: 100%;
     width: 100%;
     background-size: 5px;
@@ -75,12 +75,12 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-.body-contacto {
+  }
+  .body-contacto {
     width: 100%;
     background-color: rgba(37, 27, 126, 0.695);
-}
-.body-bicicletas {
+  }
+  .body-bicicletas {
     max-height: 100%;
     width: 100%;
     background-size: 5px;
@@ -89,14 +89,14 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-.body-accesorios {
+  }
+  .body-accesorios {
     background-repeat: no-repeat;
     background-size: 530px;
     font-family: "Noto Sans", sans-serif;
     width: 100%;
-}
-.body-taller {
+  }
+  .body-taller {
     max-height: 100%;
     width: 100%;
     background-size: 5px;
@@ -105,8 +105,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-.body-compras {
+  }
+  .body-compras {
     max-height: 100%;
     width: 100%;
     background-size: 5px;
@@ -115,11 +115,11 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
+  }
 }
 @media only screen and (min-width: 1200px) {
   /* styles for browsers larger */
-body {
+  body {
     max-height: 100%;
     max-width: 100%;
     background-size: 5px;
@@ -128,31 +128,30 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-.body-contacto {
+  }
+  .body-contacto {
     width: 100%;
     background-color: rgba(37, 27, 126, 0.695);
-}
-.body-bicicletas {
+  }
+  .body-bicicletas {
     max-height: 100%;
     max-width: 100%;
     background-color: rgb(14, 41, 51);
-
-}
-.body-accesorios {
+  }
+  .body-accesorios {
     width: 100%;
     max-height: 100%;
     max-width: 100%;
     background-color: rgb(14, 41, 51);
-}
-.body-taller {
+  }
+  .body-taller {
     max-height: 100%;
     max-width: 100%;
     background-color: rgb(14, 41, 51);
-}
-.body-compras {
+  }
+  .body-compras {
     width: 100%;
     background-attachment: relative;
     background-color: rgb(14, 41, 51);
-}
+  }
 }

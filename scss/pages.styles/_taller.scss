@@ -99,7 +99,7 @@
     height: 300px;
     margin-top: 15px;
   }
-  .arreglos {
+  .arreglos h4 {
     display: block;
     gap: 20px;
     font-size: 20px;
@@ -169,7 +169,7 @@
 }
 /*Fin de sección mobile*/
 
-@media only screen and (min-width: 650px) and (max-width: 1999px) {
+@media only screen and (min-width: 650px) and (max-width: 1199px) {
   /* styles for tablet.*/
   .titulo-taller h1 {
     color: rgba(219, 171, 51, 0.996);
@@ -264,7 +264,7 @@
     height: 300px;
     margin-top: 15px;
   }
-  .arreglos {
+  .arreglos h4 {
     display: block;
     gap: 20px;
     font-size: 20px;
@@ -427,7 +427,7 @@
     margin-top: -360px;
     margin-left: 1030px;
   }
-  .arreglos {
+  .arreglos h4 {
     display: flex;
     gap: 50px;
     font-size: 20px;
