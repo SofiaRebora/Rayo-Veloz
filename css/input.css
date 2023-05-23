@@ -6,8 +6,6 @@
     border-radius: 5px;
     border-style: solid;
     border-color: rgb(0, 0, 0);
-    margin-top: 0px;
-    margin-bottom: 0%;
     right: 50px;
     padding-left: 20px;
     margin-bottom: 30px;
@@ -19,8 +17,6 @@
     border-radius: 5px;
     border-style: solid;
     border-color: rgb(0, 0, 0);
-    margin-top: 0px;
-    padding-left: 0px;
     margin-bottom: 10px;
     color: #000000;
     display: grid;
@@ -48,19 +44,12 @@
     position: relative;
     text-align: center;
   }
-  .imput-contacto-t {
-    width: 400px;
-    height: 40px;
+  .input-taller {
     border-radius: 5px;
     border-style: solid;
     border-color: rgb(0, 0, 0);
-    margin-top: 10px;
-    padding-left: 10px;
     margin-bottom: 10px;
     color: #000000;
-    display: grid;
-    grid-template-columns: 1 1fr;
-    grid-template-rows: 2 2fr;
     color: rgba(95, 95, 95, 0.5843137255);
     font-size: 19px;
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
@@ -75,7 +64,6 @@
     border-style: solid;
     border-color: rgb(0, 0, 0);
     margin-top: 10px;
-    padding-left: 0px;
     margin-bottom: 30px;
     color: #000000;
     display: flex;
@@ -90,13 +78,22 @@
     border-style: solid;
     border-color: rgb(0, 0, 0);
     margin-top: 10px;
-    padding-left: 0px;
     margin-bottom: 30px;
     color: #000000;
     display: flex;
     justify-content: center;
     position: relative;
     text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  .input-taller {
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    color: #000000;
+    color: rgba(95, 95, 95, 0.5843137255);
+    font-size: 19px;
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   }
 }/*# sourceMappingURL=input.css.map */
