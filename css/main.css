@@ -136,42 +136,23 @@ a {
   .body-bicicletas {
     max-height: 100%;
     max-width: 100%;
-    background-size: 5px;
-    background-attachment: relative;
     background-color: rgb(14, 41, 51);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
   }
   .body-accesorios {
     width: 100%;
     max-height: 100%;
     max-width: 100%;
-    background-size: 5px;
-    background-attachment: relative;
     background-color: rgb(14, 41, 51);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
   }
   .body-taller {
     max-height: 100%;
     max-width: 100%;
-    background-size: 5px;
-    background-attachment: relative;
     background-color: rgb(14, 41, 51);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
   }
   .body-compras {
     width: 100%;
-    background-size: 5px;
     background-attachment: relative;
     background-color: rgb(14, 41, 51);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
   }
 }
 @media only screen and (min-width: 320px) and (max-width: 650px) {
@@ -340,180 +321,165 @@ a {
     margin-bottom: 0%;
     font-size: 10px;
   }
+  .footer-titulo-bicicletas {
+    display: block;
+    justify-content: center;
+    position: relative;
+    background-color: black;
+    font-size: 15px;
+    text-decoration: underline;
+    margin-top: -300px;
+    margin-bottom: 0%;
+    padding-top: 0px;
+    padding-bottom: 230px;
+    padding-right: 220px;
+  }
+  .metodos-bicicletas {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: -258px;
+    margin-bottom: 0%;
+    font-size: 15px;
+    text-decoration: underline;
+    margin-left: 12px;
+  }
+  .column-content-bici {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 0%;
+    font-size: 15px;
+    margin-right: 200px;
+    margin-left: 0%;
+  }
+  .tarjet-bicicletas {
+    max-width: 100%;
+    display: block;
+    justify-content: column;
+    position: relative;
+    gap: 0%;
+    margin-top: 0px;
+    margin-bottom: 0%;
+    margin-left: 150px;
+  }
+  .secciones-bicicletas {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    align-self: auto;
+    gap: 0%;
+    margin-top: 0px;
+    margin-bottom: 0%;
+    max-width: 100%;
+  }
+  .footer-titulo-bici-2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: -162px;
+    margin-bottom: 0%;
+    font-size: 15px;
+    text-decoration: underline;
+    margin-left: 220px;
+    margin-right: 0%;
+    max-width: 100%;
+  }
+  .items-footer-bicicletas {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-self: auto;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 0%;
+    font-size: 18px;
+    margin-right: 90px;
+  }
+  .copy-right-bicicletas {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 380px;
+    margin-bottom: 0%;
+    padding: auto;
+    color: grey;
+    font-size: 15px;
+    right: 0%;
+  }
+  .footer-titulo-taller {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: black;
+    font-size: 15px;
+    text-decoration: underline;
+    margin-top: 130px;
+    margin-bottom: 0%;
+    padding-top: 20px;
+    padding-bottom: 280px;
+    padding-right: 220px;
+    margin-left: 0%;
+  }
+  .metodos-taller {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: -307px;
+    margin-bottom: 0%;
+    font-size: 15px;
+    text-decoration: underline;
+    margin-left: 50px;
+  }
+  .tarjet-taller {
+    max-width: 10%;
+    display: inline-flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    position: absolute;
+    gap: 0%;
+    margin-top: 0px;
+    margin-bottom: 0%;
+    margin-left: 300px;
+    margin-right: 0%;
+  }
+  .secciones-taller {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: 20px;
+    right: 10px;
+  }
+  .footer-parrafo-taller {
+    list-style-type: none;
+    background-color: 0;
+  }
+  .secciones-taller-2 {
+    display: block;
+    justify-content: center;
+    position: relative;
+    text-align: start;
+    list-style-position: inside;
+    margin-top: -280px;
+    margin-bottom: 0%;
+    font-size: 15px;
+    margin-left: 160px;
+    margin-right: 0%;
+  }
+  .copy-right-taller {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: auto;
+    font-size: 20px;
+  }
 }
-.footer-titulo-bicicletas {
-  display: block;
-  justify-content: center;
-  position: relative;
-  background-color: black;
-  font-size: 15px;
-  text-decoration: underline;
-  margin-top: -300px;
-  margin-bottom: 0%;
-  padding-top: 0px;
-  padding-bottom: 230px;
-  padding-right: 220px;
-}
-
-.metodos-bicicletas {
-  list-style-type: none;
-  display: flex;
-  justify-content: center;
-  position: relative;
-  margin-top: -258px;
-  margin-bottom: 0%;
-  font-size: 15px;
-  text-decoration: underline;
-  margin-left: 12px;
-}
-
-.column-content-bici {
-  display: flex;
-  justify-content: center;
-  position: relative;
-  margin-top: 0px;
-  margin-bottom: 0%;
-  font-size: 15px;
-  margin-right: 200px;
-  margin-left: 0%;
-}
-
-.tarjet-bicicletas {
-  max-width: 100%;
-  display: block;
-  justify-content: column;
-  position: relative;
-  gap: 0%;
-  margin-top: 0px;
-  margin-bottom: 0%;
-  margin-left: 150px;
-}
-
-.secciones-bicicletas {
-  display: flex;
-  justify-content: center;
-  position: relative;
-  text-align: center;
-  align-self: auto;
-  gap: 0%;
-  margin-top: 0px;
-  margin-bottom: 0%;
-  max-width: 100%;
-}
-
-.footer-titulo-bici-2 {
-  display: flex;
-  justify-content: center;
-  position: relative;
-  margin-top: -162px;
-  margin-bottom: 0%;
-  font-size: 15px;
-  text-decoration: underline;
-  margin-left: 220px;
-  margin-right: 0%;
-  max-width: 100%;
-}
-
-.items-footer-bicicletas {
-  display: flex;
-  justify-content: center;
-  position: relative;
-  align-self: auto;
-  font-size: 20px;
-  margin-top: 0px;
-  margin-bottom: 0%;
-  font-size: 18px;
-  margin-right: 90px;
-}
-
-.copy-right-bicicletas {
-  display: flex;
-  justify-content: center;
-  position: relative;
-  margin-top: 380px;
-  margin-bottom: 0%;
-  padding: auto;
-  color: grey;
-  font-size: 15px;
-  right: 0%;
-}
-
-.footer-titulo-taller {
-  display: flex;
-  justify-content: center;
-  position: relative;
-  background-color: black;
-  font-size: 15px;
-  text-decoration: underline;
-  margin-top: 130px;
-  margin-bottom: 0%;
-  padding-top: 20px;
-  padding-bottom: 280px;
-  padding-right: 220px;
-  margin-left: 0%;
-}
-
-.metodos-taller {
-  list-style-type: none;
-  display: flex;
-  justify-content: center;
-  position: relative;
-  margin-top: -307px;
-  margin-bottom: 0%;
-  font-size: 15px;
-  text-decoration: underline;
-  margin-left: 50px;
-}
-
-.tarjet-taller {
-  max-width: 10%;
-  display: inline-flex;
-  flex-direction: column-reverse;
-  justify-content: center;
-  position: absolute;
-  gap: 0%;
-  margin-top: 0px;
-  margin-bottom: 0%;
-  margin-left: 300px;
-  margin-right: 0%;
-}
-
-.secciones-taller {
-  display: flex;
-  justify-content: center;
-  position: relative;
-  text-align: center;
-  margin-bottom: 0px;
-  font-size: 20px;
-  right: 10px;
-}
-
-.footer-parrafo-taller {
-  list-style-type: none;
-  background-color: 0;
-}
-
-.secciones-taller-2 {
-  display: block;
-  justify-content: center;
-  position: relative;
-  text-align: start;
-  list-style-position: inside;
-  margin-top: -280px;
-  margin-bottom: 0%;
-  font-size: 15px;
-  margin-left: 160px;
-  margin-right: 0%;
-}
-
-.copy-right-taller {
-  display: flex;
-  justify-content: center;
-  position: relative;
-  padding: auto;
-  font-size: 20px;
-}
-
 /*fin seccion mobile*/
 @media only screen and (min-width: 650px) and (max-width: 1999px) {
   /* styles for tablet*/
@@ -602,180 +568,167 @@ a {
     font-size: 60%;
     right: 0%;
   }
+  .footer-titulo-bicicletas {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: black;
+    font-size: 25px;
+    text-decoration: underline;
+    margin-top: 0px;
+    margin-bottom: 0%;
+    padding-top: 20px;
+    padding-bottom: 300px;
+    padding-right: 200px;
+  }
+  .metodos-bicicletas1 {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: -340px;
+    margin-bottom: 0%;
+    font-size: 25px;
+    text-decoration: underline;
+    margin-left: 50px;
+  }
+  .tarjet-bicicletas {
+    display: block;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    align-self: auto;
+    gap: 0%;
+    margin-top: 20px;
+    margin-bottom: 0%;
+    margin-left: 30px;
+    margin-right: 0%;
+    max-width: 100%;
+  }
+  .secciones-footer-bicicletas {
+    display: block;
+    justify-content: center;
+    position: relative;
+    align-self: auto;
+    margin-top: -280px;
+    margin-bottom: 0%;
+    font-size: 20px;
+    text-decoration: underline;
+    margin-left: 0%;
+    margin-right: 960px;
+    max-width: 100%;
+  }
+  .footer-titulo-bici-2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-self: auto;
+    margin-top: -210px;
+    margin-bottom: 0%;
+    font-size: 25px;
+    text-decoration: underline;
+    margin-left: 530px;
+    margin-right: 0%;
+    max-width: 100%;
+  }
+  .items-footer-bicicletas {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-self: auto;
+    font-size: 20px;
+    margin-top: 18px;
+    margin-bottom: 0%;
+    font-size: 18px;
+    margin-left: 520px;
+    margin-right: 0%;
+    max-width: 100%;
+  }
+  .copy-right-bicicletas {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 120px;
+    margin-bottom: 0%;
+    padding: auto;
+    color: grey;
+    font-size: 60%;
+    right: 0%;
+  }
+  .footer-titulo-taller {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: black;
+    font-size: 15px;
+    text-decoration: underline;
+    margin-top: 130px;
+    margin-bottom: 0%;
+    padding-top: 20px;
+    padding-bottom: 280px;
+    padding-right: 220px;
+    margin-left: 0%;
+  }
+  .metodos-taller {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: -340px;
+    margin-bottom: 0%;
+    font-size: 25px;
+    text-decoration: underline;
+    margin-left: 30px;
+  }
+  .tarjet-taller {
+    display: block;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    align-self: auto;
+    gap: 0%;
+    margin-top: 20px;
+    margin-bottom: 0%;
+    margin-left: 30px;
+    margin-right: 0%;
+    max-width: 100%;
+  }
+  .secciones-taller {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-self: auto;
+    margin-top: -70px;
+    margin-bottom: 0%;
+    font-size: 18px;
+    margin-right: 480px;
+    margin-left: 0%;
+  }
+  .footer-parrafo-taller {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-self: auto;
+    margin-top: -210px;
+    margin-bottom: 0%;
+    font-size: 25px;
+    text-decoration: underline;
+    margin-left: 530px;
+    margin-right: 0%;
+    max-width: 100%;
+  }
+  .copy-right-taller {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 120px;
+    margin-bottom: 0%;
+    padding: auto;
+    color: grey;
+    font-size: 60%;
+    right: 0%;
+  }
 }
-.footer-titulo-bicicletas {
-  display: flex;
-  justify-content: center;
-  position: relative;
-  background-color: black;
-  font-size: 25px;
-  text-decoration: underline;
-  margin-top: 0px;
-  margin-bottom: 0%;
-  padding-top: 20px;
-  padding-bottom: 300px;
-  padding-right: 200px;
-}
-
-.metodos-bicicletas1 {
-  list-style-type: none;
-  display: flex;
-  justify-content: center;
-  position: relative;
-  margin-top: -340px;
-  margin-bottom: 0%;
-  font-size: 25px;
-  text-decoration: underline;
-  margin-left: 50px;
-}
-
-.tarjet-bicicletas {
-  display: block;
-  justify-content: center;
-  position: relative;
-  text-align: center;
-  align-self: auto;
-  gap: 0%;
-  margin-top: 20px;
-  margin-bottom: 0%;
-  margin-left: 30px;
-  margin-right: 0%;
-  max-width: 100%;
-}
-
-.secciones-footer-bicicletas {
-  display: block;
-  justify-content: center;
-  position: relative;
-  align-self: auto;
-  margin-top: -280px;
-  margin-bottom: 0%;
-  font-size: 20px;
-  text-decoration: underline;
-  margin-left: 0%;
-  margin-right: 960px;
-  max-width: 100%;
-}
-
-.footer-titulo-bici-2 {
-  display: flex;
-  justify-content: center;
-  position: relative;
-  align-self: auto;
-  margin-top: -210px;
-  margin-bottom: 0%;
-  font-size: 25px;
-  text-decoration: underline;
-  margin-left: 530px;
-  margin-right: 0%;
-  max-width: 100%;
-}
-
-.items-footer-bicicletas {
-  display: flex;
-  justify-content: center;
-  position: relative;
-  align-self: auto;
-  font-size: 20px;
-  margin-top: 18px;
-  margin-bottom: 0%;
-  font-size: 18px;
-  margin-left: 520px;
-  margin-right: 0%;
-  max-width: 100%;
-}
-
-.copy-right-bicicletas {
-  display: flex;
-  justify-content: center;
-  position: relative;
-  margin-top: 120px;
-  margin-bottom: 0%;
-  padding: auto;
-  color: grey;
-  font-size: 60%;
-  right: 0%;
-}
-
-.footer-titulo-taller {
-  display: flex;
-  justify-content: center;
-  position: relative;
-  background-color: black;
-  font-size: 15px;
-  text-decoration: underline;
-  margin-top: 130px;
-  margin-bottom: 0%;
-  padding-top: 20px;
-  padding-bottom: 280px;
-  padding-right: 220px;
-  margin-left: 0%;
-}
-
-.metodos-taller {
-  list-style-type: none;
-  display: flex;
-  justify-content: center;
-  position: relative;
-  margin-top: -340px;
-  margin-bottom: 0%;
-  font-size: 25px;
-  text-decoration: underline;
-  margin-left: 30px;
-}
-
-.tarjet-taller {
-  display: block;
-  justify-content: center;
-  position: relative;
-  text-align: center;
-  align-self: auto;
-  gap: 0%;
-  margin-top: 20px;
-  margin-bottom: 0%;
-  margin-left: 30px;
-  margin-right: 0%;
-  max-width: 100%;
-}
-
-.secciones-taller {
-  display: flex;
-  justify-content: center;
-  position: relative;
-  align-self: auto;
-  margin-top: -70px;
-  margin-bottom: 0%;
-  font-size: 18px;
-  margin-right: 480px;
-  margin-left: 0%;
-}
-
-.footer-parrafo-taller {
-  display: flex;
-  justify-content: center;
-  position: relative;
-  align-self: auto;
-  margin-top: -210px;
-  margin-bottom: 0%;
-  font-size: 25px;
-  text-decoration: underline;
-  margin-left: 530px;
-  margin-right: 0%;
-  max-width: 100%;
-}
-
-.copy-right-taller {
-  display: flex;
-  justify-content: center;
-  position: relative;
-  margin-top: 120px;
-  margin-bottom: 0%;
-  padding: auto;
-  color: grey;
-  font-size: 60%;
-  right: 0%;
-}
-
 /*fin seccion tablet*/
 @media only screen and (min-width: 2000px) {
   /* styles for browsers larger*/
@@ -856,7 +809,7 @@ a {
     display: flex;
     justify-content: center;
     position: relative;
-    margin-top: 120px;
+    top: 400px;
     margin-bottom: 0%;
     padding: auto;
     color: grey;
@@ -947,189 +900,174 @@ a {
     margin-bottom: 0%;
     font-size: 15px;
   }
+  .footer-titulo-bicicletas {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: black;
+    font-size: 25px;
+    text-decoration: underline;
+    margin-top: 500px;
+    margin-bottom: 0%;
+    padding-top: 20px;
+    padding-bottom: 300px;
+    padding-right: 800px;
+  }
+  .metodos-bicicletas1 {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 0%;
+    font-size: 25px;
+    text-decoration: underline;
+    margin-left: 180px;
+  }
+  .tarjet-bicicletas {
+    display: block;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    align-self: auto;
+    gap: 0%;
+    margin-top: -280px;
+    margin-bottom: 0%;
+    margin-left: 0px;
+    margin-right: 0%;
+  }
+  .secciones-footer-bicicletas {
+    display: block;
+    justify-content: center;
+    position: relative;
+    align-self: auto;
+    margin-top: -90px;
+    margin-bottom: 0%;
+    font-size: 20px;
+    text-decoration: underline;
+    margin-left: 0%;
+    margin-right: 600px;
+    max-width: 100%;
+  }
+  .footer-titulo-bici-2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-self: auto;
+    margin-top: -180px;
+    margin-bottom: 0%;
+    font-size: 25px;
+    text-decoration: underline;
+    margin-left: 780px;
+    margin-right: 0%;
+    max-width: 100%;
+  }
+  .items-footer-bicicletas {
+    display: block;
+    justify-content: center;
+    position: relative;
+    align-self: auto;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 0%;
+    font-size: 18px;
+    margin-left: 1130px;
+    margin-right: 0%;
+    max-width: 100%;
+  }
+  .copy-right-bicicletas {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: auto;
+    color: grey;
+    margin-top: 150px;
+    margin-bottom: 0%;
+    font-size: 15px;
+  }
+  .footer-parrafo-taller {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: black;
+    font-size: 25px;
+    text-decoration: underline;
+    margin-top: 200px;
+    margin-bottom: 0%;
+    padding-top: 20px;
+    padding-bottom: 300px;
+  }
+  .links-taller {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: -340px;
+    margin-bottom: 0%;
+    font-size: 25px;
+    text-decoration: underline;
+    margin-left: 0px;
+  }
+  .tarjet-taller {
+    display: block;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    align-self: auto;
+    gap: 0%;
+    margin-top: 20px;
+    margin-bottom: 0%;
+    margin-left: 30px;
+    margin-right: 0%;
+  }
+  .secciones-taller {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-self: auto;
+    margin-top: -70px;
+    margin-bottom: 0%;
+    font-size: 18px;
+    margin-right: 1000px;
+    margin-left: 0%;
+  }
+  .footer-parrafo-taller {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-self: auto;
+    margin-top: -215px;
+    margin-bottom: 0%;
+    font-size: 25px;
+    text-decoration: underline;
+    margin-left: 920px;
+    margin-right: 0%;
+    max-width: 100%;
+  }
+  .secciones-taller-2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-self: auto;
+    font-size: 20px;
+    margin-top: 18px;
+    margin-bottom: 0%;
+    font-size: 18px;
+    margin-left: 880px;
+    margin-right: 0%;
+    max-width: 100%;
+  }
+  .copy-right-taller {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 300px;
+    padding: auto;
+    color: grey;
+    font-size: 20px;
+    right: 0%;
+  }
 }
-.footer-titulo-bicicletas {
-  display: flex;
-  justify-content: center;
-  position: relative;
-  background-color: black;
-  font-size: 25px;
-  text-decoration: underline;
-  margin-top: 130px;
-  margin-bottom: 0%;
-  padding-top: 20px;
-  padding-bottom: 300px;
-  padding-right: 800px;
-}
-
-.metodos-bicicletas1 {
-  list-style-type: none;
-  display: flex;
-  justify-content: center;
-  position: relative;
-  margin-top: -340px;
-  margin-bottom: 0%;
-  font-size: 25px;
-  text-decoration: underline;
-  margin-left: 180px;
-}
-
-.tarjet-bicicletas {
-  display: block;
-  justify-content: center;
-  position: relative;
-  text-align: center;
-  align-self: auto;
-  gap: 0%;
-  margin-top: -280px;
-  margin-bottom: 0%;
-  margin-left: 0px;
-  margin-right: 0%;
-}
-
-.secciones-footer-bicicletas {
-  display: block;
-  justify-content: center;
-  position: relative;
-  align-self: auto;
-  margin-top: -90px;
-  margin-bottom: 0%;
-  font-size: 20px;
-  text-decoration: underline;
-  margin-left: 0%;
-  margin-right: 600px;
-  max-width: 100%;
-}
-
-.footer-titulo-bici-2 {
-  display: flex;
-  justify-content: center;
-  position: relative;
-  align-self: auto;
-  margin-top: -180px;
-  margin-bottom: 0%;
-  font-size: 25px;
-  text-decoration: underline;
-  margin-left: 780px;
-  margin-right: 0%;
-  max-width: 100%;
-}
-
-.items-footer-bicicletas {
-  display: block;
-  justify-content: center;
-  position: relative;
-  align-self: auto;
-  font-size: 20px;
-  margin-top: 0px;
-  margin-bottom: 0%;
-  font-size: 18px;
-  margin-left: 1130px;
-  margin-right: 0%;
-  max-width: 100%;
-}
-
-.copy-right-bicicletas {
-  display: flex;
-  justify-content: center;
-  position: relative;
-  padding: auto;
-  color: grey;
-  margin-top: 150px;
-  margin-bottom: 0%;
-  font-size: 15px;
-}
-
-.footer-parrafo-taller {
-  display: flex;
-  justify-content: center;
-  position: relative;
-  background-color: black;
-  font-size: 25px;
-  text-decoration: underline;
-  margin-top: 200px;
-  margin-bottom: 0%;
-  padding-top: 20px;
-  padding-bottom: 300px;
-  padding-right: 1000px;
-}
-
-.links-taller {
-  list-style-type: none;
-  display: flex;
-  justify-content: center;
-  position: relative;
-  margin-top: -340px;
-  margin-bottom: 0%;
-  font-size: 25px;
-  text-decoration: underline;
-  margin-left: 0px;
-}
-
-.tarjet-taller {
-  display: block;
-  justify-content: center;
-  position: relative;
-  text-align: center;
-  align-self: auto;
-  gap: 0%;
-  margin-top: 20px;
-  margin-bottom: 0%;
-  margin-left: 30px;
-  margin-right: 0%;
-}
-
-.secciones-taller {
-  display: flex;
-  justify-content: center;
-  position: relative;
-  align-self: auto;
-  margin-top: -70px;
-  margin-bottom: 0%;
-  font-size: 18px;
-  margin-right: 1000px;
-  margin-left: 0%;
-}
-
-.footer-parrafo-taller {
-  display: flex;
-  justify-content: center;
-  position: relative;
-  align-self: auto;
-  margin-top: -215px;
-  margin-bottom: 0%;
-  font-size: 25px;
-  text-decoration: underline;
-  margin-left: 920px;
-  margin-right: 0%;
-  max-width: 100%;
-}
-
-.secciones-taller-2 {
-  display: flex;
-  justify-content: center;
-  position: relative;
-  align-self: auto;
-  font-size: 20px;
-  margin-top: 18px;
-  margin-bottom: 0%;
-  font-size: 18px;
-  margin-left: 880px;
-  margin-right: 0%;
-  max-width: 100%;
-}
-
-.copy-right-taller {
-  display: flex;
-  justify-content: center;
-  position: relative;
-  bottom: 300px;
-  padding: auto;
-  color: grey;
-  font-size: 20px;
-  right: 0pz;
-}
-
 /*fin seccion escritorio*/
 @media only screen and (min-width: 320px) and (max-width: 650px) {
   /*mobile*/
@@ -2261,7 +2199,6 @@ a {
   .titulo-contacto h1 {
     position: relative;
     top: 20px;
-    bottom: 0px;
     text-align: center;
     font-size: 80px;
     font-weight: 10px;
@@ -2269,7 +2206,7 @@ a {
   }
   .nav-div-contacto {
     position: relative;
-    margin-top: 20px;
+    margin-top: 0px;
     display: flex;
     gap: 60px;
     justify-content: center;
@@ -4276,7 +4213,7 @@ a {
   /* styles for browsers larger */
   .titulo-compras {
     color: rgba(219, 171, 51, 0.996);
-    font-size: 80px;
+    font-size: 50px;
     font-weight: 30px;
     position: relative;
     display: flex;
