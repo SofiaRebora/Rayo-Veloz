@@ -355,7 +355,7 @@
     border-radius: 5px;
     width: 120px;
     cursor: pointer;
-}
+  }
 }
 /*Fin de sección tablet*/
 
@@ -454,7 +454,7 @@
   }
   .arreglos {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     gap: 50px;
     font-size: 20px;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -465,7 +465,7 @@
     margin-top: 0px;
     margin-bottom: 0px;
   }
-  .seccion-contacto-2  {
+  .seccion-contacto-2 {
     display: flex;
     justify-content: center;
     position: relative;
@@ -507,8 +507,13 @@
     border-color: darkorange;
     margin-top: 10px;
   }
+  .aviso-contacto-t {
+    font-size: 10px;
+    margin-left: 730px;
+    margin-right: 0%;
+  }
   .obligatorio-taller {
-    color: rgb(253, 139, 0);
+    color: darkorange;
   }
   .formulario-taller {
     display: block;

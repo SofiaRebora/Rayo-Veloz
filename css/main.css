@@ -247,45 +247,43 @@ a {
     background-color: black;
     font-size: 15px;
     text-decoration: underline;
-    margin-top: 120px;
+    margin-top: 90px;
     margin-bottom: 0%;
     padding-top: 20px;
     padding-bottom: 280px;
-    padding-right: 190px;
-    margin-left: 0%;
+    padding-right: 200px;
   }
   .metodos-accesorios {
     list-style-type: none;
     display: flex;
     justify-content: center;
     position: relative;
-    margin-top: -312px;
+    text-decoration: underline;
+    margin-top: -308px;
     margin-bottom: 0%;
     font-size: 15px;
-    text-decoration: underline;
+    margin-left: 220px;
     margin-right: 0%;
-    margin-left: 250px;
   }
   .tarjet-accesorios {
-    width: 10%;
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
+    display: block;
     justify-content: center;
     position: relative;
+    text-align: center;
+    align-self: auto;
     gap: 0%;
-    margin-top: -340px;
+    margin-top: 100px;
     margin-bottom: 0%;
-    margin-left: 280px;
+    margin-left: 170px;
     margin-right: 0%;
   }
   .secciones-accesorios {
     display: block;
     justify-content: center;
     position: relative;
-    text-align: start;
+    text-align: center;
     list-style-position: inside;
-    margin-top: -120px;
+    margin-top: 140px;
     margin-bottom: 0%;
     font-size: 15px;
     margin-left: 20px;
@@ -296,30 +294,34 @@ a {
     display: flex;
     justify-content: center;
     position: relative;
-    margin-top: -172px;
+    margin-top: -644px;
     margin-bottom: 0%;
-    font-size: 18px;
+    font-size: 15px;
     text-decoration: underline;
-    margin-left: 250px;
+    margin-left: 220px;
     margin-right: 0%;
+    max-width: 100%;
   }
-  .secciones-accesorios-2 {
+  .items-footer-accesorios {
     display: block;
     justify-content: center;
     position: relative;
-    margin-top: -10px;
-    margin-bottom: 0%;
+    align-self: auto;
     font-size: 18px;
-    padding-left: 450px;
+    margin-top: -200px;
+    margin-bottom: 0%;
+    margin-left: 220px;
     margin-right: 0%;
   }
   .copy-right-accesorios {
     display: flex;
     justify-content: center;
     position: relative;
-    margin-top: 145px;
+    margin-top: 230px;
     margin-bottom: 0%;
-    font-size: 10px;
+    color: grey;
+    font-size: 50%;
+    right: 0%;
   }
   .footer-titulo-bicicletas {
     display: block;
@@ -809,7 +811,7 @@ a {
     display: flex;
     justify-content: center;
     position: relative;
-    bottom: -300px;
+    bottom: -100px;
     margin-bottom: 0%;
     padding: auto;
     color: grey;
@@ -822,13 +824,13 @@ a {
     background-color: black;
     font-size: 25px;
     text-decoration: underline;
-    margin-top: 130px;
+    margin-top: 120px;
     margin-bottom: 0%;
     padding-top: 20px;
     padding-bottom: 300px;
-    padding-right: 800px;
+    padding-right: 1000px;
   }
-  .links-accesorios {
+  .metodos-accesorios {
     list-style-type: none;
     display: flex;
     justify-content: center;
@@ -837,18 +839,18 @@ a {
     margin-bottom: 0%;
     font-size: 25px;
     text-decoration: underline;
-    margin-left: 180px;
+    margin-left: 0px;
   }
   .tarjet-accesorios {
-    display: block;
+    display: flex;
     justify-content: center;
     position: relative;
     text-align: center;
     align-self: auto;
     gap: 0%;
-    margin-top: -280px;
+    margin-top: 30px;
     margin-bottom: 0%;
-    margin-left: 0px;
+    margin-left: 30px;
     margin-right: 0%;
   }
   .secciones-accesorios {
@@ -856,37 +858,37 @@ a {
     justify-content: center;
     position: relative;
     align-self: auto;
-    margin-top: -90px;
+    margin-top: -70px;
     margin-bottom: 0%;
     font-size: 20px;
     text-decoration: underline;
-    margin-left: 0%;
-    margin-right: 600px;
+    margin-left: 220px;
+    margin-right: 0%;
     max-width: 100%;
   }
-  .footer-titulo-accesorios-2 {
+  .footer-titulo-accesorios {
     display: flex;
     justify-content: center;
     position: relative;
     align-self: auto;
-    margin-top: -180px;
+    margin-top: -190px;
     margin-bottom: 0%;
     font-size: 25px;
     text-decoration: underline;
-    margin-left: 780px;
+    margin-left: 940px;
     margin-right: 0%;
     max-width: 100%;
   }
-  .secciones-accesorios-2 {
+  .items-footer-accesorios {
     display: block;
     justify-content: center;
     position: relative;
     align-self: auto;
     font-size: 20px;
-    margin-top: 0px;
+    margin-top: -135px;
     margin-bottom: 0%;
     font-size: 18px;
-    margin-left: 1130px;
+    margin-left: 1230px;
     margin-right: 0%;
     max-width: 100%;
   }
@@ -896,9 +898,9 @@ a {
     position: relative;
     padding: auto;
     color: grey;
-    margin-top: 150px;
+    margin-top: 270px;
     margin-bottom: 0%;
-    font-size: 15px;
+    font-size: 12px;
   }
   .footer-titulo-bicicletas {
     display: flex;
@@ -907,33 +909,33 @@ a {
     background-color: black;
     font-size: 25px;
     text-decoration: underline;
-    margin-top: 500px;
+    margin-top: 120px;
     margin-bottom: 0%;
     padding-top: 20px;
     padding-bottom: 300px;
-    padding-right: 800px;
+    padding-right: 1000px;
   }
   .metodos-bicicletas1 {
     list-style-type: none;
     display: flex;
     justify-content: center;
     position: relative;
-    margin-top: 0px;
+    margin-top: -340px;
     margin-bottom: 0%;
     font-size: 25px;
     text-decoration: underline;
-    margin-left: 180px;
+    margin-left: 0px;
   }
   .tarjet-bicicletas {
-    display: block;
+    display: flex;
     justify-content: center;
     position: relative;
     text-align: center;
     align-self: auto;
     gap: 0%;
-    margin-top: -280px;
+    margin-top: 30px;
     margin-bottom: 0%;
-    margin-left: 0px;
+    margin-left: 30px;
     margin-right: 0%;
   }
   .secciones-footer-bicicletas {
@@ -941,12 +943,12 @@ a {
     justify-content: center;
     position: relative;
     align-self: auto;
-    margin-top: -90px;
+    margin-top: -70px;
     margin-bottom: 0%;
     font-size: 20px;
     text-decoration: underline;
-    margin-left: 0%;
-    margin-right: 600px;
+    margin-left: 220px;
+    margin-right: 0%;
     max-width: 100%;
   }
   .footer-titulo-bici-2 {
@@ -954,11 +956,11 @@ a {
     justify-content: center;
     position: relative;
     align-self: auto;
-    margin-top: -180px;
+    margin-top: -210px;
     margin-bottom: 0%;
     font-size: 25px;
     text-decoration: underline;
-    margin-left: 780px;
+    margin-left: 940px;
     margin-right: 0%;
     max-width: 100%;
   }
@@ -968,10 +970,10 @@ a {
     position: relative;
     align-self: auto;
     font-size: 20px;
-    margin-top: 0px;
+    margin-top: 20px;
     margin-bottom: 0%;
     font-size: 18px;
-    margin-left: 1130px;
+    margin-left: 1230px;
     margin-right: 0%;
     max-width: 100%;
   }
@@ -981,23 +983,24 @@ a {
     position: relative;
     padding: auto;
     color: grey;
-    margin-top: 150px;
+    margin-top: 130px;
     margin-bottom: 0%;
-    font-size: 15px;
+    font-size: 12px;
   }
-  .footer-parrafo-taller {
+  .footer-titulo-taller {
     display: flex;
     justify-content: center;
     position: relative;
     background-color: black;
     font-size: 25px;
     text-decoration: underline;
-    margin-top: 200px;
+    margin-top: 40px;
     margin-bottom: 0%;
     padding-top: 20px;
     padding-bottom: 300px;
+    padding-right: 1000px;
   }
-  .links-taller {
+  .metodos-taller {
     list-style-type: none;
     display: flex;
     justify-content: center;
@@ -1021,15 +1024,17 @@ a {
     margin-right: 0%;
   }
   .secciones-taller {
-    display: flex;
+    display: block;
     justify-content: center;
     position: relative;
     align-self: auto;
-    margin-top: -70px;
+    margin-top: -60px;
     margin-bottom: 0%;
-    font-size: 18px;
-    margin-right: 1000px;
-    margin-left: 0%;
+    font-size: 20px;
+    text-decoration: underline;
+    margin-left: 220px;
+    margin-right: 0%;
+    max-width: 100%;
   }
   .footer-parrafo-taller {
     display: flex;
@@ -1040,20 +1045,20 @@ a {
     margin-bottom: 0%;
     font-size: 25px;
     text-decoration: underline;
-    margin-left: 920px;
+    margin-left: 940px;
     margin-right: 0%;
     max-width: 100%;
   }
-  .secciones-taller-2 {
-    display: flex;
+  .items-footer-taller {
+    display: block;
     justify-content: center;
     position: relative;
     align-self: auto;
     font-size: 20px;
-    margin-top: 18px;
+    margin-top: 15px;
     margin-bottom: 0%;
     font-size: 18px;
-    margin-left: 880px;
+    margin-left: 1230px;
     margin-right: 0%;
     max-width: 100%;
   }
@@ -1061,11 +1066,11 @@ a {
     display: flex;
     justify-content: center;
     position: relative;
-    bottom: 300px;
     padding: auto;
     color: grey;
-    font-size: 20px;
-    right: 0%;
+    margin-top: 140px;
+    margin-bottom: 0%;
+    font-size: 12px;
   }
 }
 /*fin seccion escritorio*/
@@ -4098,8 +4103,13 @@ a {
     border-color: darkorange;
     margin-top: 10px;
   }
+  .aviso-contacto-t {
+    font-size: 10px;
+    margin-left: 730px;
+    margin-right: 0%;
+  }
   .obligatorio-taller {
-    color: rgb(253, 139, 0);
+    color: darkorange;
   }
   .formulario-taller {
     display: block;
